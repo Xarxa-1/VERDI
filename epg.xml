@@ -3,10 +3,10 @@
   <channel id="verdi-classics">
     <display-name>Verdi Clàssics</display-name>
   </channel>
-  <programme start="20260914210000 +0200" stop="20260914231700 +0200" channel="verdi-classics">
+  <programme start="20260915210000 +0200" stop="20260915231700 +0200" channel="verdi-classics">
     <title lang="ca">Pel·lícula - Retorn a Howards End</title>
   </programme>
-  <programme start="20260914231700 +0200" stop="20260914235959 +0200" channel="verdi-classics">
+  <programme start="20260915231700 +0200" stop="20260915235959 +0200" channel="verdi-classics">
     <title lang="ca">A continuació: Pel·lícula - Un home ideal</title>
   </programme>
 </tv>
