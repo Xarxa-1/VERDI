@@ -1,298 +1,104 @@
-#!/usr/bin/env python3
-"""
-Scraper EPG per a 3Cat (Verdi Clàssics) -> epg.xml en format XMLTV
-"""
-
-import os
-import sys
-import time
 import json
-import datetime
-from zoneinfo import ZoneInfo
+import re
+import urllib.request
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
+from datetime import datetime
 
-import requests
-from bs4 import BeautifulSoup
-
+# URL de la pàgina de directes de 3Cat
 URL = "https://www.3cat.cat/3cat/directes/tem1/"
-CHANNEL_ID = "verdi-classics"
-CHANNEL_NAME = "Verdi Clàssics"
-TIMEZONE = ZoneInfo("Europe/Madrid")
-OUTPUT_FILE = "epg.xml"
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "ca,es;q=0.9,en;q=0.8",
-}
+def fetch_html(url):
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req) as response:
+        return response.read().decode('utf-8')
 
-DEBUG = os.environ.get("DEBUG", "").lower() in ("1", "true", "yes")
+def parse_next_data(html_content):
+    # Cercar el blocs JSON integrat a __NEXT_DATA__
+    match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html_content, re.DOTALL)
+    if not match:
+        raise ValueError("No s'ha trobat el bloc __NEXT_DATA__ a la pàgina.")
+    return json.loads(match.group(1))
 
-
-def log(*args):
-    print(*args, file=sys.stderr)
-
-
-# ---------------------------------------------------------------------------
-# 1. Obtenció de l'HTML
-# ---------------------------------------------------------------------------
-def fetch_html():
-    r = requests.get(URL, headers=HEADERS, timeout=20)
-    r.raise_for_status()
-    return r.text
-
-
-# ---------------------------------------------------------------------------
-# 2. Extracció de dades
-# ---------------------------------------------------------------------------
-def extract_from_next_data(html):
-    """3cat és Next.js: moltes dades viuen dins <script id='__NEXT_DATA__'>."""
-    soup = BeautifulSoup(html, "html.parser")
-    script = soup.find("script", id="__NEXT_DATA__")
-    if not script or not script.string:
-        return None
+def format_date_xmltv(iso_str):
+    """Converteix dates ISO (ex: 2026-09-25T22:05:25+02:00) al format XMLTV (20260925220525 +0200)"""
+    if not iso_str:
+        return ""
     try:
-        data = json.loads(script.string)
-    except Exception as e:
-        log("No s'ha pogut parsejar __NEXT_DATA__:", e)
-        return None
-
-    result = {"current_title": None, "next_title": None, "next_time": None}
-
-    # Claus candidates, en ordre de prioritat (les més específiques primer)
-    CURRENT_KEYS = ("currentTitle", "current_title", "liveTitle", "title")
-    NEXT_TITLE_KEYS = ("nextTitle", "next_title", "nextProgramTitle")
-    NEXT_TIME_KEYS = ("nextTime", "next_time", "nextStartTime", "startTime")
-
-    def walk(obj):
-        if isinstance(obj, dict):
-            for k, v in obj.items():
-                if result["current_title"] is None and k in CURRENT_KEYS:
-                    if isinstance(v, str) and 2 < len(v) < 200:
-                        result["current_title"] = v
-                if result["next_title"] is None and k in NEXT_TITLE_KEYS:
-                    if isinstance(v, str) and len(v) > 2:
-                        result["next_title"] = v
-                if result["next_time"] is None and k in NEXT_TIME_KEYS:
-                    if isinstance(v, str):
-                        result["next_time"] = v
-                walk(v)
-        elif isinstance(obj, list):
-            for item in obj:
-                walk(item)
-
-    walk(data)
-    return result
-
-
-def extract_from_html(html):
-    """Fallback: selectors CSS sobre l'HTML renderitzat."""
-    soup = BeautifulSoup(html, "html.parser")
-    result = {"current_title": None, "next_title": None, "next_time": None}
-
-    # Títol actual: provem diversos selectors genèrics
-    for sel in (
-        ".c-live-info__title",
-        ".epg-current__title",
-        "[data-testid='live-title']",
-        "[class*='live'] [class*='title']",
-        "[class*='Live'] h1",
-        "[class*='directe'] h1",
-        "main h1",
-        "h1",
-    ):
-        el = soup.select_one(sel)
-        if el:
-            txt = el.get_text(strip=True)
-            if txt and 2 < len(txt) < 200:
-                result["current_title"] = txt
-                break
-
-    # Bloc "a continuació"
-    next_section = soup.select_one(
-        ".c-live-info__next, .epg-next, "
-        "[class*='next'], [class*='Next'], [class*='seguent']"
-    )
-    if next_section:
-        te = next_section.select_one("[class*='time'], [class*='hora'], time")
-        ti = next_section.select_one("[class*='title'], h2, h3, h4")
-        if te:
-            result["next_time"] = te.get_text(strip=True)
-        if ti:
-            result["next_title"] = ti.get_text(strip=True)
-
-    return result
-
-
-def fetch_epg_data():
-    html = fetch_html()
-
-    if DEBUG:
-        log("--- HTML (primeres 800 lletres) ---")
-        log(html[:800])
-
-    data_json = extract_from_next_data(html) or {}
-    data_html = extract_from_html(html)
-
-    current_title = data_json.get("current_title") or data_html.get("current_title")
-    next_title = data_json.get("next_title") or data_html.get("next_title")
-    next_time = data_json.get("next_time") or data_html.get("next_time")
-
-    if DEBUG:
-        log("Extret JSON:", data_json)
-        log("Extret HTML:", data_html)
-
-    # Fallbacks raonables (no inventem noms de pel·lícules)
-    if not current_title:
-        current_title = "Programació Verdi Clàssics"
-    if not next_title:
-        next_title = "Programa següent"
-    if not next_time:
-        now = datetime.datetime.now(TIMEZONE)
-        next_time = (now + datetime.timedelta(hours=1)).strftime("%H:%M")
-
-    return {
-        "current_title": current_title,
-        "next_title": next_title,
-        "next_time": next_time,
-    }
-
-
-# ---------------------------------------------------------------------------
-# 3. Generació XMLTV
-# ---------------------------------------------------------------------------
-def parse_hhmm(s):
-    """Accepta '23:17', '23h17', '2317'. Retorna (h, m) o None."""
-    if not s:
-        return None
-    s = s.strip().replace("h", ":").replace(".", ":")
-    try:
-        if ":" in s:
-            h, m = s.split(":")[:2]
-            h, m = int(h), int(m)
-        elif len(s) == 4 and s.isdigit():
-            h, m = int(s[:2]), int(s[2:])
-        else:
-            return None
-        if 0 <= h < 24 and 0 <= m < 60:
-            return h, m
+        dt = datetime.fromisoformat(iso_str)
+        return dt.strftime('%Y%m%d%H%M%S %z')
     except Exception:
-        pass
-    return None
-
-
-def fmt_xmltv(dt):
-    """Format XMLTV: YYYYMMDDHHMMSS +HHMM (calcula offset real)."""
-    offset = dt.utcoffset() or datetime.timedelta(0)
-    total_min = int(offset.total_seconds() // 60)
-    sign = "+" if total_min >= 0 else "-"
-    total_min = abs(total_min)
-    oh, om = divmod(total_min, 60)
-    return dt.strftime("%Y%m%d%H%M%S") + f" {sign}{oh:02d}{om:02d}"
-
+        return ""
 
 def generate_xmltv(data):
-    now = datetime.datetime.now(TIMEZONE)
-    today = now.date()
+    tv = ET.Element('tv', generator_info_name='3Cat EPG Scraper')
 
-    # Hora d'inici del programa següent
-    hm = parse_hhmm(data["next_time"])
-    if hm:
-        h, m = hm
-        next_start = datetime.datetime.combine(
-            today, datetime.time(h, m), tzinfo=TIMEZONE
-        )
-        # Si l'hora ja ha passat avui, és que és demà
-        if next_start <= now:
-            next_start += datetime.timedelta(days=1)
-    else:
-        next_start = now + datetime.timedelta(hours=1)
+    # Cercar els canals i programes dins de la llista de components
+    try:
+        structure = data['props']['pageProps']['structure']
+    except KeyError:
+        print("Estructura de dades JSON no vàlida")
+        return
 
-    # Programa actual: comença com a màxim fa 2h (o a mitjanit) i acaba
-    # quan comença el següent.
-    midnight = datetime.datetime.combine(today, datetime.time(0, 0), tzinfo=TIMEZONE)
-    current_start = max(now - datetime.timedelta(hours=2), midnight)
-    if current_start >= next_start:
-        current_start = next_start - datetime.timedelta(minutes=30)
+    channels_added = set()
 
-    # Programa següent: 2h de durada per defecte
-    next_end = next_start + datetime.timedelta(hours=2)
+    for item in structure:
+        if item.get('name') == 'Fila':
+            for child in item.get('children', []):
+                if child.get('name') == 'Slider':
+                    items = child.get('finalProps', {}).get('items', [])
+                    for entry in items:
+                        # Extraure programació "ara_fem" i "despres_fem"
+                        for key in ['ara_fem', 'despres_fem']:
+                            prog = entry.get(key)
+                            if not prog or not isinstance(prog, dict):
+                                continue
 
-    tv = ET.Element(
-        "tv",
-        {
-            "generator-info-name": "3Cat-VerdiClassics-EPG-Scraper",
-            "source-info-name": "3cat.cat",
-        },
-    )
+                            channel_id = prog.get('codi_canal', '3cat_default')
+                            channel_name = channel_id.upper()
 
-    channel = ET.SubElement(tv, "channel", id=CHANNEL_ID)
-    ET.SubElement(channel, "display-name", lang="ca").text = CHANNEL_NAME
-    ET.SubElement(channel, "display-name").text = CHANNEL_ID
+                            # Afegir canal si encara no s'ha afegit
+                            if channel_id not in channels_added:
+                                chan_elem = ET.SubElement(tv, 'channel', id=channel_id)
+                                name_elem = ET.SubElement(chan_elem, 'display-name')
+                                name_elem.text = channel_name
+                                channels_added.add(channel_id)
 
-    prog1 = ET.SubElement(
-        tv,
-        "programme",
-        {
-            "start": fmt_xmltv(current_start),
-            "stop": fmt_xmltv(next_start),
-            "channel": CHANNEL_ID,
-        },
-    )
-    ET.SubElement(prog1, "title", lang="ca").text = data["current_title"]
+                            # Crear entrada de programa
+                            start = format_date_xmltv(prog.get('start_time'))
+                            stop = format_date_xmltv(prog.get('end_time'))
 
-    prog2 = ET.SubElement(
-        tv,
-        "programme",
-        {
-            "start": fmt_xmltv(next_start),
-            "stop": fmt_xmltv(next_end),
-            "channel": CHANNEL_ID,
-        },
-    )
-    ET.SubElement(prog2, "title", lang="ca").text = data["next_title"]
+                            programme = ET.SubElement(tv, 'programme', {
+                                'start': start,
+                                'stop': stop,
+                                'channel': channel_id
+                            })
 
-    rough = ET.tostring(tv, encoding="utf-8")
-    reparsed = minidom.parseString(rough)
-    return reparsed.toprettyxml(indent="  ")
+                            # Títol
+                            title_text = prog.get('titol_programa', '')
+                            if prog.get('titol_capitol'):
+                                title_text += f" - {prog.get('titol_capitol')}"
+                            
+                            title_elem = ET.SubElement(programme, 'title', lang='ca')
+                            title_elem.text = title_text
 
+                            # Descripció / Sinopsi
+                            if prog.get('sinopsi'):
+                                desc_elem = ET.SubElement(programme, 'desc', lang='ca')
+                                desc_elem.text = prog.get('sinopsi')
 
-# ---------------------------------------------------------------------------
-# 4. Execució
-# ---------------------------------------------------------------------------
-def run_once():
-    data = fetch_epg_data()
-    xml_content = generate_xmltv(data)
+                            # Categoria / Temàtica
+                            if prog.get('tematica'):
+                                cat_elem = ET.SubElement(programme, 'category', lang='ca')
+                                cat_elem.text = f"Temàtica {prog.get('tematica')}"
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(xml_content)
-
-    print(xml_content)
-    log(
-        f"[{datetime.datetime.now(TIMEZONE).strftime('%H:%M:%S')}] "
-        f"EPG actualitzat: {data['current_title']!r} -> "
-        f"{data['next_title']!r} ({data['next_time']})"
-    )
-
+    # Escriure l'XML generat
+    tree = ET.ElementTree(tv)
+    ET.indent(tree, space="  ", level=0)
+    tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+    print("Fitxer epg.xml generat correctament.")
 
 if __name__ == "__main__":
-    if "--loop" in sys.argv:
-        interval = 60
-        for i, a in enumerate(sys.argv):
-            if a == "--interval" and i + 1 < len(sys.argv):
-                try:
-                    interval = int(sys.argv[i + 1])
-                except ValueError:
-                    pass
-        log(f"Iniciant bucle cada {interval}s...")
-        while True:
-            try:
-                run_once()
-            except Exception as e:
-                log(f"Error: {e}")
-            time.sleep(interval)
-    else:
-        run_once()
+    html = fetch_html(URL)
+    next_data = parse_next_data(html)
+    generate_xmltv(next_data)
