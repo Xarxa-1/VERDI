@@ -4,101 +4,132 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# URL de la pàgina de directes de 3Cat
-URL = "https://www.3cat.cat/3cat/directes/tem1/"
+# Llista de canals / URLs de 3Cat a analitzar
+URLS = [
+    "https://www.3cat.cat/3cat/directes/tem1/",
+    "https://www.3cat.cat/3cat/directes/tv3/",
+    "https://www.3cat.cat/3cat/directes/324/",
+    "https://www.3cat.cat/3cat/directes/esport3/",
+    "https://www.3cat.cat/3cat/directes/sx3/"
+]
 
-def fetch_html(url):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req) as response:
-        return response.read().decode('utf-8')
+def fetch_json_data(url):
+    """Descarrega el contingut d'una pàgina i n'extreu el bloc __NEXT_DATA__"""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as response:
+            html = response.read().decode('utf-8')
+        
+        match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.DOTALL)
+        if match:
+            return json.loads(match.group(1))
+    except Exception as e:
+        print(f"Error descarregant/parsing {url}: {e}")
+    return None
 
-def parse_next_data(html_content):
-    # Cercar el blocs JSON integrat a __NEXT_DATA__
-    match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html_content, re.DOTALL)
-    if not match:
-        raise ValueError("No s'ha trobat el bloc __NEXT_DATA__ a la pàgina.")
-    return json.loads(match.group(1))
-
-def format_date_xmltv(iso_str):
-    """Converteix dates ISO (ex: 2026-09-25T22:05:25+02:00) al format XMLTV (20260925220525 +0200)"""
+def format_xmltv_date(iso_str):
+    """Converteix format ISO8601 (2026-09-25T22:05:25+02:00) a format XMLTV (20260925220525 +0200)"""
     if not iso_str:
         return ""
     try:
+        # Neteja de mil·lissegons si n'hi ha
+        iso_str = iso_str.split('.')[0] + iso_str[-6:] if '.' in iso_str else iso_str
         dt = datetime.fromisoformat(iso_str)
         return dt.strftime('%Y%m%d%H%M%S %z')
-    except Exception:
+    except Exception as e:
+        print(f"Error formatant data {iso_str}: {e}")
         return ""
 
-def generate_xmltv(data):
-    tv = ET.Element('tv', generator_info_name='3Cat EPG Scraper')
-
-    # Cercar els canals i programes dins de la llista de components
+def process_programmes(data, programmes_dict):
+    """Extreu la informació de programació del JSON __NEXT_DATA__"""
     try:
-        structure = data['props']['pageProps']['structure']
-    except KeyError:
-        print("Estructura de dades JSON no vàlida")
+        structure = data.get('props', {}).get('pageProps', {}).get('structure', [])
+    except Exception:
         return
 
-    channels_added = set()
-
-    for item in structure:
-        if item.get('name') == 'Fila':
-            for child in item.get('children', []):
+    for block in structure:
+        if block.get('name') == 'Fila':
+            for child in block.get('children', []):
+                # Extraure si és de tipus Slider (canals TDT)
                 if child.get('name') == 'Slider':
                     items = child.get('finalProps', {}).get('items', [])
-                    for entry in items:
-                        # Extraure programació "ara_fem" i "despres_fem"
-                        for key in ['ara_fem', 'despres_fem']:
-                            prog = entry.get(key)
-                            if not prog or not isinstance(prog, dict):
-                                continue
+                    for item in items:
+                        for slot in ['ara_fem', 'despres_fem']:
+                            prog = item.get(slot)
+                            if prog and isinstance(prog, dict):
+                                add_programme_to_dict(prog, programmes_dict)
 
-                            channel_id = prog.get('codi_canal', '3cat_default')
-                            channel_name = channel_id.upper()
+def add_programme_to_dict(prog, programmes_dict):
+    channel_id = prog.get('codi_canal', '').strip()
+    start_raw = prog.get('start_time')
+    stop_raw = prog.get('end_time')
 
-                            # Afegir canal si encara no s'ha afegit
-                            if channel_id not in channels_added:
-                                chan_elem = ET.SubElement(tv, 'channel', id=channel_id)
-                                name_elem = ET.SubElement(chan_elem, 'display-name')
-                                name_elem.text = channel_name
-                                channels_added.add(channel_id)
+    if not channel_id or not start_raw or not stop_raw:
+        return
 
-                            # Crear entrada de programa
-                            start = format_date_xmltv(prog.get('start_time'))
-                            stop = format_date_xmltv(prog.get('end_time'))
+    title = prog.get('titol_programa', '')
+    if prog.get('titol_capitol'):
+        title += f" - {prog.get('titol_capitol')}"
 
-                            programme = ET.SubElement(tv, 'programme', {
-                                'start': start,
-                                'stop': stop,
-                                'channel': channel_id
-                            })
+    prog_key = f"{channel_id}_{start_raw}"
+    programmes_dict[prog_key] = {
+        'channel': channel_id,
+        'start': format_xmltv_date(start_raw),
+        'stop': format_xmltv_date(stop_raw),
+        'title': title,
+        'desc': prog.get('sinopsi', ''),
+        'category': prog.get('tematica', '')
+    }
 
-                            # Títol
-                            title_text = prog.get('titol_programa', '')
-                            if prog.get('titol_capitol'):
-                                title_text += f" - {prog.get('titol_capitol')}"
-                            
-                            title_elem = ET.SubElement(programme, 'title', lang='ca')
-                            title_elem.text = title_text
+def main():
+    programmes_dict = {}
 
-                            # Descripció / Sinopsi
-                            if prog.get('sinopsi'):
-                                desc_elem = ET.SubElement(programme, 'desc', lang='ca')
-                                desc_elem.text = prog.get('sinopsi')
+    print("Iniciant extracció de dades EPG 3Cat...")
+    for url in URLS:
+        print(f"Processant: {url}")
+        json_data = fetch_json_data(url)
+        if json_data:
+            process_programmes(json_data, programmes_dict)
 
-                            # Categoria / Temàtica
-                            if prog.get('tematica'):
-                                cat_elem = ET.SubElement(programme, 'category', lang='ca')
-                                cat_elem.text = f"Temàtica {prog.get('tematica')}"
+    if not programmes_dict:
+        print("ALERTA: No s'ha pogut extreure cap programa. Revisa la connexió o l'estructura.")
+        return
 
-    # Escriure l'XML generat
+    # Generar l'XML final
+    tv = ET.Element('tv', generator_info_name='3Cat EPG Generator')
+
+    # 1. Identificar i crear la llista de canals únics
+    channels = sorted(list(set(p['channel'] for p in programmes_dict.values())))
+    for ch_id in channels:
+        channel_elem = ET.SubElement(tv, 'channel', id=ch_id)
+        display_name = ET.SubElement(channel_elem, 'display-name')
+        display_name.text = ch_id.upper()
+
+    # 2. Afegir tots els programes
+    for prog in programmes_dict.values():
+        programme_elem = ET.SubElement(tv, 'programme', {
+            'start': prog['start'],
+            'stop': prog['stop'],
+            'channel': prog['channel']
+        })
+        
+        title_elem = ET.SubElement(programme_elem, 'title', lang='ca')
+        title_elem.text = prog['title']
+
+        if prog['desc']:
+            desc_elem = ET.SubElement(programme_elem, 'desc', lang='ca')
+            desc_elem.text = prog['desc']
+
+        if prog['category']:
+            cat_elem = ET.SubElement(programme_elem, 'category', lang='ca')
+            cat_elem.text = f"Temàtica {prog['category']}"
+
+    # Desar a disc
     tree = ET.ElementTree(tv)
     ET.indent(tree, space="  ", level=0)
     tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
-    print("Fitxer epg.xml generat correctament.")
+    print(f"PROCÉS COMPLETAT: Se s'han guardat {len(programmes_dict)} programes a epg.xml.")
 
 if __name__ == "__main__":
-    html = fetch_html(URL)
-    next_data = parse_next_data(html)
-    generate_xmltv(next_data)
+    main()
