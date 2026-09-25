@@ -4,10 +4,10 @@
     <display-name lang="ca">Verdi Clàssics</display-name>
     <display-name>verdi-classics</display-name>
   </channel>
-  <programme start="20260925202902 +0200" stop="20260925232900 +0200" channel="verdi-classics">
+  <programme start="20260925203502 +0200" stop="20260925233500 +0200" channel="verdi-classics">
     <title lang="ca">Directe: exclusiu digital</title>
   </programme>
-  <programme start="20260925232900 +0200" stop="20260926012900 +0200" channel="verdi-classics">
+  <programme start="20260925233500 +0200" stop="20260926013500 +0200" channel="verdi-classics">
     <title lang="ca">Programa següent</title>
   </programme>
 </tv>
