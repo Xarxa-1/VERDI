@@ -1,15 +1,15 @@
-name: Generador EPG 3Cat
+name: Actualitzador EPG 3Cat
 
 on:
   schedule:
-    - cron: '15 * * * *'  # Executa cada hora al minut 15
-  workflow_dispatch:      # Permet la prova manual des de la pestanya Actions
+    - cron: '15 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar repositori
@@ -20,13 +20,13 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Executar Scraper EPG
+      - name: Executar Scraper
         run: python scraper.py
 
-      - name: Guardar i fer Push de epg.xml
+      - name: Publicar canvis a GitHub
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add epg.xml
-          git commit -m "Auto-update 3Cat EPG [skip ci]" || echo "No hi ha canvis per publicar"
+          git commit -m "Auto-update EPG 3Cat [skip ci]" || echo "Sense canvis en la graella"
           git push
