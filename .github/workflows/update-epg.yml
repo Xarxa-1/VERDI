@@ -3,7 +3,7 @@ name: Actualitzador EPG 3Cat Verdi Clàssics
 on:
   schedule:
     # Execució automàtica cada 5 minuts (límit màxim permès per GitHub)
-    - cron: '*/5 * * * *'
+    - cron: '*/1 * * * *'
   workflow_dispatch:
 
 jobs:
