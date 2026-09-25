@@ -1,12 +1,13 @@
 <?xml version="1.0" ?>
-<tv generator-info-name="3Cat-VerdiClassics-EPG-Scraper">
+<tv generator-info-name="3Cat-VerdiClassics-EPG-Scraper" source-info-name="3cat.cat">
   <channel id="verdi-classics">
-    <display-name>Verdi Clàssics</display-name>
+    <display-name lang="ca">Verdi Clàssics</display-name>
+    <display-name>verdi-classics</display-name>
   </channel>
-  <programme start="20260925210000 +0200" stop="20260925231700 +0200" channel="verdi-classics">
-    <title lang="ca">Pel·lícula - Retorn a Howards End</title>
+  <programme start="20260925202902 +0200" stop="20260925232900 +0200" channel="verdi-classics">
+    <title lang="ca">Directe: exclusiu digital</title>
   </programme>
-  <programme start="20260925231700 +0200" stop="20260925235959 +0200" channel="verdi-classics">
-    <title lang="ca">A continuació: Pel·lícula - Un home ideal</title>
+  <programme start="20260925232900 +0200" stop="20260926012900 +0200" channel="verdi-classics">
+    <title lang="ca">Programa següent</title>
   </programme>
 </tv>
