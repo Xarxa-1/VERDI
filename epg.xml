@@ -1,13 +1,15 @@
-<?xml version="1.0" ?>
-<tv generator-info-name="3Cat-VerdiClassics-EPG-Scraper" source-info-name="3cat.cat">
-  <channel id="verdi-classics">
-    <display-name lang="ca">Verdi Clàssics</display-name>
-    <display-name>verdi-classics</display-name>
+<?xml version='1.0' encoding='utf-8'?>
+<tv generator_info_name="3Cat EPG Generator">
+  <channel id="TV3">
+    <display-name>TV3</display-name>
   </channel>
-  <programme start="20260925203502 +0200" stop="20260925233500 +0200" channel="verdi-classics">
-    <title lang="ca">Directe: exclusiu digital</title>
-  </programme>
-  <programme start="20260925233500 +0200" stop="20260926013500 +0200" channel="verdi-classics">
-    <title lang="ca">Programa següent</title>
-  </programme>
+  <channel id="324">
+    <display-name>324</display-name>
+  </channel>
+  <channel id="ESP3">
+    <display-name>Esport3</display-name>
+  </channel>
+  <channel id="SX3">
+    <display-name>SX3</display-name>
+  </channel>
 </tv>
