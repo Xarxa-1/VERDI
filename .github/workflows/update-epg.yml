@@ -1,37 +1,32 @@
-name: Actualitzador EPG Multicanal STARZ
+name: Generador EPG 3Cat
 
 on:
   schedule:
-    - cron: '5 * * * *'
-  workflow_dispatch:
+    - cron: '15 * * * *'  # Executa cada hora al minut 15
+  workflow_dispatch:      # Permet la prova manual des de la pestanya Actions
 
 permissions:
   contents: write
 
 jobs:
-  scrape-and-commit:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout del repositori
+      - name: Baixar repositori
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Instal·lar Dependències
-        run: pip install -r requirements.txt
-
-      - name: Executar Scraper Multicanal
+      - name: Executar Scraper EPG
         run: python scraper.py
 
-      - name: Forçar guardat a GitHub
+      - name: Guardar i fer Push de epg.xml
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -A
-          git commit -m "Auto-update STARZ MultiChannel EPG [skip ci]" || echo "Sense canvis per fer commit"
-          git push origin HEAD:${{ github.ref }}
+          git add epg.xml
+          git commit -m "Auto-update 3Cat EPG [skip ci]" || echo "No hi ha canvis per publicar"
+          git push
