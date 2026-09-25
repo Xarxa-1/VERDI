@@ -1,130 +1,101 @@
-import json
-import re
-import os
 import urllib.request
+import json
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# URLs de les pàgines de directes
-URLS = [
-    "https://www.3cat.cat/3cat/directes/tem1/",
-    "https://www.3cat.cat/3cat/directes/tv3/",
-    "https://www.3cat.cat/3cat/directes/324/",
-    "https://www.3cat.cat/3cat/directes/esport3/",
-    "https://www.3cat.cat/3cat/directes/sx3/"
-]
+# Canals de 3Cat a extreure
+CHANNELS = {
+    'TV3': 'TV3',
+    '324': '324',
+    'ESP3': 'Esport3',
+    'SX3': 'SX3'
+}
 
-def fetch_json(url):
-    print(f"--> Sol·licitant URL: {url}")
+def get_epg():
+    tv = ET.Element('tv', generator_info_name='3Cat EPG Generator')
+    
+    # Afegir canals
+    for ch_id, ch_name in CHANNELS.items():
+        chan_elem = ET.SubElement(tv, 'channel', id=ch_id)
+        name_elem = ET.SubElement(chan_elem, 'display-name')
+        name_elem.text = ch_name
+
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    
+    # URL de l'API directa de la graella de 3Cat
+    url = "https://a3cat.cat/api/epg/programacio"
+
     try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as response:
-            html = response.read().decode('utf-8')
-            print(f"    Resposta rebuda ({len(html)} caràcters). Buscant __NEXT_DATA__...")
+            data = json.loads(response.read().decode('utf-8'))
             
-        match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.DOTALL)
-        if match:
-            print("    [OK] Bloc __NEXT_DATA__ trobat!")
-            return json.loads(match.group(1))
-        else:
-            print("    [ERROR] No s'ha trobat l'etiqueta __NEXT_DATA__ a l'HTML.")
-    except Exception as e:
-        print(f"    [ERROR] Error al descarregar {url}: {e}")
-    return None
+            for item in data.get('emissions', []):
+                ch_code = item.get('codi_canal')
+                if ch_code in CHANNELS:
+                    prog = ET.SubElement(tv, 'programme', {
+                        'start': format_date(item.get('hora_inici')),
+                        'stop': format_date(item.get('hora_fi')),
+                        'channel': ch_code
+                    })
+                    
+                    title = ET.SubElement(prog, 'title', lang='ca')
+                    title.text = item.get('titol', 'Sense títol')
+                    
+                    if item.get('sinopsi'):
+                        desc = ET.SubElement(prog, 'desc', lang='ca')
+                        desc.text = item.get('sinopsi')
 
-def format_date(iso_str):
-    if not iso_str:
+    except Exception as e:
+        print(f"Error descarregant l'API: {e}")
+        # En cas que l'API falli, utilitza la via secundària d'emergència
+        fallback_3cat(tv)
+
+    tree = ET.ElementTree(tv)
+    ET.indent(tree, space="  ", level=0)
+    tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+    print("Fitxer epg.xml actualitzat amb èxit!")
+
+def fallback_3cat(tv):
+    print("Executant mètode d'emergència via scraping web...")
+    url = "https://www.3cat.cat/3cat/directes/tv3/"
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req) as resp:
+            html = resp.read().decode('utf-8')
+            import re
+            match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.DOTALL)
+            if match:
+                json_data = json.loads(match.group(1))
+                structure = json_data.get('props', {}).get('pageProps', {}).get('structure', [])
+                for block in structure:
+                    if block.get('name') == 'Fila':
+                        for child in block.get('children', []):
+                            items = child.get('finalProps', {}).get('items', [])
+                            for entry in items:
+                                for k in ['ara_fem', 'despres_fem']:
+                                    p = entry.get(k)
+                                    if p and isinstance(p, dict):
+                                        prog = ET.SubElement(tv, 'programme', {
+                                            'start': format_date(p.get('start_time')),
+                                            'stop': format_date(p.get('end_time')),
+                                            'channel': p.get('codi_canal', 'TV3')
+                                        })
+                                        t = ET.SubElement(prog, 'title', lang='ca')
+                                        t.text = p.get('titol_programa', '')
+    except Exception as ex:
+        print(f"Error al fallback: {ex}")
+
+def format_date(date_str):
+    if not date_str:
         return ""
     try:
-        iso_clean = iso_str.split('.')[0] + iso_str[-6:] if '.' in iso_str else iso_str
-        dt = datetime.fromisoformat(iso_clean)
-        return dt.strftime('%Y%m%d%H%M%S %z')
+        clean_str = date_str.split('.')[0].replace('Z', '+00:00')
+        dt = datetime.fromisoformat(clean_str)
+        return dt.strftime('%Y%m%d%H%M%S +0200')
     except Exception:
         return ""
 
-def main():
-    print("=== INICI DE L'SCRAPER EPG 3CAT ===")
-    all_programmes = []
-
-    for url in URLS:
-        data = fetch_json(url)
-        if not data:
-            continue
-            
-        try:
-            structure = data.get('props', {}).get('pageProps', {}).get('structure', [])
-            count_before = len(all_programmes)
-            
-            for block in structure:
-                if block.get('name') == 'Fila':
-                    for child in block.get('children', []):
-                        items = child.get('finalProps', {}).get('items', [])
-                        for item in items:
-                            for key in ['ara_fem', 'despres_fem']:
-                                prog = item.get(key)
-                                if prog and isinstance(prog, dict):
-                                    ch = prog.get('codi_canal')
-                                    st = prog.get('start_time')
-                                    et = prog.get('end_time')
-                                    title = prog.get('titol_programa', '')
-                                    if prog.get('titol_capitol'):
-                                        title += f" - {prog.get('titol_capitol')}"
-                                    
-                                    if ch and st and et:
-                                        all_programmes.append({
-                                            'channel': ch,
-                                            'start': format_date(st),
-                                            'stop': format_date(et),
-                                            'title': title,
-                                            'desc': prog.get('sinopsi', ''),
-                                            'category': prog.get('tematica', '')
-                                        })
-            print(f"    S'han trobat {len(all_programmes) - count_before} programes a aquesta URL.")
-        except Exception as e:
-            print(f"    [ERROR] Error processant l'estructura JSON: {e}")
-
-    print(f"\nTotal de programes recollits: {len(all_programmes)}")
-
-    if not all_programmes:
-        print("[AVÍS] No s'ha pogut extreure cap programa. Es cancel·la la generació d'epg.xml.")
-        return
-
-    # Generar document XMLTV
-    tv = ET.Element('tv', generator_info_name='3Cat EPG Scraper')
-    
-    # Canals únics
-    channels = sorted(list(set(p['channel'] for p in all_programmes)))
-    for ch_id in channels:
-        ch_elem = ET.SubElement(tv, 'channel', id=ch_id)
-        name_elem = ET.SubElement(ch_elem, 'display-name')
-        name_elem.text = ch_id.upper()
-
-    # Programes
-    for prog in all_programmes:
-        p_elem = ET.SubElement(tv, 'programme', {
-            'start': prog['start'],
-            'stop': prog['stop'],
-            'channel': prog['channel']
-        })
-        t_elem = ET.SubElement(p_elem, 'title', lang='ca')
-        t_elem.text = prog['title']
-        if prog['desc']:
-            d_elem = ET.SubElement(p_elem, 'desc', lang='ca')
-            d_elem.text = prog['desc']
-        if prog['category']:
-            c_elem = ET.SubElement(p_elem, 'category', lang='ca')
-            c_elem.text = prog['category']
-
-    # Guardar el fitxer
-    output_path = "epg.xml"
-    tree = ET.ElementTree(tv)
-    ET.indent(tree, space="  ", level=0)
-    tree.write(output_path, encoding="utf-8", xml_declaration=True)
-    
-    print(f"--- FITXER GENERAT ---")
-    print(f"Ubicació: {os.path.abspath(output_path)}")
-    print(f"Mida del fitxer: {os.path.getsize(output_path)} bytes")
-
 if __name__ == "__main__":
-    main()
+    get_epg()
