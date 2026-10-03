@@ -2,7 +2,7 @@ name: Actualitzador EPG 3Cat
 
 on:
   schedule:
-    - cron: '15 * * * *'  # S'executa cada hora al minut 15
+    - cron: '1 * * * *'  # S'executa cada hora al minut 15
   workflow_dispatch:      # Permet executar-ho manualment
 
 permissions:
