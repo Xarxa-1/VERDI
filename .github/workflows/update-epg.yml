@@ -1,32 +1,70 @@
-name: Actualitzador EPG 3Cat
+name: Actualitza EPG de 3Cat
 
 on:
   schedule:
-    - cron: '1 * * * *'  # S'executa cada hora al minut 15
-  workflow_dispatch:      # Permet executar-ho manualment
+    # Cada 5 minuts (mínim permès per GitHub Actions)
+    - cron: '*/5 * * * *'
+  workflow_dispatch:   # Permet execució manual
 
 permissions:
-  contents: write
+  contents: write      # Necessari per fer commit
 
 jobs:
-  build-and-push:
+  update-epg:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Baixar repositori
+      - name: Checkout del repositori
         uses: actions/checkout@v4
 
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Executar Scraper 3Cat
-        run: python scraper.py
-
-      - name: Desar canvis a GitHub
+      - name: Genera l'EPG
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          python3 << 'PYEOF'
+          import json, urllib.request, sys
+          from datetime import datetime
+          from xml.etree.ElementTree import Element, SubElement, tostring
+          from xml.dom import minidom
+
+          API_URL = "https://api-media.3cat.cat/pvideo/media.jsp?media=video&versio=vast&idint=tem1&desplacament=0&profile=pc_3cat"
+          OUTPUT = "epg.xml"
+
+          try:
+              req = urllib.request.Request(API_URL, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  data = json.loads(r.read().decode('utf-8'))
+          except Exception as e:
+              print(f"Error descarregant l'API: {e}")
+              sys.exit(1)
+
+          tv = Element("tv", attrib={"generator-info-name": "3cat-epg"})
+          ch = SubElement(tv, "channel", id="tem1")
+          SubElement(ch, "display-name", lang="ca").text = "TEM1"
+
+          def add_prog(prog):
+              start = prog.get("data_emissio", {}).get("utc")
+              stop = prog.get("data_caducitat", {}).get("utc")
+              if not start or not stop:
+                  return
+              st_dt = datetime.fromisoformat(start).strftime("%Y%m%d%H%M%S %z")
+              sp_dt = datetime.fromisoformat(stop).strftime("%Y%m%d%H%M%S %z")
+              p = SubElement(tv, "programme", start=st_dt, stop=sp_dt, channel="tem1")
+              SubElement(p, "title", lang="ca").text = prog.get("titol", "Sense títol")
+              SubElement(p, "desc", lang="ca").text = prog.get("descripcio", "")
+              if prog.get("programa"):
+                  SubElement(p, "category", lang="ca").text = prog["programa"]
+
+          info = data.get("informacio", {})
+          if info.get("arafem"): add_prog(info["arafem"])
+          if info.get("despresfem"): add_prog(info["despresfem"])
+
+          with open(OUTPUT, "w", encoding="utf-8") as f:
+              f.write(minidom.parseString(tostring(tv)).toprettyxml(indent="  ", encoding="UTF-8").decode("UTF-8"))
+          PYEOF
+
+      - name: Commit i push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add epg.xml
-          git commit -m "Auto-update 3Cat EPG [skip ci]" || echo "No hi ha canvis per commitejar"
+          git diff --staged --quiet || git commit -m "Actualitza EPG $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
