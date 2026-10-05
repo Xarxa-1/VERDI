@@ -1,101 +1,90 @@
-import urllib.request
+#!/usr/bin/env python3
 import json
-import xml.etree.ElementTree as ET
+import urllib.request
+import sys
 from datetime import datetime
+from xml.etree.ElementTree import Element, SubElement, tostring
+from xml.dom import minidom
 
-# Canals de 3Cat a extreure
-CHANNELS = {
-    'TV3': 'TV3',
-    '324': '324',
-    'ESP3': 'Esport3',
-    'SX3': 'SX3'
-}
+# URL de l'API de 3Cat per al canal TEM1
+API_URL = "https://api-media.3cat.cat/pvideo/media.jsp?media=video&versio=vast&idint=tem1&desplacament=0&profile=pc_3cat"
+OUTPUT_FILE = "epg.xml"
+CHANNEL_ID = "tem1"
+CHANNEL_NAME = "TEM1"
 
-def get_epg():
-    tv = ET.Element('tv', generator_info_name='3Cat EPG Generator')
+def fetch_api():
+    """Descarrega les dades de l'API."""
+    req = urllib.request.Request(API_URL, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=30) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+def format_xmltv_time(dt_str):
+    """Converteix la data ISO a format XMLTV (YYYYMMDDHHMMSS +HHMM)."""
+    # Exemple d'entrada: "2026-10-05T20:14:50+02:00"
+    dt = datetime.fromisoformat(dt_str)
+    return dt.strftime("%Y%m%d%H%M%S %z")
+
+def add_programme(root, prog):
+    """Afegeix un programa a l'XML."""
+    start = prog.get("data_emissio", {}).get("utc")
+    stop = prog.get("data_caducitat", {}).get("utc")
     
-    # Afegir canals
-    for ch_id, ch_name in CHANNELS.items():
-        chan_elem = ET.SubElement(tv, 'channel', id=ch_id)
-        name_elem = ET.SubElement(chan_elem, 'display-name')
-        name_elem.text = ch_name
+    if not start or not stop:
+        return
 
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-    
-    # URL de l'API directa de la graella de 3Cat
-    url = "https://a3cat.cat/api/epg/programacio"
+    # Crear element programme
+    programme = SubElement(root, "programme", attrib={
+        "start": format_xmltv_time(start),
+        "stop": format_xmltv_time(stop),
+        "channel": CHANNEL_ID
+    })
 
+    # Títol
+    title = SubElement(programme, "title", lang="ca")
+    title.text = prog.get("titol", "Sense títol")
+
+    # Descripció
+    desc = SubElement(programme, "desc", lang="ca")
+    desc.text = prog.get("descripcio", "")
+
+    # Categoria
+    if prog.get("programa"):
+        cat = SubElement(programme, "category", lang="ca")
+        cat.text = prog["programa"]
+
+def main():
     try:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=15) as response:
-            data = json.loads(response.read().decode('utf-8'))
-            
-            for item in data.get('emissions', []):
-                ch_code = item.get('codi_canal')
-                if ch_code in CHANNELS:
-                    prog = ET.SubElement(tv, 'programme', {
-                        'start': format_date(item.get('hora_inici')),
-                        'stop': format_date(item.get('hora_fi')),
-                        'channel': ch_code
-                    })
-                    
-                    title = ET.SubElement(prog, 'title', lang='ca')
-                    title.text = item.get('titol', 'Sense títol')
-                    
-                    if item.get('sinopsi'):
-                        desc = ET.SubElement(prog, 'desc', lang='ca')
-                        desc.text = item.get('sinopsi')
-
+        data = fetch_api()
     except Exception as e:
-        print(f"Error descarregant l'API: {e}")
-        # En cas que l'API falli, utilitza la via secundària d'emergència
-        fallback_3cat(tv)
+        print(f"Error descarregant l'API: {e}", file=sys.stderr)
+        sys.exit(1)
 
-    tree = ET.ElementTree(tv)
-    ET.indent(tree, space="  ", level=0)
-    tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
-    print("Fitxer epg.xml actualitzat amb èxit!")
+    # Arrel de l'XML
+    tv = Element("tv", attrib={"generator-info-name": "3cat-epg-scraper"})
 
-def fallback_3cat(tv):
-    print("Executant mètode d'emergència via scraping web...")
-    url = "https://www.3cat.cat/3cat/directes/tv3/"
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    try:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req) as resp:
-            html = resp.read().decode('utf-8')
-            import re
-            match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.DOTALL)
-            if match:
-                json_data = json.loads(match.group(1))
-                structure = json_data.get('props', {}).get('pageProps', {}).get('structure', [])
-                for block in structure:
-                    if block.get('name') == 'Fila':
-                        for child in block.get('children', []):
-                            items = child.get('finalProps', {}).get('items', [])
-                            for entry in items:
-                                for k in ['ara_fem', 'despres_fem']:
-                                    p = entry.get(k)
-                                    if p and isinstance(p, dict):
-                                        prog = ET.SubElement(tv, 'programme', {
-                                            'start': format_date(p.get('start_time')),
-                                            'stop': format_date(p.get('end_time')),
-                                            'channel': p.get('codi_canal', 'TV3')
-                                        })
-                                        t = ET.SubElement(prog, 'title', lang='ca')
-                                        t.text = p.get('titol_programa', '')
-    except Exception as ex:
-        print(f"Error al fallback: {ex}")
+    # Canal
+    channel = SubElement(tv, "channel", id=CHANNEL_ID)
+    display_name = SubElement(channel, "display-name", lang="ca")
+    display_name.text = CHANNEL_NAME
 
-def format_date(date_str):
-    if not date_str:
-        return ""
-    try:
-        clean_str = date_str.split('.')[0].replace('Z', '+00:00')
-        dt = datetime.fromisoformat(clean_str)
-        return dt.strftime('%Y%m%d%H%M%S +0200')
-    except Exception:
-        return ""
+    # Extreure programes
+    info = data.get("informacio", {})
+    
+    # Programa actual (arafem)
+    if info.get("arafem"):
+        add_programme(tv, info["arafem"])
+        
+    # Programa següent (despresfem)
+    if info.get("despresfem"):
+        add_programme(tv, info["despresfem"])
+
+    # Guardar arxiu formatat
+    rough_string = tostring(tv, encoding="unicode")
+    parsed = minidom.parseString(rough_string)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write(parsed.toprettyxml(indent="  ", encoding="UTF-8").decode("UTF-8"))
+    
+    print(f"EPG generat correctament a {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    get_epg()
+    main()
