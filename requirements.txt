@@ -1,3 +1,2 @@
-requests
-beautifulsoup4
-lxml
+# Aquest projecte no requereix dependències externes.
+# Només utilitza llibreries estàndard de Python.
