@@ -1,15 +1,34 @@
-<?xml version='1.0' encoding='utf-8'?>
-<tv generator_info_name="3Cat EPG Generator">
-  <channel id="TV3">
-    <display-name>TV3</display-name>
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="3cat-epg">
+  <channel id="tem1">
+    <display-name lang="ca">TEM1</display-name>
   </channel>
-  <channel id="324">
-    <display-name>324</display-name>
-  </channel>
-  <channel id="ESP3">
-    <display-name>Esport3</display-name>
-  </channel>
-  <channel id="SX3">
-    <display-name>SX3</display-name>
-  </channel>
+  <programme start="20261005201450 +0200" stop="20261005214625 +0200" channel="tem1">
+    <title lang="ca">L'irlandès</title>
+    <desc lang="ca">L'IRLANDÈS (The guard)
+Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
+Direcció i guió: John Michael McDonagh
+Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
+Idioma versió original: anglès
+Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
+Durada: 92 minuts
+Fotografia: Larry Smith
+Música: Calexico</desc>
+    <category lang="ca">Pel·lícula</category>
+  </programme>
+  <programme start="20261005214625 +0200" stop="20261006001459 +0200" channel="tem1">
+    <title lang="ca">Un profeta</title>
+    <desc lang="ca">UN PROFETA 'Un prophète'
+Direcció: Jacques Audiard
+Guió: Jacques Audiard, Thomas Bidegain
+Producció: Why Not Productions, Chic Films, Page 114, France 2 Cinema, UGC Images, BIM Distribuzione, Celluloid Dreams, Canal+, Cinecinema
+Any: 2009
+Durada: 150
+País: França
+Música: Alexandre Desplat
+Fotografia: Stéphane Fontaine
+Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
+El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
+    <category lang="ca">Pel·lícula</category>
+  </programme>
 </tv>
