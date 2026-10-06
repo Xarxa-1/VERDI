@@ -3,31 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261006144348 +0200" stop="20261006161950 +0200" channel="tem1">
-    <title lang="ca">Èxit a qualsevol preu</title>
-    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
-Producció: Rank Film i Zupnik Enterprises, 1992
-Direcció: James Foley / Durada: 99 minuts
-Guió: David Mamet, basat en la seva obra teatral
-Fotografia: Juan Ruíz Anchía (color)
-Música: James Newton Howard
-Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
-Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
-</desc>
+  <programme start="20261006195649 +0200" stop="20261006212824 +0200" channel="tem1">
+    <title lang="ca">L'irlandès</title>
+    <desc lang="ca">L'IRLANDÈS (The guard)
+Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
+Direcció i guió: John Michael McDonagh
+Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
+Idioma versió original: anglès
+Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
+Durada: 92 minuts
+Fotografia: Larry Smith
+Música: Calexico</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261006161950 +0200" stop="20261006180921 +0200" channel="tem1">
-    <title lang="ca">El cas Fischer</title>
-    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
-Direcció: Edward Zwick
-Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
-Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
-País de producció: Estats Units
-Any: 2014
-Fotografía: Bradford Young
-Música: James Newton Howard
-Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
-Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
+  <programme start="20261006212824 +0200" stop="20261006235500 +0200" channel="tem1">
+    <title lang="ca">Novel·la criminal</title>
+    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
+Direcció: Michele Placido
+Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
+Producció: Cattleya, Babe Film, Warner Bros.
+Any: 2005
+Durada: 147
+País: Itàlia
+Música: Paolo Buonvino
+Fotografia: Luca Bigazzi
+Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
+Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
