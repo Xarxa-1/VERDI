@@ -3,32 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261005201450 +0200" stop="20261005214625 +0200" channel="tem1">
-    <title lang="ca">L'irlandès</title>
-    <desc lang="ca">L'IRLANDÈS (The guard)
-Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
-Direcció i guió: John Michael McDonagh
-Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
-Idioma versió original: anglès
-Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
-Durada: 92 minuts
-Fotografia: Larry Smith
-Música: Calexico</desc>
+  <programme start="20261006020244 +0200" stop="20261006034044 +0200" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261005214625 +0200" stop="20261006001459 +0200" channel="tem1">
-    <title lang="ca">Un profeta</title>
-    <desc lang="ca">UN PROFETA 'Un prophète'
-Direcció: Jacques Audiard
-Guió: Jacques Audiard, Thomas Bidegain
-Producció: Why Not Productions, Chic Films, Page 114, France 2 Cinema, UGC Images, BIM Distribuzione, Celluloid Dreams, Canal+, Cinecinema
-Any: 2009
-Durada: 150
-País: França
-Música: Alexandre Desplat
-Fotografia: Stéphane Fontaine
-Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
-El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
+  <programme start="20261006034044 +0200" stop="20261006060000 +0200" channel="tem1">
+    <title lang="ca">Destroyer: Una dona ferida</title>
+    <desc lang="ca">DESTROYER: UNA DONA FERIDA 'Destroyer'
+Direcció: Karyn Kusama
+Guió: Phil Hay, Matt Manfredi
+Producció: 30West, Automatik Entertainment
+Any: 2018
+Durada: 123
+País: Estats Units
+Música: Theodore Shapiro
+Fotografia: Julie Kirkwood
+Intèrprets: Nicole Kidman, Sebastian Stan, Tatiana Maslany, Toby Kebbell, Scoot McNairy, Bradley Whitford, James Jordan, Toby Huss, Jade Pettyjohn, Shamier Anderson, Jan Hoag, Beau Knapp, Natalia Cordova
+Què va destruir el passat d'Erin Bell? Per què no és capaç de reconduir la relació tan difícil que té amb la seva filla? Haurà de ser forta. Només tindrà una darrera oportunitat...</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
