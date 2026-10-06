@@ -3,32 +3,24 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261006195649 +0200" stop="20261006212824 +0200" channel="tem1">
-    <title lang="ca">L'irlandès</title>
-    <desc lang="ca">L'IRLANDÈS (The guard)
-Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
-Direcció i guió: John Michael McDonagh
-Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
-Idioma versió original: anglès
-Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
-Durada: 92 minuts
-Fotografia: Larry Smith
-Música: Calexico</desc>
+  <programme start="20261006235500 +0200" stop="20261007012257 +0200" channel="tem1">
+    <title lang="ca">Només es viu una vegada</title>
+    <desc lang="ca">La Nathalie i en George s'acaben de casar, i van de vacances a una idíl·lica caseta apartada de la civilització. En Lance, un antic amic de la Nathalie, els va a visitar. Una nit, en George i en Lance van a pescar, i aleshores apareix l'antic amant i psiquiatre de la Nathalie. Es queda adormit, begut, al llit de la Nathalie, i en George i en Lance tornen a casa. La Nathalie s'espanta i comet un error fatal...</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261006212824 +0200" stop="20261006235500 +0200" channel="tem1">
-    <title lang="ca">Novel·la criminal</title>
-    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
-Direcció: Michele Placido
-Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
-Producció: Cattleya, Babe Film, Warner Bros.
-Any: 2005
-Durada: 147
-País: Itàlia
-Música: Paolo Buonvino
-Fotografia: Luca Bigazzi
-Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
-Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
+  <programme start="20261007012257 +0200" stop="20261007033219 +0200" channel="tem1">
+    <title lang="ca">Connexió Marsella</title>
+    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
+Direcció: Cédric Jimenez
+Guió: Audrey Diwan, Cédric Jimenez
+Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
+Any: 2014
+Durada: 135
+País: França
+Música: Guillaume Roussel
+Fotografia: Laurent Tangy
+Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
+Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
