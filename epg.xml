@@ -3,32 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261007092208 +0200" stop="20261007110936 +0200" channel="tem1">
-    <title lang="ca">Sota el volcà</title>
-    <desc lang="ca">SOTA EL VOLCÀ (Under the Volcano)
-Producció: Moritz Borman i Wieland Schulz-Keil per a Ithaca i Conacine, 1984
-Direcció: John Huston 
-Durada: 109 minuts
-Guió: Guy Gallo, basat en la novel.la de Malcolm Lowry
-Fotografia: Gabriel Figueroa (Technicolor)
-Música: Alex North
-Intèrprets: Albert Finney (Geoffrey Firmin), Jacqueline Bisset (Yvonne Firmin), Anthony Andrews (Hugh Firmin), Ignacio López Tarzo (doctor Vigil), Kathy Jurado (senyora Gregòria), James Villiers (l'anglès)
-El dia de Difunts del 1938, Geoffrey Firmin, l'excònsol britànic a Cuernavaca, vaga pels carrers completament begut. Fa alguns mesos que Geoffrey s'ha separat de la seva dona Yvonne i quan aquesta està disposada a tornar amb ell, es tanca en els seus remordiments i els seus deliris alcohòlics. Amb el seu amic, el doctor Vigil, erra d'una taverna a una altra i es permet muntar algun escàndol. Hugh, el seu germanastre, periodista que torna de la guerra d'Espanya, ha tingut relacions amoroses amb Yvonne i Geoffrey es complau morbosament a retreure-li.</desc>
+  <programme start="20261007174328 +0200" stop="20261007193259 +0200" channel="tem1">
+    <title lang="ca">El cas Fischer</title>
+    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
+Direcció: Edward Zwick
+Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
+Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
+País de producció: Estats Units
+Any: 2014
+Fotografía: Bradford Young
+Música: James Newton Howard
+Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
+Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261007110936 +0200" stop="20261007125528 +0200" channel="tem1">
-    <title lang="ca">Tren de nit a Lisboa</title>
-    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
-Direcció: Bille August
-Guió: Ulrich Herrmann, Greg Latter.
-Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
-Any: 2013
-Durada: 110
-País: Alemanya
-Música: Annette Focks
-Fotografia: Filip Zumbrunn
-Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
-El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
+  <programme start="20261007193259 +0200" stop="20261007212125 +0200" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
