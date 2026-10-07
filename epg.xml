@@ -3,32 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261007033219 +0200" stop="20261007060000 +0200" channel="tem1">
-    <title lang="ca">Fanàtica</title>
-    <desc lang="ca">FANÀTICA (Swimfan)
-Idioma versió original: anglès 
-Producció: Cobalt Media, Greene Street, Further Films i Forrest Films, 2002 (Estats Units)
-Direcció: John Polson / Durada: 84 minuts
-Guió: Charles F. Bohl i Phillip Schneider
-Fotografia: Giles Nuttgens (color)
-Música: John Debney
-Intèrprets: Jesse Bradford (Ben Cronin), Erika Christiensen (Madison Bell), Shiri Appleby (Amy Miller), Kate Burton (Carla Cronin), Clayne Crawford (Josh), Jason Riter (Randy)
-Ben Cronin ho té pràcticament tot: amics, nòvia, prestigi per la seva activitat esportiva i una feina a l'hospital. Però tot se'n va en orris quan apareix Madison Bell, una noia que immediatament impressiona Ben. La relació entre ells dos es torna obsessiva: ella cada cop li absorbeix més la vida i l'embarca en una espiral de malson.</desc>
+  <programme start="20261007092208 +0200" stop="20261007110936 +0200" channel="tem1">
+    <title lang="ca">Sota el volcà</title>
+    <desc lang="ca">SOTA EL VOLCÀ (Under the Volcano)
+Producció: Moritz Borman i Wieland Schulz-Keil per a Ithaca i Conacine, 1984
+Direcció: John Huston 
+Durada: 109 minuts
+Guió: Guy Gallo, basat en la novel.la de Malcolm Lowry
+Fotografia: Gabriel Figueroa (Technicolor)
+Música: Alex North
+Intèrprets: Albert Finney (Geoffrey Firmin), Jacqueline Bisset (Yvonne Firmin), Anthony Andrews (Hugh Firmin), Ignacio López Tarzo (doctor Vigil), Kathy Jurado (senyora Gregòria), James Villiers (l'anglès)
+El dia de Difunts del 1938, Geoffrey Firmin, l'excònsol britànic a Cuernavaca, vaga pels carrers completament begut. Fa alguns mesos que Geoffrey s'ha separat de la seva dona Yvonne i quan aquesta està disposada a tornar amb ell, es tanca en els seus remordiments i els seus deliris alcohòlics. Amb el seu amic, el doctor Vigil, erra d'una taverna a una altra i es permet muntar algun escàndol. Hugh, el seu germanastre, periodista que torna de la guerra d'Espanya, ha tingut relacions amoroses amb Yvonne i Geoffrey es complau morbosament a retreure-li.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261007060000 +0200" stop="20261007074126 +0200" channel="tem1">
-    <title lang="ca">L'escàndol Ted Kennedy</title>
-    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
-Direcció: John Curran
-Guió: Taylor Allen, Andrew Logan
-Música: Adam Wiltzie
-Fotografia: Maryse Alberti
-Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
-Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
-SINOPSI:
-L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
-
-</desc>
+  <programme start="20261007110936 +0200" stop="20261007125528 +0200" channel="tem1">
+    <title lang="ca">Tren de nit a Lisboa</title>
+    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
+Direcció: Bille August
+Guió: Ulrich Herrmann, Greg Latter.
+Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
+Any: 2013
+Durada: 110
+País: Alemanya
+Música: Annette Focks
+Fotografia: Filip Zumbrunn
+Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
+El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
