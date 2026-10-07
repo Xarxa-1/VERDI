@@ -3,32 +3,34 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261007174328 +0200" stop="20261007193259 +0200" channel="tem1">
-    <title lang="ca">El cas Fischer</title>
-    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
-Direcció: Edward Zwick
-Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
-Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
-País de producció: Estats Units
-Any: 2014
-Fotografía: Bradford Young
-Música: James Newton Howard
-Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
-Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
+  <programme start="20261007231626 +0200" stop="20261008005456 +0200" channel="tem1">
+    <title lang="ca">Un home ideal</title>
+    <desc lang="ca">UN HOME IDEAL (Un home ideal)
+Direcció: Yann Gozlan
+Guió: Yann Gozlan, Guillaume Lemans, Grégoire Vigneron
+Producció: 2425 Films / Mars Films / TF1 Films Production / Wy Productions
+País de producció: França
+Any: 2015
+Durada: 98 minuts
+Fotografía: Antoine Roch
+Música: Cyrille Aufort
+Intèrprets: Pierre Niney, Ana Girardot, Ludovic Berthillot, Valeria Cavalli, Marc Barbé,André Marcon, Laurent Grévill, Thibault Vinçon
+En Mathieu Vasseur és un aspirant a ser escriptor que no aconsegueix que li publiquin res. Treballa en una empresa que es dedica a buidar pisos quan la gent els deixa o es mor. En una casa d'aquestes, el llogater de la qual s'acaba de morir, en Mathieu troba un manuscrit que explica les vivències d'un soldat a la guerra d'Algèria. Li posa un títol i fa veure que l'ha escrit ell. La novel·la resulta ser un èxit. Arran d'això coneix una noia que ja li agradava i aconsegueix que sigui la seva parella. Amb el temps, quan l'editorial li demana una segona novel·la, en Mathieu es veu acorralat i acaba coplicant-se la vida fins al punt que ha de fingir la seva mort per evitar anar a la presó.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261007193259 +0200" stop="20261007212125 +0200" channel="tem1">
-    <title lang="ca">El cas Farewell</title>
-    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
-La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
-Direcció: Christian Carion
-Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
-Idioma versió original: francès
-Producció: France 2, 2009 (França)
-Durada: 108 minuts
-Guió: Eric Raynaud, basat en fets reals
-Fotografia: Walther van den Ende
-Música: Clint Mansell</desc>
+  <programme start="20261008005456 +0200" stop="20261008032330 +0200" channel="tem1">
+    <title lang="ca">Un profeta</title>
+    <desc lang="ca">UN PROFETA 'Un prophète'
+Direcció: Jacques Audiard
+Guió: Jacques Audiard, Thomas Bidegain
+Producció: Why Not Productions, Chic Films, Page 114, France 2 Cinema, UGC Images, BIM Distribuzione, Celluloid Dreams, Canal+, Cinecinema
+Any: 2009
+Durada: 150
+País: França
+Música: Alexandre Desplat
+Fotografia: Stéphane Fontaine
+Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
+El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
