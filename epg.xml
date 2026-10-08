@@ -3,21 +3,6 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261007231626 +0200" stop="20261008005456 +0200" channel="tem1">
-    <title lang="ca">Un home ideal</title>
-    <desc lang="ca">UN HOME IDEAL (Un home ideal)
-Direcció: Yann Gozlan
-Guió: Yann Gozlan, Guillaume Lemans, Grégoire Vigneron
-Producció: 2425 Films / Mars Films / TF1 Films Production / Wy Productions
-País de producció: França
-Any: 2015
-Durada: 98 minuts
-Fotografía: Antoine Roch
-Música: Cyrille Aufort
-Intèrprets: Pierre Niney, Ana Girardot, Ludovic Berthillot, Valeria Cavalli, Marc Barbé,André Marcon, Laurent Grévill, Thibault Vinçon
-En Mathieu Vasseur és un aspirant a ser escriptor que no aconsegueix que li publiquin res. Treballa en una empresa que es dedica a buidar pisos quan la gent els deixa o es mor. En una casa d'aquestes, el llogater de la qual s'acaba de morir, en Mathieu troba un manuscrit que explica les vivències d'un soldat a la guerra d'Algèria. Li posa un títol i fa veure que l'ha escrit ell. La novel·la resulta ser un èxit. Arran d'això coneix una noia que ja li agradava i aconsegueix que sigui la seva parella. Amb el temps, quan l'editorial li demana una segona novel·la, en Mathieu es veu acorralat i acaba coplicant-se la vida fins al punt que ha de fingir la seva mort per evitar anar a la presó.</desc>
-    <category lang="ca">Pel·lícula</category>
-  </programme>
   <programme start="20261008005456 +0200" stop="20261008032330 +0200" channel="tem1">
     <title lang="ca">Un profeta</title>
     <desc lang="ca">UN PROFETA 'Un prophète'
@@ -31,6 +16,22 @@ Música: Alexandre Desplat
 Fotografia: Stéphane Fontaine
 Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
 El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
+    <category lang="ca">Pel·lícula</category>
+  </programme>
+  <programme start="20261008032330 +0200" stop="20261008060000 +0200" channel="tem1">
+    <title lang="ca">Mesures extremes</title>
+    <desc lang="ca">MESURES EXTREMES (Eiöurinn)
+Direcció: Baltasar Kormákur
+Guió: Ólafur Egilsson, Baltasar Kormákur
+Producció: RVK Studios
+País: Islàndia
+Any: 2016
+Durada: 98 minuts
+Fotografía: Óttar Guðnason
+Intèrprets: Baltasar Kormákur, Hera Hilmar, Gísli Örn Garðarsson, Margrét Bjarnadóttir, Auður Aradóttir, Guðrún Sesselja Arnardóttir, Þorsteinn Bachmann, Ingvar Eggert Sigurdsson
+
+Finnur és un cirurgià preocupat per la seva filla Anna, que ha abandonat els estudis i consumeix drogues. El pare de la noia s'assabenta que el xicot d'ella, Óttar, fa de camell i, pensant que és una mala companyia, prova de fer-los trencar la relació. Però ni Anna ni Óttar tenen cap intenció de deixar-ho. Finnur denuncia a la policia que ha trobat droga a casa del noi. Óttar l'adverteix que no es continuï ficant en la seva vida, li exigeix el pagament de la droga confiscada i l'amenaça. Llavors, després de veure un pare que ha estat víctima d'un ajustament de comptes similar, Finnur comença a planejar la desaparició d'Óttar, però les coses es torcen i la situació empitjora. 
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
