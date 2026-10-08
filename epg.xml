@@ -3,32 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261008075501 +0200" stop="20261008094735 +0200" channel="tem1">
-    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
-    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
-Direcció i guió: Joseph Cedar
-Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
-Any: 2016
-País: Estats Units
-Durada: 113 minuts
-Fotografía: Yaron Scharf
-Música: Jun Miyake
-Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
-Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
+  <programme start="20261008153343 +0200" stop="20261008172209 +0200" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261008094735 +0200" stop="20261008112817 +0200" channel="tem1">
-    <title lang="ca">Emperador</title>
-    <desc lang="ca">EMPERADOR (Emperor)
-Un cop acabada la Segona Guerra Mundial (1939-1945), el general Douglas MacArthur i un col·lega seu hauran de decidir el destí de l'emperador japonès Hirohito.
-Direcció: Peter Webber
-Intèrprets: Matthew Fox, Tommy Lee Jones, Kaori Momoi, Eriko Hatsune, Aaron Jackson, Toshiyuki Nishida, Takatarô Kataoka, Masatô Ibu, William Wallace, Nic Sampson, Isao Natsuyagi, Gareth Ruck, Masatoshi Nakamura, Shôhei Hino
-Guió: David Klass, Vera Blasi
-Producció: Krasnoff Foster Productions i Fellers Film, 2012 (Estats Units)
-Idioma versió original: anglès
-Fotografia: Stuart Dryburgh
-Música: Alex Heffes
-Durada: 101 minuts</desc>
+  <programme start="20261008172209 +0200" stop="20261008190801 +0200" channel="tem1">
+    <title lang="ca">Tren de nit a Lisboa</title>
+    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
+Direcció: Bille August
+Guió: Ulrich Herrmann, Greg Latter.
+Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
+Any: 2013
+Durada: 110
+País: Alemanya
+Música: Annette Focks
+Fotografia: Filip Zumbrunn
+Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
+El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
