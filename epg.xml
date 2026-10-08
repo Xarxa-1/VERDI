@@ -3,35 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261008005456 +0200" stop="20261008032330 +0200" channel="tem1">
-    <title lang="ca">Un profeta</title>
-    <desc lang="ca">UN PROFETA 'Un prophète'
-Direcció: Jacques Audiard
-Guió: Jacques Audiard, Thomas Bidegain
-Producció: Why Not Productions, Chic Films, Page 114, France 2 Cinema, UGC Images, BIM Distribuzione, Celluloid Dreams, Canal+, Cinecinema
-Any: 2009
-Durada: 150
-País: França
-Música: Alexandre Desplat
-Fotografia: Stéphane Fontaine
-Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
-El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
+  <programme start="20261008075501 +0200" stop="20261008094735 +0200" channel="tem1">
+    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
+    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
+Direcció i guió: Joseph Cedar
+Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
+Any: 2016
+País: Estats Units
+Durada: 113 minuts
+Fotografía: Yaron Scharf
+Música: Jun Miyake
+Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
+Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261008032330 +0200" stop="20261008060000 +0200" channel="tem1">
-    <title lang="ca">Mesures extremes</title>
-    <desc lang="ca">MESURES EXTREMES (Eiöurinn)
-Direcció: Baltasar Kormákur
-Guió: Ólafur Egilsson, Baltasar Kormákur
-Producció: RVK Studios
-País: Islàndia
-Any: 2016
-Durada: 98 minuts
-Fotografía: Óttar Guðnason
-Intèrprets: Baltasar Kormákur, Hera Hilmar, Gísli Örn Garðarsson, Margrét Bjarnadóttir, Auður Aradóttir, Guðrún Sesselja Arnardóttir, Þorsteinn Bachmann, Ingvar Eggert Sigurdsson
-
-Finnur és un cirurgià preocupat per la seva filla Anna, que ha abandonat els estudis i consumeix drogues. El pare de la noia s'assabenta que el xicot d'ella, Óttar, fa de camell i, pensant que és una mala companyia, prova de fer-los trencar la relació. Però ni Anna ni Óttar tenen cap intenció de deixar-ho. Finnur denuncia a la policia que ha trobat droga a casa del noi. Óttar l'adverteix que no es continuï ficant en la seva vida, li exigeix el pagament de la droga confiscada i l'amenaça. Llavors, després de veure un pare que ha estat víctima d'un ajustament de comptes similar, Finnur comença a planejar la desaparició d'Óttar, però les coses es torcen i la situació empitjora. 
-</desc>
+  <programme start="20261008094735 +0200" stop="20261008112817 +0200" channel="tem1">
+    <title lang="ca">Emperador</title>
+    <desc lang="ca">EMPERADOR (Emperor)
+Un cop acabada la Segona Guerra Mundial (1939-1945), el general Douglas MacArthur i un col·lega seu hauran de decidir el destí de l'emperador japonès Hirohito.
+Direcció: Peter Webber
+Intèrprets: Matthew Fox, Tommy Lee Jones, Kaori Momoi, Eriko Hatsune, Aaron Jackson, Toshiyuki Nishida, Takatarô Kataoka, Masatô Ibu, William Wallace, Nic Sampson, Isao Natsuyagi, Gareth Ruck, Masatoshi Nakamura, Shôhei Hino
+Guió: David Klass, Vera Blasi
+Producció: Krasnoff Foster Productions i Fellers Film, 2012 (Estats Units)
+Idioma versió original: anglès
+Fotografia: Stuart Dryburgh
+Música: Alex Heffes
+Durada: 101 minuts</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
