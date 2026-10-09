@@ -3,32 +3,34 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261008205732 +0200" stop="20261008223334 +0200" channel="tem1">
-    <title lang="ca">Èxit a qualsevol preu</title>
-    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
-Producció: Rank Film i Zupnik Enterprises, 1992
-Direcció: James Foley / Durada: 99 minuts
-Guió: David Mamet, basat en la seva obra teatral
-Fotografia: Juan Ruíz Anchía (color)
-Música: James Newton Howard
-Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
-Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
+  <programme start="20261009020518 +0200" stop="20261009034351 +0200" channel="tem1">
+    <title lang="ca">Mesures extremes</title>
+    <desc lang="ca">MESURES EXTREMES (Eiöurinn)
+Direcció: Baltasar Kormákur
+Guió: Ólafur Egilsson, Baltasar Kormákur
+Producció: RVK Studios
+País: Islàndia
+Any: 2016
+Durada: 98 minuts
+Fotografía: Óttar Guðnason
+Intèrprets: Baltasar Kormákur, Hera Hilmar, Gísli Örn Garðarsson, Margrét Bjarnadóttir, Auður Aradóttir, Guðrún Sesselja Arnardóttir, Þorsteinn Bachmann, Ingvar Eggert Sigurdsson
+
+Finnur és un cirurgià preocupat per la seva filla Anna, que ha abandonat els estudis i consumeix drogues. El pare de la noia s'assabenta que el xicot d'ella, Óttar, fa de camell i, pensant que és una mala companyia, prova de fer-los trencar la relació. Però ni Anna ni Óttar tenen cap intenció de deixar-ho. Finnur denuncia a la policia que ha trobat droga a casa del noi. Óttar l'adverteix que no es continuï ficant en la seva vida, li exigeix el pagament de la droga confiscada i l'amenaça. Llavors, després de veure un pare que ha estat víctima d'un ajustament de comptes similar, Finnur comença a planejar la desaparició d'Óttar, però les coses es torcen i la situació empitjora. 
 </desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261008223334 +0200" stop="20261009001500 +0200" channel="tem1">
-    <title lang="ca">L'escàndol Ted Kennedy</title>
-    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
-Direcció: John Curran
-Guió: Taylor Allen, Andrew Logan
-Música: Adam Wiltzie
-Fotografia: Maryse Alberti
-Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
-Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
-SINOPSI:
-L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
-
-</desc>
+  <programme start="20261009034351 +0200" stop="20261009060000 +0200" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
