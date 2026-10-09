@@ -3,33 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261009073830 +0200" stop="20261009092422 +0200" channel="tem1">
-    <title lang="ca">Tren de nit a Lisboa</title>
-    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
-Direcció: Bille August
-Guió: Ulrich Herrmann, Greg Latter.
-Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
-Any: 2013
-Durada: 110
-País: Alemanya
-Música: Annette Focks
-Fotografia: Filip Zumbrunn
-Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
-El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
+  <programme start="20261009143424 +0200" stop="20261009164346 +0200" channel="tem1">
+    <title lang="ca">Connexió Marsella</title>
+    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
+Direcció: Cédric Jimenez
+Guió: Audrey Diwan, Cédric Jimenez
+Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
+Any: 2014
+Durada: 135
+País: França
+Música: Guillaume Roussel
+Fotografia: Laurent Tangy
+Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
+Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261009092422 +0200" stop="20261009111353 +0200" channel="tem1">
-    <title lang="ca">El cas Fischer</title>
-    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
-Direcció: Edward Zwick
-Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
-Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
-País de producció: Estats Units
-Any: 2014
-Fotografía: Bradford Young
-Música: James Newton Howard
-Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
-Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
+  <programme start="20261009164346 +0200" stop="20261009182428 +0200" channel="tem1">
+    <title lang="ca">Emperador</title>
+    <desc lang="ca">EMPERADOR (Emperor)
+Un cop acabada la Segona Guerra Mundial (1939-1945), el general Douglas MacArthur i un col·lega seu hauran de decidir el destí de l'emperador japonès Hirohito.
+Direcció: Peter Webber
+Intèrprets: Matthew Fox, Tommy Lee Jones, Kaori Momoi, Eriko Hatsune, Aaron Jackson, Toshiyuki Nishida, Takatarô Kataoka, Masatô Ibu, William Wallace, Nic Sampson, Isao Natsuyagi, Gareth Ruck, Masatoshi Nakamura, Shôhei Hino
+Guió: David Klass, Vera Blasi
+Producció: Krasnoff Foster Productions i Fellers Film, 2012 (Estats Units)
+Idioma versió original: anglès
+Fotografia: Stuart Dryburgh
+Música: Alex Heffes
+Durada: 101 minuts</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
