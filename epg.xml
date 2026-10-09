@@ -3,33 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261009143424 +0200" stop="20261009164346 +0200" channel="tem1">
-    <title lang="ca">Connexió Marsella</title>
-    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
-Direcció: Cédric Jimenez
-Guió: Audrey Diwan, Cédric Jimenez
-Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
-Any: 2014
-Durada: 135
-País: França
-Música: Guillaume Roussel
-Fotografia: Laurent Tangy
-Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
-Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
+  <programme start="20261009200318 +0200" stop="20261009213453 +0200" channel="tem1">
+    <title lang="ca">L'irlandès</title>
+    <desc lang="ca">L'IRLANDÈS (The guard)
+Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
+Direcció i guió: John Michael McDonagh
+Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
+Idioma versió original: anglès
+Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
+Durada: 92 minuts
+Fotografia: Larry Smith
+Música: Calexico</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261009164346 +0200" stop="20261009182428 +0200" channel="tem1">
-    <title lang="ca">Emperador</title>
-    <desc lang="ca">EMPERADOR (Emperor)
-Un cop acabada la Segona Guerra Mundial (1939-1945), el general Douglas MacArthur i un col·lega seu hauran de decidir el destí de l'emperador japonès Hirohito.
-Direcció: Peter Webber
-Intèrprets: Matthew Fox, Tommy Lee Jones, Kaori Momoi, Eriko Hatsune, Aaron Jackson, Toshiyuki Nishida, Takatarô Kataoka, Masatô Ibu, William Wallace, Nic Sampson, Isao Natsuyagi, Gareth Ruck, Masatoshi Nakamura, Shôhei Hino
-Guió: David Klass, Vera Blasi
-Producció: Krasnoff Foster Productions i Fellers Film, 2012 (Estats Units)
-Idioma versió original: anglès
-Fotografia: Stuart Dryburgh
-Música: Alex Heffes
-Durada: 101 minuts</desc>
+  <programme start="20261009213453 +0200" stop="20261010000327 +0200" channel="tem1">
+    <title lang="ca">Un profeta</title>
+    <desc lang="ca">UN PROFETA 'Un prophète'
+Direcció: Jacques Audiard
+Guió: Jacques Audiard, Thomas Bidegain
+Producció: Why Not Productions, Chic Films, Page 114, France 2 Cinema, UGC Images, BIM Distribuzione, Celluloid Dreams, Canal+, Cinecinema
+Any: 2009
+Durada: 150
+País: França
+Música: Alexandre Desplat
+Fotografia: Stéphane Fontaine
+Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
+El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
