@@ -21,7 +21,7 @@ jobs:
         run: |
           python3 << 'PYEOF'
           import json, urllib.request, sys
-          from datetime import datetime
+          from datetime import datetime, timezone
           from xml.etree.ElementTree import Element, SubElement, tostring
           from xml.dom import minidom
 
@@ -36,7 +36,14 @@ jobs:
               print(f"Error descarregant l'API: {e}")
               sys.exit(1)
 
-          tv = Element("tv", attrib={"generator-info-name": "3cat-epg"})
+          # Timestamp d'execució -> fa que el fitxer sempre sigui diferent
+          generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+          tv = Element("tv", attrib={
+              "generator-info-name": "3cat-epg",
+              "generated": generated_at
+          })
+
           ch = SubElement(tv, "channel", id="tem1")
           SubElement(ch, "display-name", lang="ca").text = "TEM1"
 
@@ -54,11 +61,17 @@ jobs:
                   SubElement(p, "category", lang="ca").text = prog["programa"]
 
           info = data.get("informacio", {})
-          if info.get("arafem"): add_prog(info["arafem"])
-          if info.get("despresfem"): add_prog(info["despresfem"])
+          if info.get("arafem"):
+              add_prog(info["arafem"])
+          if info.get("despresfem"):
+              add_prog(info["despresfem"])
+
+          xml_str = minidom.parseString(tostring(tv)).toprettyxml(indent="  ", encoding="UTF-8").decode("UTF-8")
 
           with open(OUTPUT, "w", encoding="utf-8") as f:
-              f.write(minidom.parseString(tostring(tv)).toprettyxml(indent="  ", encoding="UTF-8").decode("UTF-8"))
+              f.write(xml_str)
+
+          print(f"EPG generat correctament a {generated_at}")
           PYEOF
 
       - name: Commit i push
