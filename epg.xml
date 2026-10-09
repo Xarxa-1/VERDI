@@ -3,34 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261009020518 +0200" stop="20261009034351 +0200" channel="tem1">
-    <title lang="ca">Mesures extremes</title>
-    <desc lang="ca">MESURES EXTREMES (Eiöurinn)
-Direcció: Baltasar Kormákur
-Guió: Ólafur Egilsson, Baltasar Kormákur
-Producció: RVK Studios
-País: Islàndia
-Any: 2016
-Durada: 98 minuts
-Fotografía: Óttar Guðnason
-Intèrprets: Baltasar Kormákur, Hera Hilmar, Gísli Örn Garðarsson, Margrét Bjarnadóttir, Auður Aradóttir, Guðrún Sesselja Arnardóttir, Þorsteinn Bachmann, Ingvar Eggert Sigurdsson
-
-Finnur és un cirurgià preocupat per la seva filla Anna, que ha abandonat els estudis i consumeix drogues. El pare de la noia s'assabenta que el xicot d'ella, Óttar, fa de camell i, pensant que és una mala companyia, prova de fer-los trencar la relació. Però ni Anna ni Óttar tenen cap intenció de deixar-ho. Finnur denuncia a la policia que ha trobat droga a casa del noi. Óttar l'adverteix que no es continuï ficant en la seva vida, li exigeix el pagament de la droga confiscada i l'amenaça. Llavors, després de veure un pare que ha estat víctima d'un ajustament de comptes similar, Finnur comença a planejar la desaparició d'Óttar, però les coses es torcen i la situació empitjora. 
-</desc>
+  <programme start="20261009073830 +0200" stop="20261009092422 +0200" channel="tem1">
+    <title lang="ca">Tren de nit a Lisboa</title>
+    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
+Direcció: Bille August
+Guió: Ulrich Herrmann, Greg Latter.
+Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
+Any: 2013
+Durada: 110
+País: Alemanya
+Música: Annette Focks
+Fotografia: Filip Zumbrunn
+Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
+El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261009034351 +0200" stop="20261009060000 +0200" channel="tem1">
-    <title lang="ca">Cash</title>
-    <desc lang="ca">CASH (Cash)
-Direcció i guió: Éric Besnard
-Producció: Pulsar Productions / Canal + / TF1 Films Production
-Any: 2008
-País: França
-Durada: 98 minuts
-Fotografía: Gilles Henry
-Música: Jean-Michel Bernard
-Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
-El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
+  <programme start="20261009092422 +0200" stop="20261009111353 +0200" channel="tem1">
+    <title lang="ca">El cas Fischer</title>
+    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
+Direcció: Edward Zwick
+Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
+Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
+País de producció: Estats Units
+Any: 2014
+Fotografía: Bradford Young
+Música: James Newton Howard
+Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
+Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
