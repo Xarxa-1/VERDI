@@ -3,34 +3,22 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261009213453 +0200" stop="20261010000327 +0200" channel="tem1">
-    <title lang="ca">Un profeta</title>
-    <desc lang="ca">UN PROFETA 'Un prophète'
-Direcció: Jacques Audiard
-Guió: Jacques Audiard, Thomas Bidegain
-Producció: Why Not Productions, Chic Films, Page 114, France 2 Cinema, UGC Images, BIM Distribuzione, Celluloid Dreams, Canal+, Cinecinema
-Any: 2009
-Durada: 150
-País: França
-Música: Alexandre Desplat
-Fotografia: Stéphane Fontaine
-Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
-El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
+  <programme start="20261010023003 +0200" stop="20261010041748 +0200" channel="tem1">
+    <title lang="ca">DE BÈSTIES I BESTIOLES</title>
+    <desc lang="ca">En la seva infància, Bobby va patir un accident que el va deixar discapacitat psíquicament. Ha crescut protegit del món exterior, però la mort de la seva mare el deixa sol amb el padrastre, un home sense escrúpols que l'amenaça de tancar-lo en un psiquiàtric si no firma la renúncia a la seva herència. Bobby no cedeix i decideix escapar-se. Durant el viatge es troba un personatge crucial en la seva vida.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261010000327 +0200" stop="20261010023003 +0200" channel="tem1">
-    <title lang="ca">Novel·la criminal</title>
-    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
-Direcció: Michele Placido
-Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
-Producció: Cattleya, Babe Film, Warner Bros.
-Any: 2005
-Durada: 147
-País: Itàlia
-Música: Paolo Buonvino
-Fotografia: Luca Bigazzi
-Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
-Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
+  <programme start="20261010041748 +0200" stop="20261010060000 +0200" channel="tem1">
+    <title lang="ca">Fanàtica</title>
+    <desc lang="ca">FANÀTICA (Swimfan)
+Idioma versió original: anglès 
+Producció: Cobalt Media, Greene Street, Further Films i Forrest Films, 2002 (Estats Units)
+Direcció: John Polson / Durada: 84 minuts
+Guió: Charles F. Bohl i Phillip Schneider
+Fotografia: Giles Nuttgens (color)
+Música: John Debney
+Intèrprets: Jesse Bradford (Ben Cronin), Erika Christiensen (Madison Bell), Shiri Appleby (Amy Miller), Kate Burton (Carla Cronin), Clayne Crawford (Josh), Jason Riter (Randy)
+Ben Cronin ho té pràcticament tot: amics, nòvia, prestigi per la seva activitat esportiva i una feina a l'hospital. Però tot se'n va en orris quan apareix Madison Bell, una noia que immediatament impressiona Ben. La relació entre ells dos es torna obsessiva: ella cada cop li absorbeix més la vida i l'embarca en una espiral de malson.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
