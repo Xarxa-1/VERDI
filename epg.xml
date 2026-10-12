@@ -3,35 +3,31 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261012011635 +0200" stop="20261012032557 +0200" channel="tem1">
-    <title lang="ca">Connexió Marsella</title>
-    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
-Direcció: Cédric Jimenez
-Guió: Audrey Diwan, Cédric Jimenez
-Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
-Any: 2014
-Durada: 135
-País: França
-Música: Guillaume Roussel
-Fotografia: Laurent Tangy
-Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
-Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
+  <programme start="20261012074126 +0200" stop="20261012092208 +0200" channel="tem1">
+    <title lang="ca">Emperador</title>
+    <desc lang="ca">EMPERADOR (Emperor)
+Un cop acabada la Segona Guerra Mundial (1939-1945), el general Douglas MacArthur i un col·lega seu hauran de decidir el destí de l'emperador japonès Hirohito.
+Direcció: Peter Webber
+Intèrprets: Matthew Fox, Tommy Lee Jones, Kaori Momoi, Eriko Hatsune, Aaron Jackson, Toshiyuki Nishida, Takatarô Kataoka, Masatô Ibu, William Wallace, Nic Sampson, Isao Natsuyagi, Gareth Ruck, Masatoshi Nakamura, Shôhei Hino
+Guió: David Klass, Vera Blasi
+Producció: Krasnoff Foster Productions i Fellers Film, 2012 (Estats Units)
+Idioma versió original: anglès
+Fotografia: Stuart Dryburgh
+Música: Alex Heffes
+Durada: 101 minuts</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261012032557 +0200" stop="20261012060000 +0200" channel="tem1">
-    <title lang="ca">Mesures extremes</title>
-    <desc lang="ca">MESURES EXTREMES (Eiöurinn)
-Direcció: Baltasar Kormákur
-Guió: Ólafur Egilsson, Baltasar Kormákur
-Producció: RVK Studios
-País: Islàndia
-Any: 2016
-Durada: 98 minuts
-Fotografía: Óttar Guðnason
-Intèrprets: Baltasar Kormákur, Hera Hilmar, Gísli Örn Garðarsson, Margrét Bjarnadóttir, Auður Aradóttir, Guðrún Sesselja Arnardóttir, Þorsteinn Bachmann, Ingvar Eggert Sigurdsson
-
-Finnur és un cirurgià preocupat per la seva filla Anna, que ha abandonat els estudis i consumeix drogues. El pare de la noia s'assabenta que el xicot d'ella, Óttar, fa de camell i, pensant que és una mala companyia, prova de fer-los trencar la relació. Però ni Anna ni Óttar tenen cap intenció de deixar-ho. Finnur denuncia a la policia que ha trobat droga a casa del noi. Óttar l'adverteix que no es continuï ficant en la seva vida, li exigeix el pagament de la droga confiscada i l'amenaça. Llavors, després de veure un pare que ha estat víctima d'un ajustament de comptes similar, Finnur comença a planejar la desaparició d'Óttar, però les coses es torcen i la situació empitjora. 
-</desc>
+  <programme start="20261012092208 +0200" stop="20261012110936 +0200" channel="tem1">
+    <title lang="ca">Sota el volcà</title>
+    <desc lang="ca">SOTA EL VOLCÀ (Under the Volcano)
+Producció: Moritz Borman i Wieland Schulz-Keil per a Ithaca i Conacine, 1984
+Direcció: John Huston 
+Durada: 109 minuts
+Guió: Guy Gallo, basat en la novel.la de Malcolm Lowry
+Fotografia: Gabriel Figueroa (Technicolor)
+Música: Alex North
+Intèrprets: Albert Finney (Geoffrey Firmin), Jacqueline Bisset (Yvonne Firmin), Anthony Andrews (Hugh Firmin), Ignacio López Tarzo (doctor Vigil), Kathy Jurado (senyora Gregòria), James Villiers (l'anglès)
+El dia de Difunts del 1938, Geoffrey Firmin, l'excònsol britànic a Cuernavaca, vaga pels carrers completament begut. Fa alguns mesos que Geoffrey s'ha separat de la seva dona Yvonne i quan aquesta està disposada a tornar amb ell, es tanca en els seus remordiments i els seus deliris alcohòlics. Amb el seu amic, el doctor Vigil, erra d'una taverna a una altra i es permet muntar algun escàndol. Hugh, el seu germanastre, periodista que torna de la guerra d'Espanya, ha tingut relacions amoroses amb Yvonne i Geoffrey es complau morbosament a retreure-li.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
