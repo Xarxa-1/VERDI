@@ -3,31 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261013190801 +0200" stop="20261013205732 +0200" channel="tem1">
-    <title lang="ca">El cas Fischer</title>
-    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
-Direcció: Edward Zwick
-Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
-Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
-País de producció: Estats Units
-Any: 2014
-Fotografía: Bradford Young
-Música: James Newton Howard
-Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
-Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
+  <programme start="20261013223334 +0200" stop="20261014001500 +0200" channel="tem1">
+    <title lang="ca">L'escàndol Ted Kennedy</title>
+    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
+Direcció: John Curran
+Guió: Taylor Allen, Andrew Logan
+Música: Adam Wiltzie
+Fotografia: Maryse Alberti
+Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
+Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
+SINOPSI:
+L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
+
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261013205732 +0200" stop="20261013223334 +0200" channel="tem1">
-    <title lang="ca">Èxit a qualsevol preu</title>
-    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
-Producció: Rank Film i Zupnik Enterprises, 1992
-Direcció: James Foley / Durada: 99 minuts
-Guió: David Mamet, basat en la seva obra teatral
-Fotografia: Juan Ruíz Anchía (color)
-Música: James Newton Howard
-Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
-Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
-</desc>
+  <programme start="20261014001500 +0200" stop="20261014020518 +0200" channel="tem1">
+    <title lang="ca">Disparant als gossos</title>
+    <desc lang="ca">DISPARANT ALS GOSSOS (Shooting dogs)
+Idioma versió original: anglès
+Producció: CrossDay Productions Ltd., ARTE, BBC Films, Egoli Tossell Film, UK Film Council i ZDF, 2005 (Gran Bretanya i Alemanya)
+Direcció: Michael Caton-Jones
+Durada: 111 minuts
+Guió: David Wolstencroft, basat en un argument de Richard Alwyn i David Belton
+Fotografia: Ivan Strasburg (color)
+Música: Dario Marianelli
+Intèrprets: Hugh Dancy (Joe Connor), John Hurt (Christopher), Clare-Hope Ashitey (Marie), Dominique Horwitz (Charles Delon), Louis Mahoney (Sibomana), Nicola Walker (Rachel)
+Joe Connor viatja a Ruanda per fer de mestre. Quan l'escola on treballa es converteix en un refugi per als ruandesos que s'escapen del genocidi, Joe promet a Marie, la seva millor alumna, que les tropes de l'ONU els protegiran. Però, amb el temps, els soldats de les Nacions Unides abandonen els refugiats i arriba el moment d'un dilema per a Joe: quedar-se o retornar al seu país i abandonar els seus alumnes.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
