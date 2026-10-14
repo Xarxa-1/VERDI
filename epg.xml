@@ -3,33 +3,23 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261014073830 +0200" stop="20261014092422 +0200" channel="tem1">
-    <title lang="ca">Tren de nit a Lisboa</title>
-    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
-Direcció: Bille August
-Guió: Ulrich Herrmann, Greg Latter.
-Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
-Any: 2013
-Durada: 110
-País: Alemanya
-Música: Annette Focks
-Fotografia: Filip Zumbrunn
-Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
-El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
+  <programme start="20261014111353 +0200" stop="20261014130627 +0200" channel="tem1">
+    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
+    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
+Direcció i guió: Joseph Cedar
+Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
+Any: 2016
+País: Estats Units
+Durada: 113 minuts
+Fotografía: Yaron Scharf
+Música: Jun Miyake
+Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
+Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261014092422 +0200" stop="20261014111353 +0200" channel="tem1">
-    <title lang="ca">El cas Fischer</title>
-    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
-Direcció: Edward Zwick
-Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
-Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
-País de producció: Estats Units
-Any: 2014
-Fotografía: Bradford Young
-Música: James Newton Howard
-Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
-Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
+  <programme start="20261014130627 +0200" stop="20261014143424 +0200" channel="tem1">
+    <title lang="ca">Només es viu una vegada</title>
+    <desc lang="ca">La Nathalie i en George s'acaben de casar, i van de vacances a una idíl·lica caseta apartada de la civilització. En Lance, un antic amic de la Nathalie, els va a visitar. Una nit, en George i en Lance van a pescar, i aleshores apareix l'antic amant i psiquiatre de la Nathalie. Es queda adormit, begut, al llit de la Nathalie, i en George i en Lance tornen a casa. La Nathalie s'espanta i comet un error fatal...</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
