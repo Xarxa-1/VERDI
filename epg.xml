@@ -3,19 +3,6 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261015233503 +0200" stop="20261016011105 +0200" channel="tem1">
-    <title lang="ca">Èxit a qualsevol preu</title>
-    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
-Producció: Rank Film i Zupnik Enterprises, 1992
-Direcció: James Foley / Durada: 99 minuts
-Guió: David Mamet, basat en la seva obra teatral
-Fotografia: Juan Ruíz Anchía (color)
-Música: James Newton Howard
-Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
-Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
-</desc>
-    <category lang="ca">Pel·lícula</category>
-  </programme>
   <programme start="20261016011105 +0200" stop="20261016033939 +0200" channel="tem1">
     <title lang="ca">Un profeta</title>
     <desc lang="ca">UN PROFETA 'Un prophète'
@@ -29,6 +16,20 @@ Música: Alexandre Desplat
 Fotografia: Stéphane Fontaine
 Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
 El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
+    <category lang="ca">Pel·lícula</category>
+  </programme>
+  <programme start="20261016033939 +0200" stop="20261017033938 +0200" channel="tem1">
+    <title lang="ca">Disparant als gossos</title>
+    <desc lang="ca">DISPARANT ALS GOSSOS (Shooting dogs)
+Idioma versió original: anglès
+Producció: CrossDay Productions Ltd., ARTE, BBC Films, Egoli Tossell Film, UK Film Council i ZDF, 2005 (Gran Bretanya i Alemanya)
+Direcció: Michael Caton-Jones
+Durada: 111 minuts
+Guió: David Wolstencroft, basat en un argument de Richard Alwyn i David Belton
+Fotografia: Ivan Strasburg (color)
+Música: Dario Marianelli
+Intèrprets: Hugh Dancy (Joe Connor), John Hurt (Christopher), Clare-Hope Ashitey (Marie), Dominique Horwitz (Charles Delon), Louis Mahoney (Sibomana), Nicola Walker (Rachel)
+Joe Connor viatja a Ruanda per fer de mestre. Quan l'escola on treballa es converteix en un refugi per als ruandesos que s'escapen del genocidi, Joe promet a Marie, la seva millor alumna, que les tropes de l'ONU els protegiran. Però, amb el temps, els soldats de les Nacions Unides abandonen els refugiats i arriba el moment d'un dilema per a Joe: quedar-se o retornar al seu país i abandonar els seus alumnes.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
