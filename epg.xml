@@ -3,30 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261017062055 +0200" stop="20261017075657 +0200" channel="tem1">
-    <title lang="ca">Èxit a qualsevol preu</title>
-    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
-Producció: Rank Film i Zupnik Enterprises, 1992
-Direcció: James Foley / Durada: 99 minuts
-Guió: David Mamet, basat en la seva obra teatral
-Fotografia: Juan Ruíz Anchía (color)
-Música: James Newton Howard
-Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
-Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
-</desc>
+  <programme start="20261017094425 +0200" stop="20261017113659 +0200" channel="tem1">
+    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
+    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
+Direcció i guió: Joseph Cedar
+Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
+Any: 2016
+País: Estats Units
+Durada: 113 minuts
+Fotografía: Yaron Scharf
+Música: Jun Miyake
+Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
+Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261017075657 +0200" stop="20261017094425 +0200" channel="tem1">
-    <title lang="ca">Sota el volcà</title>
-    <desc lang="ca">SOTA EL VOLCÀ (Under the Volcano)
-Producció: Moritz Borman i Wieland Schulz-Keil per a Ithaca i Conacine, 1984
-Direcció: John Huston 
-Durada: 109 minuts
-Guió: Guy Gallo, basat en la novel.la de Malcolm Lowry
-Fotografia: Gabriel Figueroa (Technicolor)
-Música: Alex North
-Intèrprets: Albert Finney (Geoffrey Firmin), Jacqueline Bisset (Yvonne Firmin), Anthony Andrews (Hugh Firmin), Ignacio López Tarzo (doctor Vigil), Kathy Jurado (senyora Gregòria), James Villiers (l'anglès)
-El dia de Difunts del 1938, Geoffrey Firmin, l'excònsol britànic a Cuernavaca, vaga pels carrers completament begut. Fa alguns mesos que Geoffrey s'ha separat de la seva dona Yvonne i quan aquesta està disposada a tornar amb ell, es tanca en els seus remordiments i els seus deliris alcohòlics. Amb el seu amic, el doctor Vigil, erra d'una taverna a una altra i es permet muntar algun escàndol. Hugh, el seu germanastre, periodista que torna de la guerra d'Espanya, ha tingut relacions amoroses amb Yvonne i Geoffrey es complau morbosament a retreure-li.</desc>
+  <programme start="20261017113659 +0200" stop="20261017131549 +0200" channel="tem1">
+    <title lang="ca">L'editor de llibres</title>
+    <desc lang="ca">L'EDITOR DE LLIBRES (Genius)
+Direcció: Michael Grandage
+Guió: John Logan (Llibre: A.Scott Berg)
+Producció: Riverstone Pictures / Michael Grandage Company / Desert Wolf Productions
+Any: 2016
+Durada: 98 minuts
+País: gran Bretanya
+Fotografía: Ben Davis
+Música: Adam Cork
+Intèrprets: Colin Firth, Jude Law, Nicole Kidman, Laura Linney, Guy Pearce, Dominic West,Vanessa Kirby, Demetri Goritsas, Katherine Kingsley, Andrew Byron, Leon Seth
+Ambientada en els temps de Max Perkins (Colin Firth), l'editor de llibres més admirat del món i qui va presentar al públic els més reconeguts escriptors del segle XX. Compromés amb el talent i el seu foment, va ser la persona darrere de grans figures literàries com Scott Fitgerald, Hemingway o Wolfe.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
