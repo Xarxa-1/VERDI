@@ -3,33 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261018060000 +0200" stop="20261018073830 +0200" channel="tem1">
-    <title lang="ca">Un home ideal</title>
-    <desc lang="ca">UN HOME IDEAL (Un home ideal)
-Direcció: Yann Gozlan
-Guió: Yann Gozlan, Guillaume Lemans, Grégoire Vigneron
-Producció: 2425 Films / Mars Films / TF1 Films Production / Wy Productions
-País de producció: França
-Any: 2015
-Durada: 98 minuts
-Fotografía: Antoine Roch
-Música: Cyrille Aufort
-Intèrprets: Pierre Niney, Ana Girardot, Ludovic Berthillot, Valeria Cavalli, Marc Barbé,André Marcon, Laurent Grévill, Thibault Vinçon
-En Mathieu Vasseur és un aspirant a ser escriptor que no aconsegueix que li publiquin res. Treballa en una empresa que es dedica a buidar pisos quan la gent els deixa o es mor. En una casa d'aquestes, el llogater de la qual s'acaba de morir, en Mathieu troba un manuscrit que explica les vivències d'un soldat a la guerra d'Algèria. Li posa un títol i fa veure que l'ha escrit ell. La novel·la resulta ser un èxit. Arran d'això coneix una noia que ja li agradava i aconsegueix que sigui la seva parella. Amb el temps, quan l'editorial li demana una segona novel·la, en Mathieu es veu acorralat i acaba coplicant-se la vida fins al punt que ha de fingir la seva mort per evitar anar a la presó.</desc>
+  <programme start="20261018092656 +0200" stop="20261018111248 +0200" channel="tem1">
+    <title lang="ca">Tren de nit a Lisboa</title>
+    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
+Direcció: Bille August
+Guió: Ulrich Herrmann, Greg Latter.
+Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
+Any: 2013
+Durada: 110
+País: Alemanya
+Música: Annette Focks
+Fotografia: Filip Zumbrunn
+Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
+El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261018073830 +0200" stop="20261018092656 +0200" channel="tem1">
-    <title lang="ca">El cas Farewell</title>
-    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
-La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
-Direcció: Christian Carion
-Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
-Idioma versió original: francès
-Producció: France 2, 2009 (França)
-Durada: 108 minuts
-Guió: Eric Raynaud, basat en fets reals
-Fotografia: Walther van den Ende
-Música: Clint Mansell</desc>
+  <programme start="20261018111248 +0200" stop="20261018125330 +0200" channel="tem1">
+    <title lang="ca">Emperador</title>
+    <desc lang="ca">EMPERADOR (Emperor)
+Un cop acabada la Segona Guerra Mundial (1939-1945), el general Douglas MacArthur i un col·lega seu hauran de decidir el destí de l'emperador japonès Hirohito.
+Direcció: Peter Webber
+Intèrprets: Matthew Fox, Tommy Lee Jones, Kaori Momoi, Eriko Hatsune, Aaron Jackson, Toshiyuki Nishida, Takatarô Kataoka, Masatô Ibu, William Wallace, Nic Sampson, Isao Natsuyagi, Gareth Ruck, Masatoshi Nakamura, Shôhei Hino
+Guió: David Klass, Vera Blasi
+Producció: Krasnoff Foster Productions i Fellers Film, 2012 (Estats Units)
+Idioma versió original: anglès
+Fotografia: Stuart Dryburgh
+Música: Alex Heffes
+Durada: 101 minuts</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
