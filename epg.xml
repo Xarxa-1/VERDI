@@ -3,19 +3,6 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261018180921 +0200" stop="20261018195649 +0200" channel="tem1">
-    <title lang="ca">Sota el volcà</title>
-    <desc lang="ca">SOTA EL VOLCÀ (Under the Volcano)
-Producció: Moritz Borman i Wieland Schulz-Keil per a Ithaca i Conacine, 1984
-Direcció: John Huston 
-Durada: 109 minuts
-Guió: Guy Gallo, basat en la novel.la de Malcolm Lowry
-Fotografia: Gabriel Figueroa (Technicolor)
-Música: Alex North
-Intèrprets: Albert Finney (Geoffrey Firmin), Jacqueline Bisset (Yvonne Firmin), Anthony Andrews (Hugh Firmin), Ignacio López Tarzo (doctor Vigil), Kathy Jurado (senyora Gregòria), James Villiers (l'anglès)
-El dia de Difunts del 1938, Geoffrey Firmin, l'excònsol britànic a Cuernavaca, vaga pels carrers completament begut. Fa alguns mesos que Geoffrey s'ha separat de la seva dona Yvonne i quan aquesta està disposada a tornar amb ell, es tanca en els seus remordiments i els seus deliris alcohòlics. Amb el seu amic, el doctor Vigil, erra d'una taverna a una altra i es permet muntar algun escàndol. Hugh, el seu germanastre, periodista que torna de la guerra d'Espanya, ha tingut relacions amoroses amb Yvonne i Geoffrey es complau morbosament a retreure-li.</desc>
-    <category lang="ca">Pel·lícula</category>
-  </programme>
   <programme start="20261018195649 +0200" stop="20261018212824 +0200" channel="tem1">
     <title lang="ca">L'irlandès</title>
     <desc lang="ca">L'IRLANDÈS (The guard)
@@ -27,6 +14,21 @@ Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irla
 Durada: 92 minuts
 Fotografia: Larry Smith
 Música: Calexico</desc>
+    <category lang="ca">Pel·lícula</category>
+  </programme>
+  <programme start="20261018212824 +0200" stop="20261018235500 +0200" channel="tem1">
+    <title lang="ca">Novel·la criminal</title>
+    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
+Direcció: Michele Placido
+Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
+Producció: Cattleya, Babe Film, Warner Bros.
+Any: 2005
+Durada: 147
+País: Itàlia
+Música: Paolo Buonvino
+Fotografia: Luca Bigazzi
+Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
+Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
