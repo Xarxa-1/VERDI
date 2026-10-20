@@ -3,31 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261020200934 +0200" stop="20261020215702 +0200" channel="tem1">
-    <title lang="ca">Sota el volcà</title>
-    <desc lang="ca">SOTA EL VOLCÀ (Under the Volcano)
-Producció: Moritz Borman i Wieland Schulz-Keil per a Ithaca i Conacine, 1984
-Direcció: John Huston 
-Durada: 109 minuts
-Guió: Guy Gallo, basat en la novel.la de Malcolm Lowry
-Fotografia: Gabriel Figueroa (Technicolor)
-Música: Alex North
-Intèrprets: Albert Finney (Geoffrey Firmin), Jacqueline Bisset (Yvonne Firmin), Anthony Andrews (Hugh Firmin), Ignacio López Tarzo (doctor Vigil), Kathy Jurado (senyora Gregòria), James Villiers (l'anglès)
-El dia de Difunts del 1938, Geoffrey Firmin, l'excònsol britànic a Cuernavaca, vaga pels carrers completament begut. Fa alguns mesos que Geoffrey s'ha separat de la seva dona Yvonne i quan aquesta està disposada a tornar amb ell, es tanca en els seus remordiments i els seus deliris alcohòlics. Amb el seu amic, el doctor Vigil, erra d'una taverna a una altra i es permet muntar algun escàndol. Hugh, el seu germanastre, periodista que torna de la guerra d'Espanya, ha tingut relacions amoroses amb Yvonne i Geoffrey es complau morbosament a retreure-li.</desc>
+  <programme start="20261020233502 +0200" stop="20261021011104 +0200" channel="tem1">
+    <title lang="ca">Èxit a qualsevol preu</title>
+    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
+Producció: Rank Film i Zupnik Enterprises, 1992
+Direcció: James Foley / Durada: 99 minuts
+Guió: David Mamet, basat en la seva obra teatral
+Fotografia: Juan Ruíz Anchía (color)
+Música: James Newton Howard
+Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
+Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261020215702 +0200" stop="20261020233502 +0200" channel="tem1">
-    <title lang="ca">Cash</title>
-    <desc lang="ca">CASH (Cash)
-Direcció i guió: Éric Besnard
-Producció: Pulsar Productions / Canal + / TF1 Films Production
-Any: 2008
+  <programme start="20261021011104 +0200" stop="20261021033938 +0200" channel="tem1">
+    <title lang="ca">Un profeta</title>
+    <desc lang="ca">UN PROFETA 'Un prophète'
+Direcció: Jacques Audiard
+Guió: Jacques Audiard, Thomas Bidegain
+Producció: Why Not Productions, Chic Films, Page 114, France 2 Cinema, UGC Images, BIM Distribuzione, Celluloid Dreams, Canal+, Cinecinema
+Any: 2009
+Durada: 150
 País: França
-Durada: 98 minuts
-Fotografía: Gilles Henry
-Música: Jean-Michel Bernard
-Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
-El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
+Música: Alexandre Desplat
+Fotografia: Stéphane Fontaine
+Intèrprets: Tahar Rahim, Niels Arestrup, Adel Bencherif, Reda Kateb, Hichem Yacoubi, Jean-Philippe Ricci, Gilles Cohen, Pierre Leccia, Antoine Basler, Foued Nassah, Jean-Emmanuel Pagni, Frederic Graziani, Leïla Bekhti, Alaa Safi
+El jove Malik El Djebena, un francès d'origen àrab, ingressa a la presó per complir una pena de sis anys. Tot i que al principi la vida a la presó li resulta molt dura perquè està completament sol, s'hi adapta ràpidament i, gràcies al seu carisma, a poc a poc es guanya la simpatia dels membres de la màfia corsa, que tenen subornats els guàrdies i controlen tot el que passa a la presó.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
