@@ -3,32 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261020131437 +0200" stop="20261020144612 +0200" channel="tem1">
-    <title lang="ca">L'irlandès</title>
-    <desc lang="ca">L'IRLANDÈS (The guard)
-Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
-Direcció i guió: John Michael McDonagh
-Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
-Idioma versió original: anglès
-Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
-Durada: 92 minuts
-Fotografia: Larry Smith
-Música: Calexico</desc>
+  <programme start="20261020164113 +0200" stop="20261020182003 +0200" channel="tem1">
+    <title lang="ca">L'editor de llibres</title>
+    <desc lang="ca">L'EDITOR DE LLIBRES (Genius)
+Direcció: Michael Grandage
+Guió: John Logan (Llibre: A.Scott Berg)
+Producció: Riverstone Pictures / Michael Grandage Company / Desert Wolf Productions
+Any: 2016
+Durada: 98 minuts
+País: gran Bretanya
+Fotografía: Ben Davis
+Música: Adam Cork
+Intèrprets: Colin Firth, Jude Law, Nicole Kidman, Laura Linney, Guy Pearce, Dominic West,Vanessa Kirby, Demetri Goritsas, Katherine Kingsley, Andrew Byron, Leon Seth
+Ambientada en els temps de Max Perkins (Colin Firth), l'editor de llibres més admirat del món i qui va presentar al públic els més reconeguts escriptors del segle XX. Compromés amb el talent i el seu foment, va ser la persona darrere de grans figures literàries com Scott Fitgerald, Hemingway o Wolfe.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261020144612 +0200" stop="20261020164113 +0200" channel="tem1">
-    <title lang="ca">Destroyer: Una dona ferida</title>
-    <desc lang="ca">DESTROYER: UNA DONA FERIDA 'Destroyer'
-Direcció: Karyn Kusama
-Guió: Phil Hay, Matt Manfredi
-Producció: 30West, Automatik Entertainment
-Any: 2018
-Durada: 123
-País: Estats Units
-Música: Theodore Shapiro
-Fotografia: Julie Kirkwood
-Intèrprets: Nicole Kidman, Sebastian Stan, Tatiana Maslany, Toby Kebbell, Scoot McNairy, Bradley Whitford, James Jordan, Toby Huss, Jade Pettyjohn, Shamier Anderson, Jan Hoag, Beau Knapp, Natalia Cordova
-Què va destruir el passat d'Erin Bell? Per què no és capaç de reconduir la relació tan difícil que té amb la seva filla? Haurà de ser forta. Només tindrà una darrera oportunitat...</desc>
+  <programme start="20261020182003 +0200" stop="20261020200934 +0200" channel="tem1">
+    <title lang="ca">El cas Fischer</title>
+    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
+Direcció: Edward Zwick
+Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
+Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
+País de producció: Estats Units
+Any: 2014
+Fotografía: Bradford Young
+Música: James Newton Howard
+Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
+Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
