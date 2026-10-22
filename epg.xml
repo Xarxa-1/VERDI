@@ -3,34 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261022111604 +0200" stop="20261022125454 +0200" channel="tem1">
-    <title lang="ca">L'editor de llibres</title>
-    <desc lang="ca">L'EDITOR DE LLIBRES (Genius)
-Direcció: Michael Grandage
-Guió: John Logan (Llibre: A.Scott Berg)
-Producció: Riverstone Pictures / Michael Grandage Company / Desert Wolf Productions
-Any: 2016
-Durada: 98 minuts
-País: gran Bretanya
-Fotografía: Ben Davis
-Música: Adam Cork
-Intèrprets: Colin Firth, Jude Law, Nicole Kidman, Laura Linney, Guy Pearce, Dominic West,Vanessa Kirby, Demetri Goritsas, Katherine Kingsley, Andrew Byron, Leon Seth
-Ambientada en els temps de Max Perkins (Colin Firth), l'editor de llibres més admirat del món i qui va presentar al públic els més reconeguts escriptors del segle XX. Compromés amb el talent i el seu foment, va ser la persona darrere de grans figures literàries com Scott Fitgerald, Hemingway o Wolfe.</desc>
+  <programme start="20261022164542 +0200" stop="20261022183408 +0200" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261022125454 +0200" stop="20261022143620 +0200" channel="tem1">
-    <title lang="ca">L'escàndol Ted Kennedy</title>
-    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
-Direcció: John Curran
-Guió: Taylor Allen, Andrew Logan
-Música: Adam Wiltzie
-Fotografia: Maryse Alberti
-Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
-Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
-SINOPSI:
-L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
-
-</desc>
+  <programme start="20261022183408 +0200" stop="20261022201450 +0200" channel="tem1">
+    <title lang="ca">Emperador</title>
+    <desc lang="ca">EMPERADOR (Emperor)
+Un cop acabada la Segona Guerra Mundial (1939-1945), el general Douglas MacArthur i un col·lega seu hauran de decidir el destí de l'emperador japonès Hirohito.
+Direcció: Peter Webber
+Intèrprets: Matthew Fox, Tommy Lee Jones, Kaori Momoi, Eriko Hatsune, Aaron Jackson, Toshiyuki Nishida, Takatarô Kataoka, Masatô Ibu, William Wallace, Nic Sampson, Isao Natsuyagi, Gareth Ruck, Masatoshi Nakamura, Shôhei Hino
+Guió: David Klass, Vera Blasi
+Producció: Krasnoff Foster Productions i Fellers Film, 2012 (Estats Units)
+Idioma versió original: anglès
+Fotografia: Stuart Dryburgh
+Música: Alex Heffes
+Durada: 101 minuts</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
