@@ -3,32 +3,31 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261023111248 +0200" stop="20261023125330 +0200" channel="tem1">
-    <title lang="ca">Emperador</title>
-    <desc lang="ca">EMPERADOR (Emperor)
-Un cop acabada la Segona Guerra Mundial (1939-1945), el general Douglas MacArthur i un col·lega seu hauran de decidir el destí de l'emperador japonès Hirohito.
-Direcció: Peter Webber
-Intèrprets: Matthew Fox, Tommy Lee Jones, Kaori Momoi, Eriko Hatsune, Aaron Jackson, Toshiyuki Nishida, Takatarô Kataoka, Masatô Ibu, William Wallace, Nic Sampson, Isao Natsuyagi, Gareth Ruck, Masatoshi Nakamura, Shôhei Hino
-Guió: David Klass, Vera Blasi
-Producció: Krasnoff Foster Productions i Fellers Film, 2012 (Estats Units)
-Idioma versió original: anglès
-Fotografia: Stuart Dryburgh
-Música: Alex Heffes
-Durada: 101 minuts</desc>
+  <programme start="20261023161950 +0200" stop="20261023180921 +0200" channel="tem1">
+    <title lang="ca">El cas Fischer</title>
+    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
+Direcció: Edward Zwick
+Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
+Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
+País de producció: Estats Units
+Any: 2014
+Fotografía: Bradford Young
+Música: James Newton Howard
+Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
+Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261023125330 +0200" stop="20261023144348 +0200" channel="tem1">
-    <title lang="ca">Disparant als gossos</title>
-    <desc lang="ca">DISPARANT ALS GOSSOS (Shooting dogs)
-Idioma versió original: anglès
-Producció: CrossDay Productions Ltd., ARTE, BBC Films, Egoli Tossell Film, UK Film Council i ZDF, 2005 (Gran Bretanya i Alemanya)
-Direcció: Michael Caton-Jones
-Durada: 111 minuts
-Guió: David Wolstencroft, basat en un argument de Richard Alwyn i David Belton
-Fotografia: Ivan Strasburg (color)
-Música: Dario Marianelli
-Intèrprets: Hugh Dancy (Joe Connor), John Hurt (Christopher), Clare-Hope Ashitey (Marie), Dominique Horwitz (Charles Delon), Louis Mahoney (Sibomana), Nicola Walker (Rachel)
-Joe Connor viatja a Ruanda per fer de mestre. Quan l'escola on treballa es converteix en un refugi per als ruandesos que s'escapen del genocidi, Joe promet a Marie, la seva millor alumna, que les tropes de l'ONU els protegiran. Però, amb el temps, els soldats de les Nacions Unides abandonen els refugiats i arriba el moment d'un dilema per a Joe: quedar-se o retornar al seu país i abandonar els seus alumnes.</desc>
+  <programme start="20261023180921 +0200" stop="20261023195649 +0200" channel="tem1">
+    <title lang="ca">Sota el volcà</title>
+    <desc lang="ca">SOTA EL VOLCÀ (Under the Volcano)
+Producció: Moritz Borman i Wieland Schulz-Keil per a Ithaca i Conacine, 1984
+Direcció: John Huston 
+Durada: 109 minuts
+Guió: Guy Gallo, basat en la novel.la de Malcolm Lowry
+Fotografia: Gabriel Figueroa (Technicolor)
+Música: Alex North
+Intèrprets: Albert Finney (Geoffrey Firmin), Jacqueline Bisset (Yvonne Firmin), Anthony Andrews (Hugh Firmin), Ignacio López Tarzo (doctor Vigil), Kathy Jurado (senyora Gregòria), James Villiers (l'anglès)
+El dia de Difunts del 1938, Geoffrey Firmin, l'excònsol britànic a Cuernavaca, vaga pels carrers completament begut. Fa alguns mesos que Geoffrey s'ha separat de la seva dona Yvonne i quan aquesta està disposada a tornar amb ell, es tanca en els seus remordiments i els seus deliris alcohòlics. Amb el seu amic, el doctor Vigil, erra d'una taverna a una altra i es permet muntar algun escàndol. Hugh, el seu germanastre, periodista que torna de la guerra d'Espanya, ha tingut relacions amoroses amb Yvonne i Geoffrey es complau morbosament a retreure-li.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
