@@ -3,11 +3,6 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261023001459 +0200" stop="20261023020244 +0200" channel="tem1">
-    <title lang="ca">DE BÈSTIES I BESTIOLES</title>
-    <desc lang="ca">En la seva infància, Bobby va patir un accident que el va deixar discapacitat psíquicament. Ha crescut protegit del món exterior, però la mort de la seva mare el deixa sol amb el padrastre, un home sense escrúpols que l'amenaça de tancar-lo en un psiquiàtric si no firma la renúncia a la seva herència. Bobby no cedeix i decideix escapar-se. Durant el viatge es troba un personatge crucial en la seva vida.</desc>
-    <category lang="ca">Pel·lícula</category>
-  </programme>
   <programme start="20261023020244 +0200" stop="20261023034044 +0200" channel="tem1">
     <title lang="ca">Cash</title>
     <desc lang="ca">CASH (Cash)
@@ -20,6 +15,21 @@ Fotografía: Gilles Henry
 Música: Jean-Michel Bernard
 Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
 El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
+    <category lang="ca">Pel·lícula</category>
+  </programme>
+  <programme start="20261023034044 +0200" stop="20261023060000 +0200" channel="tem1">
+    <title lang="ca">Destroyer: Una dona ferida</title>
+    <desc lang="ca">DESTROYER: UNA DONA FERIDA 'Destroyer'
+Direcció: Karyn Kusama
+Guió: Phil Hay, Matt Manfredi
+Producció: 30West, Automatik Entertainment
+Any: 2018
+Durada: 123
+País: Estats Units
+Música: Theodore Shapiro
+Fotografia: Julie Kirkwood
+Intèrprets: Nicole Kidman, Sebastian Stan, Tatiana Maslany, Toby Kebbell, Scoot McNairy, Bradley Whitford, James Jordan, Toby Huss, Jade Pettyjohn, Shamier Anderson, Jan Hoag, Beau Knapp, Natalia Cordova
+Què va destruir el passat d'Erin Bell? Per què no és capaç de reconduir la relació tan difícil que té amb la seva filla? Haurà de ser forta. Només tindrà una darrera oportunitat...</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
