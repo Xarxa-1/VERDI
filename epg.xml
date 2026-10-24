@@ -3,11 +3,6 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261023235500 +0200" stop="20261024012257 +0200" channel="tem1">
-    <title lang="ca">Només es viu una vegada</title>
-    <desc lang="ca">La Nathalie i en George s'acaben de casar, i van de vacances a una idíl·lica caseta apartada de la civilització. En Lance, un antic amic de la Nathalie, els va a visitar. Una nit, en George i en Lance van a pescar, i aleshores apareix l'antic amant i psiquiatre de la Nathalie. Es queda adormit, begut, al llit de la Nathalie, i en George i en Lance tornen a casa. La Nathalie s'espanta i comet un error fatal...</desc>
-    <category lang="ca">Pel·lícula</category>
-  </programme>
   <programme start="20261024012257 +0200" stop="20261024033219 +0200" channel="tem1">
     <title lang="ca">Connexió Marsella</title>
     <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
@@ -21,6 +16,19 @@ Música: Guillaume Roussel
 Fotografia: Laurent Tangy
 Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
 Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
+    <category lang="ca">Pel·lícula</category>
+  </programme>
+  <programme start="20261024033219 +0200" stop="20261024060000 +0200" channel="tem1">
+    <title lang="ca">Fanàtica</title>
+    <desc lang="ca">FANÀTICA (Swimfan)
+Idioma versió original: anglès 
+Producció: Cobalt Media, Greene Street, Further Films i Forrest Films, 2002 (Estats Units)
+Direcció: John Polson / Durada: 84 minuts
+Guió: Charles F. Bohl i Phillip Schneider
+Fotografia: Giles Nuttgens (color)
+Música: John Debney
+Intèrprets: Jesse Bradford (Ben Cronin), Erika Christiensen (Madison Bell), Shiri Appleby (Amy Miller), Kate Burton (Carla Cronin), Clayne Crawford (Josh), Jason Riter (Randy)
+Ben Cronin ho té pràcticament tot: amics, nòvia, prestigi per la seva activitat esportiva i una feina a l'hospital. Però tot se'n va en orris quan apareix Madison Bell, una noia que immediatament impressiona Ben. La relació entre ells dos es torna obsessiva: ella cada cop li absorbeix més la vida i l'embarca en una espiral de malson.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
