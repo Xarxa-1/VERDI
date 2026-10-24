@@ -3,24 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261024141653 +0200" stop="20261024160438 +0200" channel="tem1">
-    <title lang="ca">DE BÈSTIES I BESTIOLES</title>
-    <desc lang="ca">En la seva infància, Bobby va patir un accident que el va deixar discapacitat psíquicament. Ha crescut protegit del món exterior, però la mort de la seva mare el deixa sol amb el padrastre, un home sense escrúpols que l'amenaça de tancar-lo en un psiquiàtric si no firma la renúncia a la seva herència. Bobby no cedeix i decideix escapar-se. Durant el viatge es troba un personatge crucial en la seva vida.</desc>
+  <programme start="20261024174328 +0200" stop="20261024193259 +0200" channel="tem1">
+    <title lang="ca">El cas Fischer</title>
+    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
+Direcció: Edward Zwick
+Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
+Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
+País de producció: Estats Units
+Any: 2014
+Fotografía: Bradford Young
+Música: James Newton Howard
+Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
+Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261024160438 +0200" stop="20261024174328 +0200" channel="tem1">
-    <title lang="ca">L'editor de llibres</title>
-    <desc lang="ca">L'EDITOR DE LLIBRES (Genius)
-Direcció: Michael Grandage
-Guió: John Logan (Llibre: A.Scott Berg)
-Producció: Riverstone Pictures / Michael Grandage Company / Desert Wolf Productions
-Any: 2016
-Durada: 98 minuts
-País: gran Bretanya
-Fotografía: Ben Davis
-Música: Adam Cork
-Intèrprets: Colin Firth, Jude Law, Nicole Kidman, Laura Linney, Guy Pearce, Dominic West,Vanessa Kirby, Demetri Goritsas, Katherine Kingsley, Andrew Byron, Leon Seth
-Ambientada en els temps de Max Perkins (Colin Firth), l'editor de llibres més admirat del món i qui va presentar al públic els més reconeguts escriptors del segle XX. Compromés amb el talent i el seu foment, va ser la persona darrere de grans figures literàries com Scott Fitgerald, Hemingway o Wolfe.</desc>
+  <programme start="20261024193259 +0200" stop="20261024212125 +0200" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
