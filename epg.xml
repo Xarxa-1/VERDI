@@ -3,34 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261025112817 +0100" stop="20261025130707 +0100" channel="tem1">
-    <title lang="ca">L'editor de llibres</title>
-    <desc lang="ca">L'EDITOR DE LLIBRES (Genius)
-Direcció: Michael Grandage
-Guió: John Logan (Llibre: A.Scott Berg)
-Producció: Riverstone Pictures / Michael Grandage Company / Desert Wolf Productions
-Any: 2016
-Durada: 98 minuts
-País: gran Bretanya
-Fotografía: Ben Davis
-Música: Adam Cork
-Intèrprets: Colin Firth, Jude Law, Nicole Kidman, Laura Linney, Guy Pearce, Dominic West,Vanessa Kirby, Demetri Goritsas, Katherine Kingsley, Andrew Byron, Leon Seth
-Ambientada en els temps de Max Perkins (Colin Firth), l'editor de llibres més admirat del món i qui va presentar al públic els més reconeguts escriptors del segle XX. Compromés amb el talent i el seu foment, va ser la persona darrere de grans figures literàries com Scott Fitgerald, Hemingway o Wolfe.</desc>
+  <programme start="20261025153343 +0100" stop="20261025172209 +0100" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261025130707 +0100" stop="20261025153343 +0100" channel="tem1">
-    <title lang="ca">Novel·la criminal</title>
-    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
-Direcció: Michele Placido
-Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
-Producció: Cattleya, Babe Film, Warner Bros.
-Any: 2005
-Durada: 147
-País: Itàlia
-Música: Paolo Buonvino
-Fotografia: Luca Bigazzi
-Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
-Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
+  <programme start="20261025172209 +0100" stop="20261025190801 +0100" channel="tem1">
+    <title lang="ca">Tren de nit a Lisboa</title>
+    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
+Direcció: Bille August
+Guió: Ulrich Herrmann, Greg Latter.
+Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
+Any: 2013
+Durada: 110
+País: Alemanya
+Música: Annette Focks
+Fotografia: Filip Zumbrunn
+Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
+El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
