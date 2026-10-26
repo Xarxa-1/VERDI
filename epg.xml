@@ -3,31 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261026060000 +0100" stop="20261026073135 +0100" channel="tem1">
-    <title lang="ca">L'irlandès</title>
-    <desc lang="ca">L'IRLANDÈS (The guard)
-Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
-Direcció i guió: John Michael McDonagh
-Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
-Idioma versió original: anglès
-Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
-Durada: 92 minuts
-Fotografia: Larry Smith
-Música: Calexico</desc>
+  <programme start="20261026140835 +0100" stop="20261026154705 +0100" channel="tem1">
+    <title lang="ca">Un home ideal</title>
+    <desc lang="ca">UN HOME IDEAL (Un home ideal)
+Direcció: Yann Gozlan
+Guió: Yann Gozlan, Guillaume Lemans, Grégoire Vigneron
+Producció: 2425 Films / Mars Films / TF1 Films Production / Wy Productions
+País de producció: França
+Any: 2015
+Durada: 98 minuts
+Fotografía: Antoine Roch
+Música: Cyrille Aufort
+Intèrprets: Pierre Niney, Ana Girardot, Ludovic Berthillot, Valeria Cavalli, Marc Barbé,André Marcon, Laurent Grévill, Thibault Vinçon
+En Mathieu Vasseur és un aspirant a ser escriptor que no aconsegueix que li publiquin res. Treballa en una empresa que es dedica a buidar pisos quan la gent els deixa o es mor. En una casa d'aquestes, el llogater de la qual s'acaba de morir, en Mathieu troba un manuscrit que explica les vivències d'un soldat a la guerra d'Algèria. Li posa un títol i fa veure que l'ha escrit ell. La novel·la resulta ser un èxit. Arran d'això coneix una noia que ja li agradava i aconsegueix que sigui la seva parella. Amb el temps, quan l'editorial li demana una segona novel·la, en Mathieu es veu acorralat i acaba coplicant-se la vida fins al punt que ha de fingir la seva mort per evitar anar a la presó.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261026073135 +0100" stop="20261026092106 +0100" channel="tem1">
-    <title lang="ca">El cas Fischer</title>
-    <desc lang="ca">EL CAS FISHER (Pawn sacrifice)
-Direcció: Edward Zwick
-Guió: Steven Knight (Història: Steven Knight, Stephen J. Rivele, Christopher Wilkinson)
-Producció: Gail Katz Productions / Material Pictures / MICA Entertainment / PalmStar Media / Saga Film
-País de producció: Estats Units
-Any: 2014
-Fotografía: Bradford Young
-Música: James Newton Howard
-Intèrprets: Tobey Maguire, Peter Sarsgaard, Liev Schreiber, Michael Stuhlbarg, Lily Rabe,Conrad Pla, Seamus Davey-Fitzpatrick, Sophie Nélisse, Robin Weigert,Evelyne Brochu, John Maclaren, Andreas Apergis, Ilia Volok, Aiden Lovekamp
-Film que narra la història de la preparació de la llegendària partida d'escacs entre Bobby Fischer, campió nord-americà, i Boris Spasky, campió soviètic. L'enfrontament va tenir lloc el 1972, en plena Guerra Freda, i va ser molt més que un seguit de partides per conquerir el campionat.</desc>
+  <programme start="20261026154705 +0100" stop="20261026173939 +0100" channel="tem1">
+    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
+    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
+Direcció i guió: Joseph Cedar
+Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
+Any: 2016
+País: Estats Units
+Durada: 113 minuts
+Fotografía: Yaron Scharf
+Música: Jun Miyake
+Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
+Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
