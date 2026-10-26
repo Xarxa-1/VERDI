@@ -3,33 +3,31 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261026140835 +0100" stop="20261026154705 +0100" channel="tem1">
-    <title lang="ca">Un home ideal</title>
-    <desc lang="ca">UN HOME IDEAL (Un home ideal)
-Direcció: Yann Gozlan
-Guió: Yann Gozlan, Guillaume Lemans, Grégoire Vigneron
-Producció: 2425 Films / Mars Films / TF1 Films Production / Wy Productions
-País de producció: França
-Any: 2015
-Durada: 98 minuts
-Fotografía: Antoine Roch
-Música: Cyrille Aufort
-Intèrprets: Pierre Niney, Ana Girardot, Ludovic Berthillot, Valeria Cavalli, Marc Barbé,André Marcon, Laurent Grévill, Thibault Vinçon
-En Mathieu Vasseur és un aspirant a ser escriptor que no aconsegueix que li publiquin res. Treballa en una empresa que es dedica a buidar pisos quan la gent els deixa o es mor. En una casa d'aquestes, el llogater de la qual s'acaba de morir, en Mathieu troba un manuscrit que explica les vivències d'un soldat a la guerra d'Algèria. Li posa un títol i fa veure que l'ha escrit ell. La novel·la resulta ser un èxit. Arran d'això coneix una noia que ja li agradava i aconsegueix que sigui la seva parella. Amb el temps, quan l'editorial li demana una segona novel·la, en Mathieu es veu acorralat i acaba coplicant-se la vida fins al punt que ha de fingir la seva mort per evitar anar a la presó.</desc>
+  <programme start="20261026192531 +0100" stop="20261026211357 +0100" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261026154705 +0100" stop="20261026173939 +0100" channel="tem1">
-    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
-    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
-Direcció i guió: Joseph Cedar
-Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
-Any: 2016
-País: Estats Units
-Durada: 113 minuts
-Fotografía: Yaron Scharf
-Música: Jun Miyake
-Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
-Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
+  <programme start="20261026211357 +0100" stop="20261026224959 +0100" channel="tem1">
+    <title lang="ca">Èxit a qualsevol preu</title>
+    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
+Producció: Rank Film i Zupnik Enterprises, 1992
+Direcció: James Foley / Durada: 99 minuts
+Guió: David Mamet, basat en la seva obra teatral
+Fotografia: Juan Ruíz Anchía (color)
+Música: James Newton Howard
+Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
+Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
