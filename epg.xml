@@ -3,20 +3,6 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261026001500 +0100" stop="20261026020518 +0100" channel="tem1">
-    <title lang="ca">Disparant als gossos</title>
-    <desc lang="ca">DISPARANT ALS GOSSOS (Shooting dogs)
-Idioma versió original: anglès
-Producció: CrossDay Productions Ltd., ARTE, BBC Films, Egoli Tossell Film, UK Film Council i ZDF, 2005 (Gran Bretanya i Alemanya)
-Direcció: Michael Caton-Jones
-Durada: 111 minuts
-Guió: David Wolstencroft, basat en un argument de Richard Alwyn i David Belton
-Fotografia: Ivan Strasburg (color)
-Música: Dario Marianelli
-Intèrprets: Hugh Dancy (Joe Connor), John Hurt (Christopher), Clare-Hope Ashitey (Marie), Dominique Horwitz (Charles Delon), Louis Mahoney (Sibomana), Nicola Walker (Rachel)
-Joe Connor viatja a Ruanda per fer de mestre. Quan l'escola on treballa es converteix en un refugi per als ruandesos que s'escapen del genocidi, Joe promet a Marie, la seva millor alumna, que les tropes de l'ONU els protegiran. Però, amb el temps, els soldats de les Nacions Unides abandonen els refugiats i arriba el moment d'un dilema per a Joe: quedar-se o retornar al seu país i abandonar els seus alumnes.</desc>
-    <category lang="ca">Pel·lícula</category>
-  </programme>
   <programme start="20261026020518 +0100" stop="20261026034351 +0100" channel="tem1">
     <title lang="ca">Mesures extremes</title>
     <desc lang="ca">MESURES EXTREMES (Eiöurinn)
@@ -31,6 +17,20 @@ Intèrprets: Baltasar Kormákur, Hera Hilmar, Gísli Örn Garðarsson, Margrét 
 
 Finnur és un cirurgià preocupat per la seva filla Anna, que ha abandonat els estudis i consumeix drogues. El pare de la noia s'assabenta que el xicot d'ella, Óttar, fa de camell i, pensant que és una mala companyia, prova de fer-los trencar la relació. Però ni Anna ni Óttar tenen cap intenció de deixar-ho. Finnur denuncia a la policia que ha trobat droga a casa del noi. Óttar l'adverteix que no es continuï ficant en la seva vida, li exigeix el pagament de la droga confiscada i l'amenaça. Llavors, després de veure un pare que ha estat víctima d'un ajustament de comptes similar, Finnur comença a planejar la desaparició d'Óttar, però les coses es torcen i la situació empitjora. 
 </desc>
+    <category lang="ca">Pel·lícula</category>
+  </programme>
+  <programme start="20261026034351 +0100" stop="20261026060000 +0100" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
