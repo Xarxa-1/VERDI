@@ -3,32 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261102010307 +0100" stop="20261102023442 +0100" channel="tem1">
-    <title lang="ca">L'irlandès</title>
-    <desc lang="ca">L'IRLANDÈS (The guard)
-Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
-Direcció i guió: John Michael McDonagh
-Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
+  <programme start="20261102074745 +0100" stop="20261102091545 +0100" channel="tem1">
+    <title lang="ca">La mirada de l'amor</title>
+    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
+Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
+Direcció: Arie Posin
+Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
+Guió: Arie Posin i Matthew McDuffie
+Música: Marcelo Zarvos
+Fotografia: Antonio Riestra
+Durada: 87 minuts
 Idioma versió original: anglès
-Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
-Durada: 92 minuts
-Fotografia: Larry Smith
-Música: Calexico</desc>
+Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261102023442 +0100" stop="20261102041608 +0100" channel="tem1">
-    <title lang="ca">L'escàndol Ted Kennedy</title>
-    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
-Direcció: John Curran
-Guió: Taylor Allen, Andrew Logan
-Música: Adam Wiltzie
-Fotografia: Maryse Alberti
-Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
-Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
-SINOPSI:
-L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
-
-</desc>
+  <programme start="20261102091545 +0100" stop="20261102110411 +0100" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
