@@ -3,31 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261101215106 +0100" stop="20261101232708 +0100" channel="tem1">
-    <title lang="ca">Èxit a qualsevol preu</title>
-    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
-Producció: Rank Film i Zupnik Enterprises, 1992
-Direcció: James Foley / Durada: 99 minuts
-Guió: David Mamet, basat en la seva obra teatral
-Fotografia: Juan Ruíz Anchía (color)
-Música: James Newton Howard
-Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
-Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
-</desc>
+  <programme start="20261102010307 +0100" stop="20261102023442 +0100" channel="tem1">
+    <title lang="ca">L'irlandès</title>
+    <desc lang="ca">L'IRLANDÈS (The guard)
+Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
+Direcció i guió: John Michael McDonagh
+Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
+Idioma versió original: anglès
+Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
+Durada: 92 minuts
+Fotografia: Larry Smith
+Música: Calexico</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261101232708 +0100" stop="20261102010307 +0100" channel="tem1">
-    <title lang="ca">El viatger</title>
-    <desc lang="ca">EL VIATGER (Traveller)
- 
-Producció: Banner Entertainment, 1997
-Direcció: Jack Green / Durada: 93 minuts
-Guió: Jim McGlynn
-Fotografia: David Blocker (color)
-Música: Andy Paley 
-Intèrprets: Bill Paxton (Bokky), Mark Wahlberg (Pat), Julianna Margulies (Jean), James Gammon (Doble D), Luke Askew ((Boss Jack), Nikki Deloach (Kate).
- 
-Quan Pat O'Hara torna a la terra de la seva família a enterrar el pare, vol recuperar les arrels rurals del seu clan. No li resulta fàcil adaptar-se a la vida nòmada de la seva gent ni practicar l'art de l'estafa tal com ells saben fer, i encara menys jugar-se la vida quan els estafats els persegueixen a trets.</desc>
+  <programme start="20261102023442 +0100" stop="20261102041608 +0100" channel="tem1">
+    <title lang="ca">L'escàndol Ted Kennedy</title>
+    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
+Direcció: John Curran
+Guió: Taylor Allen, Andrew Logan
+Música: Adam Wiltzie
+Fotografia: Maryse Alberti
+Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
+Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
+SINOPSI:
+L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
+
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
