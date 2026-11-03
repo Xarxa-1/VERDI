@@ -3,24 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261103124454 +0100" stop="20261103143239 +0100" channel="tem1">
-    <title lang="ca">DE BÈSTIES I BESTIOLES</title>
-    <desc lang="ca">En la seva infància, Bobby va patir un accident que el va deixar discapacitat psíquicament. Ha crescut protegit del món exterior, però la mort de la seva mare el deixa sol amb el padrastre, un home sense escrúpols que l'amenaça de tancar-lo en un psiquiàtric si no firma la renúncia a la seva herència. Bobby no cedeix i decideix escapar-se. Durant el viatge es troba un personatge crucial en la seva vida.</desc>
+  <programme start="20261103183032 +0100" stop="20261103195832 +0100" channel="tem1">
+    <title lang="ca">La mirada de l'amor</title>
+    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
+Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
+Direcció: Arie Posin
+Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
+Guió: Arie Posin i Matthew McDuffie
+Música: Marcelo Zarvos
+Fotografia: Antonio Riestra
+Durada: 87 minuts
+Idioma versió original: anglès
+Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261103143239 +0100" stop="20261103164201 +0100" channel="tem1">
-    <title lang="ca">Connexió Marsella</title>
-    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
-Direcció: Cédric Jimenez
-Guió: Audrey Diwan, Cédric Jimenez
-Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
-Any: 2014
-Durada: 135
-País: França
-Música: Guillaume Roussel
-Fotografia: Laurent Tangy
-Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
-Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
+  <programme start="20261103195832 +0100" stop="20261103215106 +0100" channel="tem1">
+    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
+    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
+Direcció i guió: Joseph Cedar
+Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
+Any: 2016
+País: Estats Units
+Durada: 113 minuts
+Fotografía: Yaron Scharf
+Música: Jun Miyake
+Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
+Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
