@@ -3,32 +3,31 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261103183032 +0100" stop="20261103195832 +0100" channel="tem1">
-    <title lang="ca">La mirada de l'amor</title>
-    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
-Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
-Direcció: Arie Posin
-Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
-Guió: Arie Posin i Matthew McDuffie
-Música: Marcelo Zarvos
-Fotografia: Antonio Riestra
-Durada: 87 minuts
-Idioma versió original: anglès
-Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
+  <programme start="20261103232708 +0100" stop="20261104010307 +0100" channel="tem1">
+    <title lang="ca">El viatger</title>
+    <desc lang="ca">EL VIATGER (Traveller)
+ 
+Producció: Banner Entertainment, 1997
+Direcció: Jack Green / Durada: 93 minuts
+Guió: Jim McGlynn
+Fotografia: David Blocker (color)
+Música: Andy Paley 
+Intèrprets: Bill Paxton (Bokky), Mark Wahlberg (Pat), Julianna Margulies (Jean), James Gammon (Doble D), Luke Askew ((Boss Jack), Nikki Deloach (Kate).
+ 
+Quan Pat O'Hara torna a la terra de la seva família a enterrar el pare, vol recuperar les arrels rurals del seu clan. No li resulta fàcil adaptar-se a la vida nòmada de la seva gent ni practicar l'art de l'estafa tal com ells saben fer, i encara menys jugar-se la vida quan els estafats els persegueixen a trets.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261103195832 +0100" stop="20261103215106 +0100" channel="tem1">
-    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
-    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
-Direcció i guió: Joseph Cedar
-Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
-Any: 2016
-País: Estats Units
-Durada: 113 minuts
-Fotografía: Yaron Scharf
-Música: Jun Miyake
-Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
-Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
+  <programme start="20261104010307 +0100" stop="20261104023442 +0100" channel="tem1">
+    <title lang="ca">L'irlandès</title>
+    <desc lang="ca">L'IRLANDÈS (The guard)
+Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
+Direcció i guió: John Michael McDonagh
+Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
+Idioma versió original: anglès
+Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
+Durada: 92 minuts
+Fotografia: Larry Smith
+Música: Calexico</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
