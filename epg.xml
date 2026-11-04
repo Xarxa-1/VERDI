@@ -3,31 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261103232708 +0100" stop="20261104010307 +0100" channel="tem1">
-    <title lang="ca">El viatger</title>
-    <desc lang="ca">EL VIATGER (Traveller)
- 
-Producció: Banner Entertainment, 1997
-Direcció: Jack Green / Durada: 93 minuts
-Guió: Jim McGlynn
-Fotografia: David Blocker (color)
-Música: Andy Paley 
-Intèrprets: Bill Paxton (Bokky), Mark Wahlberg (Pat), Julianna Margulies (Jean), James Gammon (Doble D), Luke Askew ((Boss Jack), Nikki Deloach (Kate).
- 
-Quan Pat O'Hara torna a la terra de la seva família a enterrar el pare, vol recuperar les arrels rurals del seu clan. No li resulta fàcil adaptar-se a la vida nòmada de la seva gent ni practicar l'art de l'estafa tal com ells saben fer, i encara menys jugar-se la vida quan els estafats els persegueixen a trets.</desc>
+  <programme start="20261104041608 +0100" stop="20261104060000 +0100" channel="tem1">
+    <title lang="ca">Fanàtica</title>
+    <desc lang="ca">FANÀTICA (Swimfan)
+Idioma versió original: anglès 
+Producció: Cobalt Media, Greene Street, Further Films i Forrest Films, 2002 (Estats Units)
+Direcció: John Polson / Durada: 84 minuts
+Guió: Charles F. Bohl i Phillip Schneider
+Fotografia: Giles Nuttgens (color)
+Música: John Debney
+Intèrprets: Jesse Bradford (Ben Cronin), Erika Christiensen (Madison Bell), Shiri Appleby (Amy Miller), Kate Burton (Carla Cronin), Clayne Crawford (Josh), Jason Riter (Randy)
+Ben Cronin ho té pràcticament tot: amics, nòvia, prestigi per la seva activitat esportiva i una feina a l'hospital. Però tot se'n va en orris quan apareix Madison Bell, una noia que immediatament impressiona Ben. La relació entre ells dos es torna obsessiva: ella cada cop li absorbeix més la vida i l'embarca en una espiral de malson.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261104010307 +0100" stop="20261104023442 +0100" channel="tem1">
-    <title lang="ca">L'irlandès</title>
-    <desc lang="ca">L'IRLANDÈS (The guard)
-Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
-Direcció i guió: John Michael McDonagh
-Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
-Idioma versió original: anglès
-Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
-Durada: 92 minuts
-Fotografia: Larry Smith
-Música: Calexico</desc>
+  <programme start="20261104060000 +0100" stop="20261104074126 +0100" channel="tem1">
+    <title lang="ca">L'escàndol Ted Kennedy</title>
+    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
+Direcció: John Curran
+Guió: Taylor Allen, Andrew Logan
+Música: Adam Wiltzie
+Fotografia: Maryse Alberti
+Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
+Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
+SINOPSI:
+L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
+
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
