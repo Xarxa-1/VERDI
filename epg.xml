@@ -3,33 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261104181818 +0100" stop="20261104200411 +0100" channel="tem1">
-    <title lang="ca">Tren de nit a Lisboa</title>
-    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
-Direcció: Bille August
-Guió: Ulrich Herrmann, Greg Latter.
-Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
-Any: 2013
-Durada: 110
-País: Alemanya
-Música: Annette Focks
-Fotografia: Filip Zumbrunn
-Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
-El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
+  <programme start="20261105000138 +0100" stop="20261105013939 +0100" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261104200411 +0100" stop="20261104220638 +0100" channel="tem1">
-    <title lang="ca">Grans esperances</title>
-    <desc lang="ca">GRANS ESPERANCES (Great expectations)
-El fill d'un ferrer molt humil vol convertir-se en un cavaller. Gràcies als diners donats per un benefactor anònim, el jove pot anar a Londres a estudiar. D'aquesta manera, troba l'oportunitat d'apropar-se a la noia de qui està enamorat des que era un nen, neboda d'una aristòcrata. Nova adaptació de la novel·la homònima de Charles Dickens.
-Direcció: Mike Newell
-Intèrprets: Jeremy Irvine, Ralph Fiennes, Helena Bonham Carter, Holliday Grainger, Robbie Coltrane, Olly Alexander, Jason Flemyng, David Walliams, Sally Hawkins, Jessie Cave, Toby Irvine, Ewen Bremner, Ralph Ineson, Richard James
-Idioma versió original: anglès
-Producció: BBC Films, 2012 (Gran Bretanya)
-Durada: 123 minuts
-Guió: David Nicholls, basat en la novel·la homònima de Charles Dickens
-Fotografia: John Mathieson
-Música: Richard Hartley</desc>
+  <programme start="20261105013939 +0100" stop="20261105031619 +0100" channel="tem1">
+    <title lang="ca">Four lions</title>
+    <desc lang="ca">FOUR LIONS 'Four Lions'
+Direcció: Chris Morris
+Guió: Jesse Armstrong, Sam Bain, Chris Morris, Simon Blackwell
+Producció: Wild Bunch, Film4 Productions, Optimum Releasing, Warp Films
+Any: 2010
+Durada: 94
+País: Regne Unit
+Fotografia: Lol Crawley
+Intèrprets: Riz Ahmed, Kayvan Novak, Nigel Lindsay, Adeel Akhtar, Arsher Ali, Preeya Kalidas, Julia Davis, Craig Parkinson, Wasim Zakir, Mohammad Aqil, Waleed Elgadi, Alex MacQueen, Marcus Garvey, Benedict Cumberbatch
+L'Omar, un musulmà radical de nacionalitat anglesa, ha creat una cèl·lula terrorista de la qual formen part el seu germà Waj, un noi molt simple; en Barry, un extremista que odia els blancs, i en Fessal, un aprensiu fabricant de bombes. Mentre l'Omar i en Waj són al Pakistan en un camp d'entrenament mujahidí, en Barry recluta en Hassan, un aspirant a raper. Quan l'Omar torna a la Gran Bretanya, porta amb ell un pla: un atac suïcida amb bomba contra un objectiu occidental insòlit.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
