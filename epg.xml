@@ -3,33 +3,24 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261105031619 +0100" stop="20261105060000 +0100" channel="tem1">
-    <title lang="ca">Novel·la criminal</title>
-    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
-Direcció: Michele Placido
-Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
-Producció: Cattleya, Babe Film, Warner Bros.
-Any: 2005
-Durada: 147
-País: Itàlia
-Música: Paolo Buonvino
-Fotografia: Luca Bigazzi
-Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
-Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
+  <programme start="20261105123632 +0100" stop="20261105142417 +0100" channel="tem1">
+    <title lang="ca">DE BÈSTIES I BESTIOLES</title>
+    <desc lang="ca">En la seva infància, Bobby va patir un accident que el va deixar discapacitat psíquicament. Ha crescut protegit del món exterior, però la mort de la seva mare el deixa sol amb el padrastre, un home sense escrúpols que l'amenaça de tancar-lo en un psiquiàtric si no firma la renúncia a la seva herència. Bobby no cedeix i decideix escapar-se. Durant el viatge es troba un personatge crucial en la seva vida.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261105060000 +0100" stop="20261105074009 +0100" channel="tem1">
-    <title lang="ca">Un cop de sort</title>
-    <desc lang="ca">UN COP DE SORT (The big white)
-La pel·lícula explica les aventures i desventures de Paul Barnell, un home que té una agència de viatges a Alaska. La seva dona pateix una malaltia mental degenerativa i Paul decideix utilitzar un cadàver que ha aparegut en un abocador per intentar cobrar l'assegurança de vida del seu germà Raymond, de qui fa molts anys que no sap res, amb l'esperança que, amb els diners, puguin marxar a un lloc més càlid on la seva dona es trobi més bé.
-Idioma versió original: anglès
-Producció: Ascendant Pictures, 2005 (Estats Units)
-Direcció: Mark Mylod
-Durada: 100 minuts
-Guió: Collin Friesen
-Fotografia: James Glennon
-Música: Mark Mothersbaugh
-Intèrprets: Robin Williams, Holly Hunter, Giovanni Ribisi, Woody Harrelson, Tim Blake Nelson, Alison Lohman</desc>
+  <programme start="20261105142417 +0100" stop="20261105163339 +0100" channel="tem1">
+    <title lang="ca">Connexió Marsella</title>
+    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
+Direcció: Cédric Jimenez
+Guió: Audrey Diwan, Cédric Jimenez
+Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
+Any: 2014
+Durada: 135
+País: França
+Música: Guillaume Roussel
+Fotografia: Laurent Tangy
+Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
+Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
