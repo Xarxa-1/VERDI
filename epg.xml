@@ -3,24 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261105123632 +0100" stop="20261105142417 +0100" channel="tem1">
-    <title lang="ca">DE BÈSTIES I BESTIOLES</title>
-    <desc lang="ca">En la seva infància, Bobby va patir un accident que el va deixar discapacitat psíquicament. Ha crescut protegit del món exterior, però la mort de la seva mare el deixa sol amb el padrastre, un home sense escrúpols que l'amenaça de tancar-lo en un psiquiàtric si no firma la renúncia a la seva herència. Bobby no cedeix i decideix escapar-se. Durant el viatge es troba un personatge crucial en la seva vida.</desc>
+  <programme start="20261105201205 +0100" stop="20261105221432 +0100" channel="tem1">
+    <title lang="ca">Grans esperances</title>
+    <desc lang="ca">GRANS ESPERANCES (Great expectations)
+El fill d'un ferrer molt humil vol convertir-se en un cavaller. Gràcies als diners donats per un benefactor anònim, el jove pot anar a Londres a estudiar. D'aquesta manera, troba l'oportunitat d'apropar-se a la noia de qui està enamorat des que era un nen, neboda d'una aristòcrata. Nova adaptació de la novel·la homònima de Charles Dickens.
+Direcció: Mike Newell
+Intèrprets: Jeremy Irvine, Ralph Fiennes, Helena Bonham Carter, Holliday Grainger, Robbie Coltrane, Olly Alexander, Jason Flemyng, David Walliams, Sally Hawkins, Jessie Cave, Toby Irvine, Ewen Bremner, Ralph Ineson, Richard James
+Idioma versió original: anglès
+Producció: BBC Films, 2012 (Gran Bretanya)
+Durada: 123 minuts
+Guió: David Nicholls, basat en la novel·la homònima de Charles Dickens
+Fotografia: John Mathieson
+Música: Richard Hartley</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261105142417 +0100" stop="20261105163339 +0100" channel="tem1">
-    <title lang="ca">Connexió Marsella</title>
-    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
-Direcció: Cédric Jimenez
-Guió: Audrey Diwan, Cédric Jimenez
-Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
-Any: 2014
-Durada: 135
-País: França
-Música: Guillaume Roussel
-Fotografia: Laurent Tangy
-Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
-Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
+  <programme start="20261105221432 +0100" stop="20261105235113 +0100" channel="tem1">
+    <title lang="ca">Four lions</title>
+    <desc lang="ca">FOUR LIONS 'Four Lions'
+Direcció: Chris Morris
+Guió: Jesse Armstrong, Sam Bain, Chris Morris, Simon Blackwell
+Producció: Wild Bunch, Film4 Productions, Optimum Releasing, Warp Films
+Any: 2010
+Durada: 94
+País: Regne Unit
+Fotografia: Lol Crawley
+Intèrprets: Riz Ahmed, Kayvan Novak, Nigel Lindsay, Adeel Akhtar, Arsher Ali, Preeya Kalidas, Julia Davis, Craig Parkinson, Wasim Zakir, Mohammad Aqil, Waleed Elgadi, Alex MacQueen, Marcus Garvey, Benedict Cumberbatch
+L'Omar, un musulmà radical de nacionalitat anglesa, ha creat una cèl·lula terrorista de la qual formen part el seu germà Waj, un noi molt simple; en Barry, un extremista que odia els blancs, i en Fessal, un aprensiu fabricant de bombes. Mentre l'Omar i en Waj són al Pakistan en un camp d'entrenament mujahidí, en Barry recluta en Hassan, un aspirant a raper. Quan l'Omar torna a la Gran Bretanya, porta amb ell un pla: un atac suïcida amb bomba contra un objectiu occidental insòlit.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
