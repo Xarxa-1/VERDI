@@ -3,33 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261107072757 +0100" stop="20261107091349 +0100" channel="tem1">
-    <title lang="ca">Tren de nit a Lisboa</title>
-    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
-Direcció: Bille August
-Guió: Ulrich Herrmann, Greg Latter.
-Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
-Any: 2013
-Durada: 110
-País: Alemanya
-Música: Annette Focks
-Fotografia: Filip Zumbrunn
-Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
-El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
+  <programme start="20261107142516 +0100" stop="20261107165152 +0100" channel="tem1">
+    <title lang="ca">Novel·la criminal</title>
+    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
+Direcció: Michele Placido
+Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
+Producció: Cattleya, Babe Film, Warner Bros.
+Any: 2005
+Durada: 147
+País: Itàlia
+Música: Paolo Buonvino
+Fotografia: Luca Bigazzi
+Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
+Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261107091349 +0100" stop="20261107110215 +0100" channel="tem1">
-    <title lang="ca">El cas Farewell</title>
-    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
-La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
-Direcció: Christian Carion
-Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
-Idioma versió original: francès
-Producció: France 2, 2009 (França)
-Durada: 108 minuts
-Guió: Eric Raynaud, basat en fets reals
-Fotografia: Walther van den Ende
-Música: Clint Mansell</desc>
+  <programme start="20261107165152 +0100" stop="20261107185419 +0100" channel="tem1">
+    <title lang="ca">Grans esperances</title>
+    <desc lang="ca">GRANS ESPERANCES (Great expectations)
+El fill d'un ferrer molt humil vol convertir-se en un cavaller. Gràcies als diners donats per un benefactor anònim, el jove pot anar a Londres a estudiar. D'aquesta manera, troba l'oportunitat d'apropar-se a la noia de qui està enamorat des que era un nen, neboda d'una aristòcrata. Nova adaptació de la novel·la homònima de Charles Dickens.
+Direcció: Mike Newell
+Intèrprets: Jeremy Irvine, Ralph Fiennes, Helena Bonham Carter, Holliday Grainger, Robbie Coltrane, Olly Alexander, Jason Flemyng, David Walliams, Sally Hawkins, Jessie Cave, Toby Irvine, Ewen Bremner, Ralph Ineson, Richard James
+Idioma versió original: anglès
+Producció: BBC Films, 2012 (Gran Bretanya)
+Durada: 123 minuts
+Guió: David Nicholls, basat en la novel·la homònima de Charles Dickens
+Fotografia: John Mathieson
+Música: Richard Hartley</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
