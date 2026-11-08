@@ -3,44 +3,34 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261108142726 +0100" stop="20261108164349 +0100" channel="tem1">
-    <title lang="ca">Retorn a Howards End</title>
-    <desc lang="ca">RETORN A HOWARDS END (Howards End)-dual-
-Producció: Warner i Merchant Ivory Productions (Gran Bretanya), 1991
-Direcció: James Ivory / Durada: 143 minuts
-Guió: Ruth Prawer Jhabvala, basat en la novel.la d'E.M. Forster
-Fotografia: Tony Pierce-Roberts (color)
-Música: Richard Robbins
-Intèrprets:Vanessa Redgrave (Ruth Wilcox)
-Helena Bonham-Carter (Helen Schlegel)
-Emma Thompson (Margaret Schlegel)
-Anthony Hopkins (Henry Wilcox)
-Joseph Bennett (Paul Wilcox)
-Prunella Scales (tieta Juley)
-
-Margaret i Helen Schegel són dues germanes cultes, intel.ligents i, tenint en compte l'ambient 
-del Londres de principis de segle, força emancipades. Fan amistat amb la família Wilcox, una 
-gent rica i convencional, i Helen s'enamora del jove Paul Wilcox. Però l'idil·li acaba malament i 
-les dues famílies deixen de relacionar-se. Es retroben casualment i Margaret es fa tan amiga de 
-la senyora Wilcox que, quan ella mor, li deixa en testament la mansió campestre de Howards 
-End. Helen hi és indiferent, dedicada completament a ajudar un pobre escrivent amb dificultats 
-econòmiques. La família Wilcox reacciona molt malament davant del testament, però el vidu 
-Wilcox reprèn el contacte amb Margaret i s'hi casa.</desc>
+  <programme start="20261108182941 +0100" stop="20261108210509 +0100" channel="tem1">
+    <title lang="ca">El que el dia deu a la nit</title>
+    <desc lang="ca">EL QUE EL DIA DEU A LA NIT (Ce que le jour doit à la nuit)
+Direcció: Alexandre Arcady
+Guió: Alexandre Arcady, Daniel Saint-Hamont (Novel·la: Yasmina Khadra)
+Producció: Alexandre Films / BE-FILMS / uFilm
+País de producció: França
+Any de producció: 2012
+Idioma versió original: Francès
+Durada: 155 minuts
+Intèrprets: Nora Arnezeder, Fu'ad Aït Aattou, Anne Parillaud, Vincent Perez, Anne Consigny, Mohamed Fellag, Nicolas Giraud, Olivier Barthelemy, Matthias Van Khache, Pierre Abbou, Tayeb Belmihoub, Salim Kechiouche, Marine Vacth
+Música: Armand Amar
+Fotografía: Gilles Henry
+Younes té 9 anys quan el seu pare queda arriuïnat i el confia al seu oncle, un farmacèutic integrat a la comunitat occidental d'Oran. Ara, el seu nou nom és Jonas, i creix entre colons joves dels que es fa amic inseparable i amb els que descobreix l'alegria d'una existència privilegiada malgrat la Segona Guerra Mundial. La seva complicitat fraternal serà posada a prova per l'arribada de l'Emilie, una jove fascinant que esdevindrà objecte del desig de tots ells.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261108164349 +0100" stop="20261108182941 +0100" channel="tem1">
-    <title lang="ca">Tren de nit a Lisboa</title>
-    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
-Direcció: Bille August
-Guió: Ulrich Herrmann, Greg Latter.
-Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
-Any: 2013
-Durada: 110
-País: Alemanya
-Música: Annette Focks
-Fotografia: Filip Zumbrunn
-Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
-El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
+  <programme start="20261108210509 +0100" stop="20261108225743 +0100" channel="tem1">
+    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
+    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
+Direcció i guió: Joseph Cedar
+Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
+Any: 2016
+País: Estats Units
+Durada: 113 minuts
+Fotografía: Yaron Scharf
+Música: Jun Miyake
+Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
+Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
