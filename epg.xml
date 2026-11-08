@@ -3,34 +3,34 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261108182941 +0100" stop="20261108210509 +0100" channel="tem1">
-    <title lang="ca">El que el dia deu a la nit</title>
-    <desc lang="ca">EL QUE EL DIA DEU A LA NIT (Ce que le jour doit à la nuit)
-Direcció: Alexandre Arcady
-Guió: Alexandre Arcady, Daniel Saint-Hamont (Novel·la: Yasmina Khadra)
-Producció: Alexandre Films / BE-FILMS / uFilm
-País de producció: França
-Any de producció: 2012
-Idioma versió original: Francès
-Durada: 155 minuts
-Intèrprets: Nora Arnezeder, Fu'ad Aït Aattou, Anne Parillaud, Vincent Perez, Anne Consigny, Mohamed Fellag, Nicolas Giraud, Olivier Barthelemy, Matthias Van Khache, Pierre Abbou, Tayeb Belmihoub, Salim Kechiouche, Marine Vacth
-Música: Armand Amar
-Fotografía: Gilles Henry
-Younes té 9 anys quan el seu pare queda arriuïnat i el confia al seu oncle, un farmacèutic integrat a la comunitat occidental d'Oran. Ara, el seu nou nom és Jonas, i creix entre colons joves dels que es fa amic inseparable i amb els que descobreix l'alegria d'una existència privilegiada malgrat la Segona Guerra Mundial. La seva complicitat fraternal serà posada a prova per l'arribada de l'Emilie, una jove fascinant que esdevindrà objecte del desig de tots ells.</desc>
+  <programme start="20261108225743 +0100" stop="20261109003909 +0100" channel="tem1">
+    <title lang="ca">L'escàndol Ted Kennedy</title>
+    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
+Direcció: John Curran
+Guió: Taylor Allen, Andrew Logan
+Música: Adam Wiltzie
+Fotografia: Maryse Alberti
+Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
+Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
+SINOPSI:
+L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
+
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261108210509 +0100" stop="20261108225743 +0100" channel="tem1">
-    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
-    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
-Direcció i guió: Joseph Cedar
-Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
-Any: 2016
-País: Estats Units
-Durada: 113 minuts
-Fotografía: Yaron Scharf
-Música: Jun Miyake
-Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
-Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
+  <programme start="20261109003909 +0100" stop="20261109022750 +0100" channel="tem1">
+    <title lang="ca">13 minuts per matar Hitler</title>
+    <desc lang="ca">13 MINUTS PER MATAR HITLER 'Elser'
+Direcció: Oliver Hirschbiegel
+Guió: Léonie-Claire Breinersdorfer, Fred Breinersdorfer
+Producció: Lucky Bird Pictures, Delphi Medien, Philipp Filmproduction
+Any: 2015
+Durada: 110
+País: Alemanya
+Música: David Holmes
+Fotografia: Judith Kaufmann
+Intèrprets: Christian Friedel, Katharina Schüttler, Burghart Klaußner, Johann von Bülow, Felix Eitner, David Zimmerschied, Rüdiger Klink, Simon Licht, Cornelia Köndgen, Martin Maria Abram 
+Història de George Elser, el fuster de la Resistència que va intentar assassinar Hitler a Múnic el 8 de novembre del 1939. Per només 13 minuts de diferència, si el führer no hagués abandonat el podi abans del que estava previst, podria haver canviat la història.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
