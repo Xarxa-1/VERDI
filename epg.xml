@@ -3,33 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261108011102 +0100" stop="20261108033738 +0100" channel="tem1">
-    <title lang="ca">Novel·la criminal</title>
-    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
-Direcció: Michele Placido
-Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
-Producció: Cattleya, Babe Film, Warner Bros.
-Any: 2005
-Durada: 147
-País: Itàlia
-Música: Paolo Buonvino
-Fotografia: Luca Bigazzi
-Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
-Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
+  <programme start="20261108073602 +0100" stop="20261108090402 +0100" channel="tem1">
+    <title lang="ca">La mirada de l'amor</title>
+    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
+Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
+Direcció: Arie Posin
+Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
+Guió: Arie Posin i Matthew McDuffie
+Música: Marcelo Zarvos
+Fotografia: Antonio Riestra
+Durada: 87 minuts
+Idioma versió original: anglès
+Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261108033738 +0100" stop="20261108060000 +0100" channel="tem1">
-    <title lang="ca">Un cop de sort</title>
-    <desc lang="ca">UN COP DE SORT (The big white)
-La pel·lícula explica les aventures i desventures de Paul Barnell, un home que té una agència de viatges a Alaska. La seva dona pateix una malaltia mental degenerativa i Paul decideix utilitzar un cadàver que ha aparegut en un abocador per intentar cobrar l'assegurança de vida del seu germà Raymond, de qui fa molts anys que no sap res, amb l'esperança que, amb els diners, puguin marxar a un lloc més càlid on la seva dona es trobi més bé.
-Idioma versió original: anglès
-Producció: Ascendant Pictures, 2005 (Estats Units)
-Direcció: Mark Mylod
-Durada: 100 minuts
-Guió: Collin Friesen
-Fotografia: James Glennon
-Música: Mark Mothersbaugh
-Intèrprets: Robin Williams, Holly Hunter, Giovanni Ribisi, Woody Harrelson, Tim Blake Nelson, Alison Lohman</desc>
+  <programme start="20261108090402 +0100" stop="20261108105228 +0100" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
