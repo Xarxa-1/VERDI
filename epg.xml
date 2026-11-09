@@ -3,31 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261109022749 +0100" stop="20261109034914 +0100" channel="tem1">
-    <title lang="ca">Fanàtica</title>
-    <desc lang="ca">FANÀTICA (Swimfan)
-Idioma versió original: anglès 
-Producció: Cobalt Media, Greene Street, Further Films i Forrest Films, 2002 (Estats Units)
-Direcció: John Polson / Durada: 84 minuts
-Guió: Charles F. Bohl i Phillip Schneider
-Fotografia: Giles Nuttgens (color)
-Música: John Debney
-Intèrprets: Jesse Bradford (Ben Cronin), Erika Christiensen (Madison Bell), Shiri Appleby (Amy Miller), Kate Burton (Carla Cronin), Clayne Crawford (Josh), Jason Riter (Randy)
-Ben Cronin ho té pràcticament tot: amics, nòvia, prestigi per la seva activitat esportiva i una feina a l'hospital. Però tot se'n va en orris quan apareix Madison Bell, una noia que immediatament impressiona Ben. La relació entre ells dos es torna obsessiva: ella cada cop li absorbeix més la vida i l'embarca en una espiral de malson.</desc>
+  <programme start="20261109091349 +0100" stop="20261109110215 +0100" channel="tem1">
+    <title lang="ca">El cas Farewell</title>
+    <desc lang="ca">EL CAS FAREWELL (L'affaire Farewell)
+La pel·lícula està basada en fets reals. Durant la Guerra Freda, el coronal del KGB Serguei Grigoriev, se sent defraudat pel règim comunista. El coronel Grigoriev es posa en contacte amb l'enginyer francès Pierrer Froment, a qui proporciona informació confidencial que no triga en arribar al president Mitterrand. Mitterrand alerta al president Reagan sobre l'existència d'una xarxa d'espionatge gràcies a la qual els soviètics coneixen fins al més mínim detall les investigacions científiques, industrials i militars dels països occidentals. Per tot plegat, la vida de Pierre Froment i la de la seva família està en perill.
+Direcció: Christian Carion
+Intèrprets: Emir Kusturica, Guillaume Canet, Ingeborga Dapkunaite, David Soul, Dina Korzun, Philippe Magnan, Niels Arestrup, Yevgeni Kharlanov, Christian Sandström, Willem Dafoe, Aleksey Gorbunov, Mats Långbacka, Alexandra Maria Lara, Lauriane Riquet, Timothé Riquet, Fred Ward
+Idioma versió original: francès
+Producció: France 2, 2009 (França)
+Durada: 108 minuts
+Guió: Eric Raynaud, basat en fets reals
+Fotografia: Walther van den Ende
+Música: Clint Mansell</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261109034914 +0100" stop="20261109060000 +0100" channel="tem1">
-    <title lang="ca">Four lions</title>
-    <desc lang="ca">FOUR LIONS 'Four Lions'
-Direcció: Chris Morris
-Guió: Jesse Armstrong, Sam Bain, Chris Morris, Simon Blackwell
-Producció: Wild Bunch, Film4 Productions, Optimum Releasing, Warp Films
-Any: 2010
-Durada: 94
-País: Regne Unit
-Fotografia: Lol Crawley
-Intèrprets: Riz Ahmed, Kayvan Novak, Nigel Lindsay, Adeel Akhtar, Arsher Ali, Preeya Kalidas, Julia Davis, Craig Parkinson, Wasim Zakir, Mohammad Aqil, Waleed Elgadi, Alex MacQueen, Marcus Garvey, Benedict Cumberbatch
-L'Omar, un musulmà radical de nacionalitat anglesa, ha creat una cèl·lula terrorista de la qual formen part el seu germà Waj, un noi molt simple; en Barry, un extremista que odia els blancs, i en Fessal, un aprensiu fabricant de bombes. Mentre l'Omar i en Waj són al Pakistan en un camp d'entrenament mujahidí, en Barry recluta en Hassan, un aspirant a raper. Quan l'Omar torna a la Gran Bretanya, porta amb ell un pla: un atac suïcida amb bomba contra un objectiu occidental insòlit.</desc>
+  <programme start="20261109110215 +0100" stop="20261109123015 +0100" channel="tem1">
+    <title lang="ca">La mirada de l'amor</title>
+    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
+Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
+Direcció: Arie Posin
+Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
+Guió: Arie Posin i Matthew McDuffie
+Música: Marcelo Zarvos
+Fotografia: Antonio Riestra
+Durada: 87 minuts
+Idioma versió original: anglès
+Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
