@@ -3,34 +3,31 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261110225743 +0100" stop="20261111003909 +0100" channel="tem1">
-    <title lang="ca">L'escàndol Ted Kennedy</title>
-    <desc lang="ca">L'ESCÀNDOL TED KENNEDY (Chappaquiddick)
-Direcció: John Curran
-Guió: Taylor Allen, Andrew Logan
-Música: Adam Wiltzie
-Fotografia: Maryse Alberti
-Repartiment: Jason Clarke, Kate Mara, Bruce Dern, Ed Helms, Jim Gaffigan, Taylor Nichols, John Fiore, Andria Blackman, Lexie Roth, Tamara Hickey, David De Beck, Damien Di Paola, Matthew Lawler, Beth Petrou, Victor Warren
-Gènere: Drama. Thriller. Política. Basada en fets reals dels anys 60
-SINOPSI:
-L'estiu de 1969, dos dies abans que els astronautes nord-americans arribessin a la Lluna, el senador Ted Kennedy, germà de John i de Robert Fitzgerald Kennedy, assassinats quan el primer era president i quan el segon estava fent campanya per ser president dels Estats Units, va tenir un accident de cotxe. El seu vehicle va caure daltabaix d'un pont i va quedar submergit. Ell es va poder salvar, però la dona que l'acompanyava, Mary Jo Kopechne, una jove de 28 anys que havia treballat amb Robert Kennedy, va quedar atrapada a dins del cotxe i hi va perdre la vida. Després de la mort dels seus germans, semblava que li tocava a Ted Kennedy intentar arribar a la presidència dels Estats Units, però aquell incident ho va impedir.
-
-</desc>
+  <programme start="20261111022749 +0100" stop="20261111034914 +0100" channel="tem1">
+    <title lang="ca">Fanàtica</title>
+    <desc lang="ca">FANÀTICA (Swimfan)
+Idioma versió original: anglès 
+Producció: Cobalt Media, Greene Street, Further Films i Forrest Films, 2002 (Estats Units)
+Direcció: John Polson / Durada: 84 minuts
+Guió: Charles F. Bohl i Phillip Schneider
+Fotografia: Giles Nuttgens (color)
+Música: John Debney
+Intèrprets: Jesse Bradford (Ben Cronin), Erika Christiensen (Madison Bell), Shiri Appleby (Amy Miller), Kate Burton (Carla Cronin), Clayne Crawford (Josh), Jason Riter (Randy)
+Ben Cronin ho té pràcticament tot: amics, nòvia, prestigi per la seva activitat esportiva i una feina a l'hospital. Però tot se'n va en orris quan apareix Madison Bell, una noia que immediatament impressiona Ben. La relació entre ells dos es torna obsessiva: ella cada cop li absorbeix més la vida i l'embarca en una espiral de malson.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261111003909 +0100" stop="20261111022750 +0100" channel="tem1">
-    <title lang="ca">13 minuts per matar Hitler</title>
-    <desc lang="ca">13 MINUTS PER MATAR HITLER 'Elser'
-Direcció: Oliver Hirschbiegel
-Guió: Léonie-Claire Breinersdorfer, Fred Breinersdorfer
-Producció: Lucky Bird Pictures, Delphi Medien, Philipp Filmproduction
-Any: 2015
-Durada: 110
-País: Alemanya
-Música: David Holmes
-Fotografia: Judith Kaufmann
-Intèrprets: Christian Friedel, Katharina Schüttler, Burghart Klaußner, Johann von Bülow, Felix Eitner, David Zimmerschied, Rüdiger Klink, Simon Licht, Cornelia Köndgen, Martin Maria Abram 
-Història de George Elser, el fuster de la Resistència que va intentar assassinar Hitler a Múnic el 8 de novembre del 1939. Per només 13 minuts de diferència, si el führer no hagués abandonat el podi abans del que estava previst, podria haver canviat la història.</desc>
+  <programme start="20261111034914 +0100" stop="20261111060000 +0100" channel="tem1">
+    <title lang="ca">Four lions</title>
+    <desc lang="ca">FOUR LIONS 'Four Lions'
+Direcció: Chris Morris
+Guió: Jesse Armstrong, Sam Bain, Chris Morris, Simon Blackwell
+Producció: Wild Bunch, Film4 Productions, Optimum Releasing, Warp Films
+Any: 2010
+Durada: 94
+País: Regne Unit
+Fotografia: Lol Crawley
+Intèrprets: Riz Ahmed, Kayvan Novak, Nigel Lindsay, Adeel Akhtar, Arsher Ali, Preeya Kalidas, Julia Davis, Craig Parkinson, Wasim Zakir, Mohammad Aqil, Waleed Elgadi, Alex MacQueen, Marcus Garvey, Benedict Cumberbatch
+L'Omar, un musulmà radical de nacionalitat anglesa, ha creat una cèl·lula terrorista de la qual formen part el seu germà Waj, un noi molt simple; en Barry, un extremista que odia els blancs, i en Fessal, un aprensiu fabricant de bombes. Mentre l'Omar i en Waj són al Pakistan en un camp d'entrenament mujahidí, en Barry recluta en Hassan, un aspirant a raper. Quan l'Omar torna a la Gran Bretanya, porta amb ell un pla: un atac suïcida amb bomba contra un objectiu occidental insòlit.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
