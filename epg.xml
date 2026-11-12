@@ -3,24 +3,31 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261112123222 +0100" stop="20261112142007 +0100" channel="tem1">
-    <title lang="ca">DE BÈSTIES I BESTIOLES</title>
-    <desc lang="ca">En la seva infància, Bobby va patir un accident que el va deixar discapacitat psíquicament. Ha crescut protegit del món exterior, però la mort de la seva mare el deixa sol amb el padrastre, un home sense escrúpols que l'amenaça de tancar-lo en un psiquiàtric si no firma la renúncia a la seva herència. Bobby no cedeix i decideix escapar-se. Durant el viatge es troba un personatge crucial en la seva vida.</desc>
+  <programme start="20261112200347 +0100" stop="20261112215621 +0100" channel="tem1">
+    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
+    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
+Direcció i guió: Joseph Cedar
+Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
+Any: 2016
+País: Estats Units
+Durada: 113 minuts
+Fotografía: Yaron Scharf
+Música: Jun Miyake
+Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
+Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261112142007 +0100" stop="20261112162929 +0100" channel="tem1">
-    <title lang="ca">Connexió Marsella</title>
-    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
-Direcció: Cédric Jimenez
-Guió: Audrey Diwan, Cédric Jimenez
-Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
-Any: 2014
-Durada: 135
-País: França
-Música: Guillaume Roussel
-Fotografia: Laurent Tangy
-Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
-Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
+  <programme start="20261112215621 +0100" stop="20261112233223 +0100" channel="tem1">
+    <title lang="ca">Èxit a qualsevol preu</title>
+    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
+Producció: Rank Film i Zupnik Enterprises, 1992
+Direcció: James Foley / Durada: 99 minuts
+Guió: David Mamet, basat en la seva obra teatral
+Fotografia: Juan Ruíz Anchía (color)
+Música: James Newton Howard
+Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
+Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
