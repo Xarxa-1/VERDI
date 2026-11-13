@@ -3,34 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261113151207 +0100" stop="20261113165040 +0100" channel="tem1">
-    <title lang="ca">Mesures extremes</title>
-    <desc lang="ca">MESURES EXTREMES (Eiöurinn)
-Direcció: Baltasar Kormákur
-Guió: Ólafur Egilsson, Baltasar Kormákur
-Producció: RVK Studios
-País: Islàndia
-Any: 2016
-Durada: 98 minuts
-Fotografía: Óttar Guðnason
-Intèrprets: Baltasar Kormákur, Hera Hilmar, Gísli Örn Garðarsson, Margrét Bjarnadóttir, Auður Aradóttir, Guðrún Sesselja Arnardóttir, Þorsteinn Bachmann, Ingvar Eggert Sigurdsson
-
-Finnur és un cirurgià preocupat per la seva filla Anna, que ha abandonat els estudis i consumeix drogues. El pare de la noia s'assabenta que el xicot d'ella, Óttar, fa de camell i, pensant que és una mala companyia, prova de fer-los trencar la relació. Però ni Anna ni Óttar tenen cap intenció de deixar-ho. Finnur denuncia a la policia que ha trobat droga a casa del noi. Óttar l'adverteix que no es continuï ficant en la seva vida, li exigeix el pagament de la droga confiscada i l'amenaça. Llavors, després de veure un pare que ha estat víctima d'un ajustament de comptes similar, Finnur comença a planejar la desaparició d'Óttar, però les coses es torcen i la situació empitjora. 
-</desc>
+  <programme start="20261113220659 +0100" stop="20261114000200 +0100" channel="tem1">
+    <title lang="ca">Destroyer: Una dona ferida</title>
+    <desc lang="ca">DESTROYER: UNA DONA FERIDA 'Destroyer'
+Direcció: Karyn Kusama
+Guió: Phil Hay, Matt Manfredi
+Producció: 30West, Automatik Entertainment
+Any: 2018
+Durada: 123
+País: Estats Units
+Música: Theodore Shapiro
+Fotografia: Julie Kirkwood
+Intèrprets: Nicole Kidman, Sebastian Stan, Tatiana Maslany, Toby Kebbell, Scoot McNairy, Bradley Whitford, James Jordan, Toby Huss, Jade Pettyjohn, Shamier Anderson, Jan Hoag, Beau Knapp, Natalia Cordova
+Què va destruir el passat d'Erin Bell? Per què no és capaç de reconduir la relació tan difícil que té amb la seva filla? Haurà de ser forta. Només tindrà una darrera oportunitat...</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261113165040 +0100" stop="20261113181840 +0100" channel="tem1">
-    <title lang="ca">La mirada de l'amor</title>
-    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
-Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
-Direcció: Arie Posin
-Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
-Guió: Arie Posin i Matthew McDuffie
-Música: Marcelo Zarvos
-Fotografia: Antonio Riestra
-Durada: 87 minuts
-Idioma versió original: anglès
-Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
+  <programme start="20261114000200 +0100" stop="20261114014001 +0100" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
