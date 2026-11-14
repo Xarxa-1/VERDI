@@ -3,34 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261114142417 +0100" stop="20261114163339 +0100" channel="tem1">
-    <title lang="ca">Connexió Marsella</title>
-    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
-Direcció: Cédric Jimenez
-Guió: Audrey Diwan, Cédric Jimenez
-Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
+  <programme start="20261114201205 +0100" stop="20261114215224 +0100" channel="tem1">
+    <title lang="ca">La professora d'història</title>
+    <desc lang="ca">LA PROFESSORA D'HISTÒRIA 'Les héritiers'
+Direcció: Marie-Castille Mention-Schaar
+Guió: Marie-Castille Mention-Schaar
+Producció: Loma Nasha Films
 Any: 2014
-Durada: 135
+Durada: 100
 País: França
-Música: Guillaume Roussel
-Fotografia: Laurent Tangy
-Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
-Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
+Música: Ludovico Einaudi
+Fotografia: Myriam Vinocour
+Intèrprets: Ariane Ascaride, Ahmed Dramé, Geneviève Mnich, Xavier Maly, Martin Cannavo, Noémie Merlant, Stéphane Bak, Léon Zyguel
+Anne Gueguen és una professora d'història d'institut que, a més, es preocupa pels problemes dels seus alumnes. Aquest any, com sempre, té un grup difícil. Frustrada pel seu materialisme i manca d'ambició, l'Anne desafia els alumnes a participar en un concurs nacional sobre què significa ser adolescent en un camp de concentració nazi. L'Anne fa servir tota la seva energia i creativitat per captar l'atenció dels seus alumnes i motivar-los. A mesura que s'acosta la data límit, els joves comencen a obrir-se als altres i a creure en ells mateixos. Un projecte que els canviarà les vides.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261114163339 +0100" stop="20261114181931 +0100" channel="tem1">
-    <title lang="ca">Tren de nit a Lisboa</title>
-    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
-Direcció: Bille August
-Guió: Ulrich Herrmann, Greg Latter.
-Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
-Any: 2013
-Durada: 110
-País: Alemanya
-Música: Annette Focks
-Fotografia: Filip Zumbrunn
-Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
-El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
+  <programme start="20261114215224 +0100" stop="20261114232905 +0100" channel="tem1">
+    <title lang="ca">Four lions</title>
+    <desc lang="ca">FOUR LIONS 'Four Lions'
+Direcció: Chris Morris
+Guió: Jesse Armstrong, Sam Bain, Chris Morris, Simon Blackwell
+Producció: Wild Bunch, Film4 Productions, Optimum Releasing, Warp Films
+Any: 2010
+Durada: 94
+País: Regne Unit
+Fotografia: Lol Crawley
+Intèrprets: Riz Ahmed, Kayvan Novak, Nigel Lindsay, Adeel Akhtar, Arsher Ali, Preeya Kalidas, Julia Davis, Craig Parkinson, Wasim Zakir, Mohammad Aqil, Waleed Elgadi, Alex MacQueen, Marcus Garvey, Benedict Cumberbatch
+L'Omar, un musulmà radical de nacionalitat anglesa, ha creat una cèl·lula terrorista de la qual formen part el seu germà Waj, un noi molt simple; en Barry, un extremista que odia els blancs, i en Fessal, un aprensiu fabricant de bombes. Mentre l'Omar i en Waj són al Pakistan en un camp d'entrenament mujahidí, en Barry recluta en Hassan, un aspirant a raper. Quan l'Omar torna a la Gran Bretanya, porta amb ell un pla: un atac suïcida amb bomba contra un objectiu occidental insòlit.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
