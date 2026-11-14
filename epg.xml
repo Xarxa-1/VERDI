@@ -3,33 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261114201205 +0100" stop="20261114215224 +0100" channel="tem1">
-    <title lang="ca">La professora d'història</title>
-    <desc lang="ca">LA PROFESSORA D'HISTÒRIA 'Les héritiers'
-Direcció: Marie-Castille Mention-Schaar
-Guió: Marie-Castille Mention-Schaar
-Producció: Loma Nasha Films
+  <programme start="20261114232905 +0100" stop="20261115013827 +0100" channel="tem1">
+    <title lang="ca">Connexió Marsella</title>
+    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
+Direcció: Cédric Jimenez
+Guió: Audrey Diwan, Cédric Jimenez
+Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
 Any: 2014
-Durada: 100
+Durada: 135
 País: França
-Música: Ludovico Einaudi
-Fotografia: Myriam Vinocour
-Intèrprets: Ariane Ascaride, Ahmed Dramé, Geneviève Mnich, Xavier Maly, Martin Cannavo, Noémie Merlant, Stéphane Bak, Léon Zyguel
-Anne Gueguen és una professora d'història d'institut que, a més, es preocupa pels problemes dels seus alumnes. Aquest any, com sempre, té un grup difícil. Frustrada pel seu materialisme i manca d'ambició, l'Anne desafia els alumnes a participar en un concurs nacional sobre què significa ser adolescent en un camp de concentració nazi. L'Anne fa servir tota la seva energia i creativitat per captar l'atenció dels seus alumnes i motivar-los. A mesura que s'acosta la data límit, els joves comencen a obrir-se als altres i a creure en ells mateixos. Un projecte que els canviarà les vides.</desc>
+Música: Guillaume Roussel
+Fotografia: Laurent Tangy
+Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
+Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261114215224 +0100" stop="20261114232905 +0100" channel="tem1">
-    <title lang="ca">Four lions</title>
-    <desc lang="ca">FOUR LIONS 'Four Lions'
-Direcció: Chris Morris
-Guió: Jesse Armstrong, Sam Bain, Chris Morris, Simon Blackwell
-Producció: Wild Bunch, Film4 Productions, Optimum Releasing, Warp Films
-Any: 2010
-Durada: 94
-País: Regne Unit
-Fotografia: Lol Crawley
-Intèrprets: Riz Ahmed, Kayvan Novak, Nigel Lindsay, Adeel Akhtar, Arsher Ali, Preeya Kalidas, Julia Davis, Craig Parkinson, Wasim Zakir, Mohammad Aqil, Waleed Elgadi, Alex MacQueen, Marcus Garvey, Benedict Cumberbatch
-L'Omar, un musulmà radical de nacionalitat anglesa, ha creat una cèl·lula terrorista de la qual formen part el seu germà Waj, un noi molt simple; en Barry, un extremista que odia els blancs, i en Fessal, un aprensiu fabricant de bombes. Mentre l'Omar i en Waj són al Pakistan en un camp d'entrenament mujahidí, en Barry recluta en Hassan, un aspirant a raper. Quan l'Omar torna a la Gran Bretanya, porta amb ell un pla: un atac suïcida amb bomba contra un objectiu occidental insòlit.</desc>
+  <programme start="20261115013827 +0100" stop="20261115031627 +0100" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
