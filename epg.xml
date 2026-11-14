@@ -3,33 +3,34 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261114074009 +0100" stop="20261114090809 +0100" channel="tem1">
-    <title lang="ca">La mirada de l'amor</title>
-    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
-Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
-Direcció: Arie Posin
-Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
-Guió: Arie Posin i Matthew McDuffie
-Música: Marcelo Zarvos
-Fotografia: Antonio Riestra
-Durada: 87 minuts
-Idioma versió original: anglès
-Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
+  <programme start="20261114142417 +0100" stop="20261114163339 +0100" channel="tem1">
+    <title lang="ca">Connexió Marsella</title>
+    <desc lang="ca">CONNEXIÓ MARSELLA 'La French'
+Direcció: Cédric Jimenez
+Guió: Audrey Diwan, Cédric Jimenez
+Producció: Légende Films, Gaumont, France 2 Cinéma, Mars Films
+Any: 2014
+Durada: 135
+País: França
+Música: Guillaume Roussel
+Fotografia: Laurent Tangy
+Intèrprets: Jean Dujardin, Gilles Lellouche, Céline Sallette, Benoît Magimel, Guillaume Gouix, Bruno Todeschini, Féodor Atkine, Moussa Maaskri, Pauline Burlet, Eric Godon, Mélanie Doutey, Xavier Alcan, John Flanders
+Pierre Michel és un jove magistrat traslladat a Marsella per col·laborar amb la lluita contra el crim organitzat. Es tracta de desactivar la French Connection, operació de la màfia que exporta heroïna a tot el món.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261114090809 +0100" stop="20261114104806 +0100" channel="tem1">
-    <title lang="ca">Churchill</title>
-    <desc lang="ca">CHURCHILL (Churchill)
-Direcció: Jonathan Teplitzky
-Guió: Alex von Tunzelmann
-Producció: Salon Pictures / Tempo Productions Limited / Head Gear Films / Metrol Technology
-Any: 2017
-País: Gran Bretanya
-Durada: 100 minuts
-Fotografía: David Higgs
-Música: Lorne Balfe
-Intèrprets: Brian Cox, Miranda Richardson, John Slattery, James Purefoy, Julian Wadham,Richard Durden, Ella Purnell, Danny Webb, Jonathan Aris, George Anton,Steven Cree, Peter Ormond, Angela Costello, Miro Teplitzky, Kevin Findlay
-El 1944, el milió de soldats aliats estacionats a la costa sud d'Anglaterra estan preparats pel desembarcament a Normandia. Dos dies abans del dia de la operació, Winston Churchill s'enfronta amb els seus generals i aliats nord-americans per decidir com afrontar el que va esdevenir autèntic punt d'inflexió de la guerra.</desc>
+  <programme start="20261114163339 +0100" stop="20261114181931 +0100" channel="tem1">
+    <title lang="ca">Tren de nit a Lisboa</title>
+    <desc lang="ca">TREN DE NIT A LISBOA 'Night traint to Lisbon'
+Direcció: Bille August
+Guió: Ulrich Herrmann, Greg Latter.
+Producció: Studio Hamburg Produktion für Film &amp; Fernsehen
+Any: 2013
+Durada: 110
+País: Alemanya
+Música: Annette Focks
+Fotografia: Filip Zumbrunn
+Intèrprets: Jeremy Irons, Jack Huston, Christopher Lee, Mélanie Laurent, Charlotte Rampling, Lena Olin, Tom Courtenay, Bruno Ganz, August Diehl, Martina Gedeck, Beatriz Batarda, Burghart Klaußner, Nicolau Breyner, Filipe Vargas, Adriano Luz, Marco D'Almeida
+El professor Gregorius salva una noia a Berna. Poc després troba el llibre del poeta portuguès Amadeu do Prado. Aquest descobriment l'impulsa a agafar el primer tren nocturn a Lisboa.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
