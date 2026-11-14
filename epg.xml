@@ -3,33 +3,33 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261114014001 +0100" stop="20261114031641 +0100" channel="tem1">
-    <title lang="ca">Four lions</title>
-    <desc lang="ca">FOUR LIONS 'Four Lions'
-Direcció: Chris Morris
-Guió: Jesse Armstrong, Sam Bain, Chris Morris, Simon Blackwell
-Producció: Wild Bunch, Film4 Productions, Optimum Releasing, Warp Films
-Any: 2010
-Durada: 94
-País: Regne Unit
-Fotografia: Lol Crawley
-Intèrprets: Riz Ahmed, Kayvan Novak, Nigel Lindsay, Adeel Akhtar, Arsher Ali, Preeya Kalidas, Julia Davis, Craig Parkinson, Wasim Zakir, Mohammad Aqil, Waleed Elgadi, Alex MacQueen, Marcus Garvey, Benedict Cumberbatch
-L'Omar, un musulmà radical de nacionalitat anglesa, ha creat una cèl·lula terrorista de la qual formen part el seu germà Waj, un noi molt simple; en Barry, un extremista que odia els blancs, i en Fessal, un aprensiu fabricant de bombes. Mentre l'Omar i en Waj són al Pakistan en un camp d'entrenament mujahidí, en Barry recluta en Hassan, un aspirant a raper. Quan l'Omar torna a la Gran Bretanya, porta amb ell un pla: un atac suïcida amb bomba contra un objectiu occidental insòlit.</desc>
+  <programme start="20261114074009 +0100" stop="20261114090809 +0100" channel="tem1">
+    <title lang="ca">La mirada de l'amor</title>
+    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
+Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
+Direcció: Arie Posin
+Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
+Guió: Arie Posin i Matthew McDuffie
+Música: Marcelo Zarvos
+Fotografia: Antonio Riestra
+Durada: 87 minuts
+Idioma versió original: anglès
+Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261114031641 +0100" stop="20261114060000 +0100" channel="tem1">
-    <title lang="ca">Novel·la criminal</title>
-    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
-Direcció: Michele Placido
-Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
-Producció: Cattleya, Babe Film, Warner Bros.
-Any: 2005
-Durada: 147
-País: Itàlia
-Música: Paolo Buonvino
-Fotografia: Luca Bigazzi
-Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
-Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
+  <programme start="20261114090809 +0100" stop="20261114104806 +0100" channel="tem1">
+    <title lang="ca">Churchill</title>
+    <desc lang="ca">CHURCHILL (Churchill)
+Direcció: Jonathan Teplitzky
+Guió: Alex von Tunzelmann
+Producció: Salon Pictures / Tempo Productions Limited / Head Gear Films / Metrol Technology
+Any: 2017
+País: Gran Bretanya
+Durada: 100 minuts
+Fotografía: David Higgs
+Música: Lorne Balfe
+Intèrprets: Brian Cox, Miranda Richardson, John Slattery, James Purefoy, Julian Wadham,Richard Durden, Ella Purnell, Danny Webb, Jonathan Aris, George Anton,Steven Cree, Peter Ormond, Angela Costello, Miro Teplitzky, Kevin Findlay
+El 1944, el milió de soldats aliats estacionats a la costa sud d'Anglaterra estan preparats pel desembarcament a Normandia. Dos dies abans del dia de la operació, Winston Churchill s'enfronta amb els seus generals i aliats nord-americans per decidir com afrontar el que va esdevenir autèntic punt d'inflexió de la guerra.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
