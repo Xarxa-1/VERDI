@@ -3,44 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261117110046 +0100" stop="20261117124105 +0100" channel="tem1">
-    <title lang="ca">La professora d'història</title>
-    <desc lang="ca">LA PROFESSORA D'HISTÒRIA 'Les héritiers'
-Direcció: Marie-Castille Mention-Schaar
-Guió: Marie-Castille Mention-Schaar
-Producció: Loma Nasha Films
-Any: 2014
-Durada: 100
-País: França
-Música: Ludovico Einaudi
-Fotografia: Myriam Vinocour
-Intèrprets: Ariane Ascaride, Ahmed Dramé, Geneviève Mnich, Xavier Maly, Martin Cannavo, Noémie Merlant, Stéphane Bak, Léon Zyguel
-Anne Gueguen és una professora d'història d'institut que, a més, es preocupa pels problemes dels seus alumnes. Aquest any, com sempre, té un grup difícil. Frustrada pel seu materialisme i manca d'ambició, l'Anne desafia els alumnes a participar en un concurs nacional sobre què significa ser adolescent en un camp de concentració nazi. L'Anne fa servir tota la seva energia i creativitat per captar l'atenció dels seus alumnes i motivar-los. A mesura que s'acosta la data límit, els joves comencen a obrir-se als altres i a creure en ells mateixos. Un projecte que els canviarà les vides.</desc>
+  <programme start="20261117184503 +0100" stop="20261117204730 +0100" channel="tem1">
+    <title lang="ca">Grans esperances</title>
+    <desc lang="ca">GRANS ESPERANCES (Great expectations)
+El fill d'un ferrer molt humil vol convertir-se en un cavaller. Gràcies als diners donats per un benefactor anònim, el jove pot anar a Londres a estudiar. D'aquesta manera, troba l'oportunitat d'apropar-se a la noia de qui està enamorat des que era un nen, neboda d'una aristòcrata. Nova adaptació de la novel·la homònima de Charles Dickens.
+Direcció: Mike Newell
+Intèrprets: Jeremy Irvine, Ralph Fiennes, Helena Bonham Carter, Holliday Grainger, Robbie Coltrane, Olly Alexander, Jason Flemyng, David Walliams, Sally Hawkins, Jessie Cave, Toby Irvine, Ewen Bremner, Ralph Ineson, Richard James
+Idioma versió original: anglès
+Producció: BBC Films, 2012 (Gran Bretanya)
+Durada: 123 minuts
+Guió: David Nicholls, basat en la novel·la homònima de Charles Dickens
+Fotografia: John Mathieson
+Música: Richard Hartley</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261117124105 +0100" stop="20261117145728 +0100" channel="tem1">
-    <title lang="ca">Retorn a Howards End</title>
-    <desc lang="ca">RETORN A HOWARDS END (Howards End)-dual-
-Producció: Warner i Merchant Ivory Productions (Gran Bretanya), 1991
-Direcció: James Ivory / Durada: 143 minuts
-Guió: Ruth Prawer Jhabvala, basat en la novel.la d'E.M. Forster
-Fotografia: Tony Pierce-Roberts (color)
-Música: Richard Robbins
-Intèrprets:Vanessa Redgrave (Ruth Wilcox)
-Helena Bonham-Carter (Helen Schlegel)
-Emma Thompson (Margaret Schlegel)
-Anthony Hopkins (Henry Wilcox)
-Joseph Bennett (Paul Wilcox)
-Prunella Scales (tieta Juley)
-
-Margaret i Helen Schegel són dues germanes cultes, intel.ligents i, tenint en compte l'ambient 
-del Londres de principis de segle, força emancipades. Fan amistat amb la família Wilcox, una 
-gent rica i convencional, i Helen s'enamora del jove Paul Wilcox. Però l'idil·li acaba malament i 
-les dues famílies deixen de relacionar-se. Es retroben casualment i Margaret es fa tan amiga de 
-la senyora Wilcox que, quan ella mor, li deixa en testament la mansió campestre de Howards 
-End. Helen hi és indiferent, dedicada completament a ajudar un pobre escrivent amb dificultats 
-econòmiques. La família Wilcox reacciona molt malament davant del testament, però el vidu 
-Wilcox reprèn el contacte amb Margaret i s'hi casa.</desc>
+  <programme start="20261117204730 +0100" stop="20261117221530 +0100" channel="tem1">
+    <title lang="ca">La mirada de l'amor</title>
+    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
+Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
+Direcció: Arie Posin
+Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
+Guió: Arie Posin i Matthew McDuffie
+Música: Marcelo Zarvos
+Fotografia: Antonio Riestra
+Durada: 87 minuts
+Idioma versió original: anglès
+Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
