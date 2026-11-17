@@ -3,33 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261116181931 +0100" stop="20261116201205 +0100" channel="tem1">
-    <title lang="ca">Norman. L'home que ho aconseguia tot</title>
-    <desc lang="ca">NORMAN. L'HOME QUE HO ACONSEGUIA TOT (Norman: The moderate rise and tragic fall of a New York fixer)
-Direcció i guió: Joseph Cedar
-Producció: Blackbird Films / Cold Iron Pictures / Oppenheimer Strategies
-Any: 2016
-País: Estats Units
-Durada: 113 minuts
-Fotografía: Yaron Scharf
-Música: Jun Miyake
-Intèrprets: Richard Gere, Lior Ashkenazi, Michael Sheen, Charlotte Gainsbourg, Dan Stevens,Steve Buscemi, Jonathan Avigdori, Yehuda Almagor, Caitlin O'Connell, Hank Azaria,Harris Yulin, Miranda Bailey, Andrew Polk, Jorge Pupo, Maryann Urbano,Jay Patterson
-Un home de negocis de poca volada anomenat Norman Oppenheimer es fa amic d'un jove polític en un mal moment de la seva vida. Tres anys més tard, quan aquell polític esdevé un líder mundial influent, la vida del Norman canvia dramàticament.</desc>
+  <programme start="20261117013827 +0100" stop="20261117031627 +0100" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261116201205 +0100" stop="20261116215224 +0100" channel="tem1">
-    <title lang="ca">La professora d'història</title>
-    <desc lang="ca">LA PROFESSORA D'HISTÒRIA 'Les héritiers'
-Direcció: Marie-Castille Mention-Schaar
-Guió: Marie-Castille Mention-Schaar
-Producció: Loma Nasha Films
-Any: 2014
-Durada: 100
-País: França
-Música: Ludovico Einaudi
-Fotografia: Myriam Vinocour
-Intèrprets: Ariane Ascaride, Ahmed Dramé, Geneviève Mnich, Xavier Maly, Martin Cannavo, Noémie Merlant, Stéphane Bak, Léon Zyguel
-Anne Gueguen és una professora d'història d'institut que, a més, es preocupa pels problemes dels seus alumnes. Aquest any, com sempre, té un grup difícil. Frustrada pel seu materialisme i manca d'ambició, l'Anne desafia els alumnes a participar en un concurs nacional sobre què significa ser adolescent en un camp de concentració nazi. L'Anne fa servir tota la seva energia i creativitat per captar l'atenció dels seus alumnes i motivar-los. A mesura que s'acosta la data límit, els joves comencen a obrir-se als altres i a creure en ells mateixos. Un projecte que els canviarà les vides.</desc>
+  <programme start="20261117031627 +0100" stop="20261117060000 +0100" channel="tem1">
+    <title lang="ca">El viatger</title>
+    <desc lang="ca">EL VIATGER (Traveller)
+ 
+Producció: Banner Entertainment, 1997
+Direcció: Jack Green / Durada: 93 minuts
+Guió: Jim McGlynn
+Fotografia: David Blocker (color)
+Música: Andy Paley 
+Intèrprets: Bill Paxton (Bokky), Mark Wahlberg (Pat), Julianna Margulies (Jean), James Gammon (Doble D), Luke Askew ((Boss Jack), Nikki Deloach (Kate).
+ 
+Quan Pat O'Hara torna a la terra de la seva família a enterrar el pare, vol recuperar les arrels rurals del seu clan. No li resulta fàcil adaptar-se a la vida nòmada de la seva gent ni practicar l'art de l'estafa tal com ells saben fer, i encara menys jugar-se la vida quan els estafats els persegueixen a trets.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
