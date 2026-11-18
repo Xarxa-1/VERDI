@@ -3,32 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261117184503 +0100" stop="20261117204730 +0100" channel="tem1">
-    <title lang="ca">Grans esperances</title>
-    <desc lang="ca">GRANS ESPERANCES (Great expectations)
-El fill d'un ferrer molt humil vol convertir-se en un cavaller. Gràcies als diners donats per un benefactor anònim, el jove pot anar a Londres a estudiar. D'aquesta manera, troba l'oportunitat d'apropar-se a la noia de qui està enamorat des que era un nen, neboda d'una aristòcrata. Nova adaptació de la novel·la homònima de Charles Dickens.
-Direcció: Mike Newell
-Intèrprets: Jeremy Irvine, Ralph Fiennes, Helena Bonham Carter, Holliday Grainger, Robbie Coltrane, Olly Alexander, Jason Flemyng, David Walliams, Sally Hawkins, Jessie Cave, Toby Irvine, Ewen Bremner, Ralph Ineson, Richard James
-Idioma versió original: anglès
-Producció: BBC Films, 2012 (Gran Bretanya)
-Durada: 123 minuts
-Guió: David Nicholls, basat en la novel·la homònima de Charles Dickens
-Fotografia: John Mathieson
-Música: Richard Hartley</desc>
+  <programme start="20261118010830 +0100" stop="20261118024429 +0100" channel="tem1">
+    <title lang="ca">El viatger</title>
+    <desc lang="ca">EL VIATGER (Traveller)
+ 
+Producció: Banner Entertainment, 1997
+Direcció: Jack Green / Durada: 93 minuts
+Guió: Jim McGlynn
+Fotografia: David Blocker (color)
+Música: Andy Paley 
+Intèrprets: Bill Paxton (Bokky), Mark Wahlberg (Pat), Julianna Margulies (Jean), James Gammon (Doble D), Luke Askew ((Boss Jack), Nikki Deloach (Kate).
+ 
+Quan Pat O'Hara torna a la terra de la seva família a enterrar el pare, vol recuperar les arrels rurals del seu clan. No li resulta fàcil adaptar-se a la vida nòmada de la seva gent ni practicar l'art de l'estafa tal com ells saben fer, i encara menys jugar-se la vida quan els estafats els persegueixen a trets.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261117204730 +0100" stop="20261117221530 +0100" channel="tem1">
-    <title lang="ca">La mirada de l'amor</title>
-    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
-Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
-Direcció: Arie Posin
-Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
-Guió: Arie Posin i Matthew McDuffie
-Música: Marcelo Zarvos
-Fotografia: Antonio Riestra
-Durada: 87 minuts
-Idioma versió original: anglès
-Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
+  <programme start="20261118024429 +0100" stop="20261118042229 +0100" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
