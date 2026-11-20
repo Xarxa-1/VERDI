@@ -3,23 +3,44 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261120034936 +0100" stop="20261120060000 +0100" channel="tem1">
-    <title lang="ca">Four lions</title>
-    <desc lang="ca">FOUR LIONS 'Four Lions'
-Direcció: Chris Morris
-Guió: Jesse Armstrong, Sam Bain, Chris Morris, Simon Blackwell
-Producció: Wild Bunch, Film4 Productions, Optimum Releasing, Warp Films
-Any: 2010
-Durada: 94
-País: Regne Unit
-Fotografia: Lol Crawley
-Intèrprets: Riz Ahmed, Kayvan Novak, Nigel Lindsay, Adeel Akhtar, Arsher Ali, Preeya Kalidas, Julia Davis, Craig Parkinson, Wasim Zakir, Mohammad Aqil, Waleed Elgadi, Alex MacQueen, Marcus Garvey, Benedict Cumberbatch
-L'Omar, un musulmà radical de nacionalitat anglesa, ha creat una cèl·lula terrorista de la qual formen part el seu germà Waj, un noi molt simple; en Barry, un extremista que odia els blancs, i en Fessal, un aprensiu fabricant de bombes. Mentre l'Omar i en Waj són al Pakistan en un camp d'entrenament mujahidí, en Barry recluta en Hassan, un aspirant a raper. Quan l'Omar torna a la Gran Bretanya, porta amb ell un pla: un atac suïcida amb bomba contra un objectiu occidental insòlit.</desc>
+  <programme start="20261120124258 +0100" stop="20261120143138 +0100" channel="tem1">
+    <title lang="ca">13 minuts per matar Hitler</title>
+    <desc lang="ca">13 MINUTS PER MATAR HITLER 'Elser'
+Direcció: Oliver Hirschbiegel
+Guió: Léonie-Claire Breinersdorfer, Fred Breinersdorfer
+Producció: Lucky Bird Pictures, Delphi Medien, Philipp Filmproduction
+Any: 2015
+Durada: 110
+País: Alemanya
+Música: David Holmes
+Fotografia: Judith Kaufmann
+Intèrprets: Christian Friedel, Katharina Schüttler, Burghart Klaußner, Johann von Bülow, Felix Eitner, David Zimmerschied, Rüdiger Klink, Simon Licht, Cornelia Köndgen, Martin Maria Abram 
+Història de George Elser, el fuster de la Resistència que va intentar assassinar Hitler a Múnic el 8 de novembre del 1939. Per només 13 minuts de diferència, si el führer no hagués abandonat el podi abans del que estava previst, podria haver canviat la història.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261120060000 +0100" stop="20261120074745 +0100" channel="tem1">
-    <title lang="ca">DE BÈSTIES I BESTIOLES</title>
-    <desc lang="ca">En la seva infància, Bobby va patir un accident que el va deixar discapacitat psíquicament. Ha crescut protegit del món exterior, però la mort de la seva mare el deixa sol amb el padrastre, un home sense escrúpols que l'amenaça de tancar-lo en un psiquiàtric si no firma la renúncia a la seva herència. Bobby no cedeix i decideix escapar-se. Durant el viatge es troba un personatge crucial en la seva vida.</desc>
+  <programme start="20261120143138 +0100" stop="20261120164801 +0100" channel="tem1">
+    <title lang="ca">Retorn a Howards End</title>
+    <desc lang="ca">RETORN A HOWARDS END (Howards End)-dual-
+Producció: Warner i Merchant Ivory Productions (Gran Bretanya), 1991
+Direcció: James Ivory / Durada: 143 minuts
+Guió: Ruth Prawer Jhabvala, basat en la novel.la d'E.M. Forster
+Fotografia: Tony Pierce-Roberts (color)
+Música: Richard Robbins
+Intèrprets:Vanessa Redgrave (Ruth Wilcox)
+Helena Bonham-Carter (Helen Schlegel)
+Emma Thompson (Margaret Schlegel)
+Anthony Hopkins (Henry Wilcox)
+Joseph Bennett (Paul Wilcox)
+Prunella Scales (tieta Juley)
+
+Margaret i Helen Schegel són dues germanes cultes, intel.ligents i, tenint en compte l'ambient 
+del Londres de principis de segle, força emancipades. Fan amistat amb la família Wilcox, una 
+gent rica i convencional, i Helen s'enamora del jove Paul Wilcox. Però l'idil·li acaba malament i 
+les dues famílies deixen de relacionar-se. Es retroben casualment i Margaret es fa tan amiga de 
+la senyora Wilcox que, quan ella mor, li deixa en testament la mansió campestre de Howards 
+End. Helen hi és indiferent, dedicada completament a ajudar un pobre escrivent amb dificultats 
+econòmiques. La família Wilcox reacciona molt malament davant del testament, però el vidu 
+Wilcox reprèn el contacte amb Margaret i s'hi casa.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
