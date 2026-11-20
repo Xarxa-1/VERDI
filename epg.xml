@@ -3,44 +3,32 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261120124258 +0100" stop="20261120143138 +0100" channel="tem1">
-    <title lang="ca">13 minuts per matar Hitler</title>
-    <desc lang="ca">13 MINUTS PER MATAR HITLER 'Elser'
-Direcció: Oliver Hirschbiegel
-Guió: Léonie-Claire Breinersdorfer, Fred Breinersdorfer
-Producció: Lucky Bird Pictures, Delphi Medien, Philipp Filmproduction
-Any: 2015
-Durada: 110
-País: Alemanya
-Música: David Holmes
-Fotografia: Judith Kaufmann
-Intèrprets: Christian Friedel, Katharina Schüttler, Burghart Klaußner, Johann von Bülow, Felix Eitner, David Zimmerschied, Rüdiger Klink, Simon Licht, Cornelia Köndgen, Martin Maria Abram 
-Història de George Elser, el fuster de la Resistència que va intentar assassinar Hitler a Múnic el 8 de novembre del 1939. Per només 13 minuts de diferència, si el führer no hagués abandonat el podi abans del que estava previst, podria haver canviat la història.</desc>
+  <programme start="20261120202627 +0100" stop="20261120215427 +0100" channel="tem1">
+    <title lang="ca">La mirada de l'amor</title>
+    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
+Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
+Direcció: Arie Posin
+Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
+Guió: Arie Posin i Matthew McDuffie
+Música: Marcelo Zarvos
+Fotografia: Antonio Riestra
+Durada: 87 minuts
+Idioma versió original: anglès
+Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261120143138 +0100" stop="20261120164801 +0100" channel="tem1">
-    <title lang="ca">Retorn a Howards End</title>
-    <desc lang="ca">RETORN A HOWARDS END (Howards End)-dual-
-Producció: Warner i Merchant Ivory Productions (Gran Bretanya), 1991
-Direcció: James Ivory / Durada: 143 minuts
-Guió: Ruth Prawer Jhabvala, basat en la novel.la d'E.M. Forster
-Fotografia: Tony Pierce-Roberts (color)
-Música: Richard Robbins
-Intèrprets:Vanessa Redgrave (Ruth Wilcox)
-Helena Bonham-Carter (Helen Schlegel)
-Emma Thompson (Margaret Schlegel)
-Anthony Hopkins (Henry Wilcox)
-Joseph Bennett (Paul Wilcox)
-Prunella Scales (tieta Juley)
-
-Margaret i Helen Schegel són dues germanes cultes, intel.ligents i, tenint en compte l'ambient 
-del Londres de principis de segle, força emancipades. Fan amistat amb la família Wilcox, una 
-gent rica i convencional, i Helen s'enamora del jove Paul Wilcox. Però l'idil·li acaba malament i 
-les dues famílies deixen de relacionar-se. Es retroben casualment i Margaret es fa tan amiga de 
-la senyora Wilcox que, quan ella mor, li deixa en testament la mansió campestre de Howards 
-End. Helen hi és indiferent, dedicada completament a ajudar un pobre escrivent amb dificultats 
-econòmiques. La família Wilcox reacciona molt malament davant del testament, però el vidu 
-Wilcox reprèn el contacte amb Margaret i s'hi casa.</desc>
+  <programme start="20261120215427 +0100" stop="20261120233436 +0100" channel="tem1">
+    <title lang="ca">Un cop de sort</title>
+    <desc lang="ca">UN COP DE SORT (The big white)
+La pel·lícula explica les aventures i desventures de Paul Barnell, un home que té una agència de viatges a Alaska. La seva dona pateix una malaltia mental degenerativa i Paul decideix utilitzar un cadàver que ha aparegut en un abocador per intentar cobrar l'assegurança de vida del seu germà Raymond, de qui fa molts anys que no sap res, amb l'esperança que, amb els diners, puguin marxar a un lloc més càlid on la seva dona es trobi més bé.
+Idioma versió original: anglès
+Producció: Ascendant Pictures, 2005 (Estats Units)
+Direcció: Mark Mylod
+Durada: 100 minuts
+Guió: Collin Friesen
+Fotografia: James Glennon
+Música: Mark Mothersbaugh
+Intèrprets: Robin Williams, Holly Hunter, Giovanni Ribisi, Woody Harrelson, Tim Blake Nelson, Alison Lohman</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
