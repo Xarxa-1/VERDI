@@ -3,34 +3,35 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261127122209 +0100" stop="20261127141710 +0100" channel="tem1">
-    <title lang="ca">Destroyer: Una dona ferida</title>
-    <desc lang="ca">DESTROYER: UNA DONA FERIDA 'Destroyer'
-Direcció: Karyn Kusama
-Guió: Phil Hay, Matt Manfredi
-Producció: 30West, Automatik Entertainment
-Any: 2018
-Durada: 123
-País: Estats Units
-Música: Theodore Shapiro
-Fotografia: Julie Kirkwood
-Intèrprets: Nicole Kidman, Sebastian Stan, Tatiana Maslany, Toby Kebbell, Scoot McNairy, Bradley Whitford, James Jordan, Toby Huss, Jade Pettyjohn, Shamier Anderson, Jan Hoag, Beau Knapp, Natalia Cordova
-Què va destruir el passat d'Erin Bell? Per què no és capaç de reconduir la relació tan difícil que té amb la seva filla? Haurà de ser forta. Només tindrà una darrera oportunitat...</desc>
+  <programme start="20261127202445 +0100" stop="20261127230013 +0100" channel="tem1">
+    <title lang="ca">El que el dia deu a la nit</title>
+    <desc lang="ca">EL QUE EL DIA DEU A LA NIT (Ce que le jour doit à la nuit)
+Direcció: Alexandre Arcady
+Guió: Alexandre Arcady, Daniel Saint-Hamont (Novel·la: Yasmina Khadra)
+Producció: Alexandre Films / BE-FILMS / uFilm
+País de producció: França
+Any de producció: 2012
+Idioma versió original: Francès
+Durada: 155 minuts
+Intèrprets: Nora Arnezeder, Fu'ad Aït Aattou, Anne Parillaud, Vincent Perez, Anne Consigny, Mohamed Fellag, Nicolas Giraud, Olivier Barthelemy, Matthias Van Khache, Pierre Abbou, Tayeb Belmihoub, Salim Kechiouche, Marine Vacth
+Música: Armand Amar
+Fotografía: Gilles Henry
+Younes té 9 anys quan el seu pare queda arriuïnat i el confia al seu oncle, un farmacèutic integrat a la comunitat occidental d'Oran. Ara, el seu nou nom és Jonas, i creix entre colons joves dels que es fa amic inseparable i amb els que descobreix l'alegria d'una existència privilegiada malgrat la Segona Guerra Mundial. La seva complicitat fraternal serà posada a prova per l'arribada de l'Emilie, una jove fascinant que esdevindrà objecte del desig de tots ells.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261127141710 +0100" stop="20261127164346 +0100" channel="tem1">
-    <title lang="ca">Novel·la criminal</title>
-    <desc lang="ca">NOVEL·LA CRIMINAL 'Romanzo criminale'
-Direcció: Michele Placido
-Guió: Giancarlo De Cataldo, Sandro Petraglia, Stefano Rulli, Michele 
-Producció: Cattleya, Babe Film, Warner Bros.
-Any: 2005
-Durada: 147
-País: Itàlia
-Música: Paolo Buonvino
-Fotografia: Luca Bigazzi
-Intèrprets: Stefano Accorsi, Kim Rossi Stuart, Pierfrancesco Favino, Jasmine Trinca, Claudio Santamaria, Riccardo Scamarcio, Anna Mouglalis, Elio Germano, Toni Bertorelli, Stefano Fresi, Massimo Popolizio, Francesco Venditti, Benedito Sicca, Daniele Miglio, Franco Interlenghi, Roberto Infascelli 
-Ambientada a la dècada del 1970, narra la història de tres amics de tota la vida que assumeixen el control del crim organitzat a Roma.</desc>
+  <programme start="20261127230013 +0100" stop="20261128004854 +0100" channel="tem1">
+    <title lang="ca">13 minuts per matar Hitler</title>
+    <desc lang="ca">13 MINUTS PER MATAR HITLER 'Elser'
+Direcció: Oliver Hirschbiegel
+Guió: Léonie-Claire Breinersdorfer, Fred Breinersdorfer
+Producció: Lucky Bird Pictures, Delphi Medien, Philipp Filmproduction
+Any: 2015
+Durada: 110
+País: Alemanya
+Música: David Holmes
+Fotografia: Judith Kaufmann
+Intèrprets: Christian Friedel, Katharina Schüttler, Burghart Klaußner, Johann von Bülow, Felix Eitner, David Zimmerschied, Rüdiger Klink, Simon Licht, Cornelia Köndgen, Martin Maria Abram 
+Història de George Elser, el fuster de la Resistència que va intentar assassinar Hitler a Múnic el 8 de novembre del 1939. Per només 13 minuts de diferència, si el führer no hagués abandonat el podi abans del que estava previst, podria haver canviat la història.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
