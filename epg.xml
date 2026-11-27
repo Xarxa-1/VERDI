@@ -3,31 +3,23 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261126204730 +0100" stop="20261126221530 +0100" channel="tem1">
-    <title lang="ca">La mirada de l'amor</title>
-    <desc lang="ca">LA MIRADA DE L'AMOR (The face of love)
-Nikki és una dona que va perdre el seu marit, de qui estava profundament enamorada. Un dia troba un desconegut que s'assembla molt físicament al seu difunt marit. La semblança és tan extraordinària que Nikki se sentirà atreta per l'home d'una manera irresistible.
-Direcció: Arie Posin
-Intèrprets: Annette Bening, Ed Harris, Robin Williams, Amy Brenneman, Jess Weixler, Linda Park, Jeffrey Vincent Parise, Deana Molle', Kim Farris, Christian Mendez
-Guió: Arie Posin i Matthew McDuffie
-Música: Marcelo Zarvos
-Fotografia: Antonio Riestra
-Durada: 87 minuts
-Idioma versió original: anglès
-Producció: Mockingbird Pictures i Exclusive Films, 2013 (Estats Units)</desc>
+  <programme start="20261127024429 +0100" stop="20261127042229 +0100" channel="tem1">
+    <title lang="ca">Cash</title>
+    <desc lang="ca">CASH (Cash)
+Direcció i guió: Éric Besnard
+Producció: Pulsar Productions / Canal + / TF1 Films Production
+Any: 2008
+País: França
+Durada: 98 minuts
+Fotografía: Gilles Henry
+Música: Jean-Michel Bernard
+Intèrprets: Jean Dujardin, Jean Reno, Valeria Golino, Alice Taglioni, François Berléand,Clovis Cornillac, Jocelyn Quivrin, Samir Guesmi, Caroline Proust, Cyril Couton,Eriq Ebouaney, Ciaran Hinds
+El Cash és un estafador que ho té tot: encant, elegància, simpatia i fins i tot es preocupa per la família. Quan el seu germà mor, decideix venjar-se'n a la seva manera: sense armes ni violència, amb el seu estil. Però el moment no és el més indicat per fer un atracament. Està a punt de conèixer el seu futur sogre i la policia vigila la seva banda. El Cash se les acaba empescant per fer de gendre exemplar i organitzar un cop perfecte sense despertar sospites.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261126221530 +0100" stop="20261126234705 +0100" channel="tem1">
-    <title lang="ca">L'irlandès</title>
-    <desc lang="ca">L'IRLANDÈS (The guard)
-Un policia irlandès de mètodes poc ortodoxos es veu forçat a col·laborar amb un agent de l'FBI per investigar un assumpte internacional relacionat amb el tràfic de drogues.
-Direcció i guió: John Michael McDonagh
-Intèrprets: Brendan Gleeson, Don Cheadle, Liam Cunningham, David Wilmot, Rory Keenan, Mark Strong, Fionnula Flanagan, Dominique McElligott, Sarah Greene, Katarina Cas, Pat Shortt, Darren Healy, Laurence Kinlan, Gary Lydon
-Idioma versió original: anglès
-Producció: Reprisal Films, Element Pictures i Crescendo Productions, 2011 (Irlanda)
-Durada: 92 minuts
-Fotografia: Larry Smith
-Música: Calexico</desc>
+  <programme start="20261127042229 +0100" stop="20261127060000 +0100" channel="tem1">
+    <title lang="ca">Només es viu una vegada</title>
+    <desc lang="ca">La Nathalie i en George s'acaben de casar, i van de vacances a una idíl·lica caseta apartada de la civilització. En Lance, un antic amic de la Nathalie, els va a visitar. Una nit, en George i en Lance van a pescar, i aleshores apareix l'antic amant i psiquiatre de la Nathalie. Es queda adormit, begut, al llit de la Nathalie, i en George i en Lance tornen a casa. La Nathalie s'espanta i comet un error fatal...</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
