@@ -3,31 +3,44 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261128031530 +0100" stop="20261128060000 +0100" channel="tem1">
-    <title lang="ca">Un cop de sort</title>
-    <desc lang="ca">UN COP DE SORT (The big white)
-La pel·lícula explica les aventures i desventures de Paul Barnell, un home que té una agència de viatges a Alaska. La seva dona pateix una malaltia mental degenerativa i Paul decideix utilitzar un cadàver que ha aparegut en un abocador per intentar cobrar l'assegurança de vida del seu germà Raymond, de qui fa molts anys que no sap res, amb l'esperança que, amb els diners, puguin marxar a un lloc més càlid on la seva dona es trobi més bé.
-Idioma versió original: anglès
-Producció: Ascendant Pictures, 2005 (Estats Units)
-Direcció: Mark Mylod
-Durada: 100 minuts
-Guió: Collin Friesen
-Fotografia: James Glennon
-Música: Mark Mothersbaugh
-Intèrprets: Robin Williams, Holly Hunter, Giovanni Ribisi, Woody Harrelson, Tim Blake Nelson, Alison Lohman</desc>
+  <programme start="20261128123247 +0100" stop="20261128142748 +0100" channel="tem1">
+    <title lang="ca">Destroyer: Una dona ferida</title>
+    <desc lang="ca">DESTROYER: UNA DONA FERIDA 'Destroyer'
+Direcció: Karyn Kusama
+Guió: Phil Hay, Matt Manfredi
+Producció: 30West, Automatik Entertainment
+Any: 2018
+Durada: 123
+País: Estats Units
+Música: Theodore Shapiro
+Fotografia: Julie Kirkwood
+Intèrprets: Nicole Kidman, Sebastian Stan, Tatiana Maslany, Toby Kebbell, Scoot McNairy, Bradley Whitford, James Jordan, Toby Huss, Jade Pettyjohn, Shamier Anderson, Jan Hoag, Beau Knapp, Natalia Cordova
+Què va destruir el passat d'Erin Bell? Per què no és capaç de reconduir la relació tan difícil que té amb la seva filla? Haurà de ser forta. Només tindrà una darrera oportunitat...</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261128060000 +0100" stop="20261128073602 +0100" channel="tem1">
-    <title lang="ca">Èxit a qualsevol preu</title>
-    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
-Producció: Rank Film i Zupnik Enterprises, 1992
-Direcció: James Foley / Durada: 99 minuts
-Guió: David Mamet, basat en la seva obra teatral
-Fotografia: Juan Ruíz Anchía (color)
-Música: James Newton Howard
-Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
-Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
-</desc>
+  <programme start="20261128142748 +0100" stop="20261128164411 +0100" channel="tem1">
+    <title lang="ca">Retorn a Howards End</title>
+    <desc lang="ca">RETORN A HOWARDS END (Howards End)-dual-
+Producció: Warner i Merchant Ivory Productions (Gran Bretanya), 1991
+Direcció: James Ivory / Durada: 143 minuts
+Guió: Ruth Prawer Jhabvala, basat en la novel.la d'E.M. Forster
+Fotografia: Tony Pierce-Roberts (color)
+Música: Richard Robbins
+Intèrprets:Vanessa Redgrave (Ruth Wilcox)
+Helena Bonham-Carter (Helen Schlegel)
+Emma Thompson (Margaret Schlegel)
+Anthony Hopkins (Henry Wilcox)
+Joseph Bennett (Paul Wilcox)
+Prunella Scales (tieta Juley)
+
+Margaret i Helen Schegel són dues germanes cultes, intel.ligents i, tenint en compte l'ambient 
+del Londres de principis de segle, força emancipades. Fan amistat amb la família Wilcox, una 
+gent rica i convencional, i Helen s'enamora del jove Paul Wilcox. Però l'idil·li acaba malament i 
+les dues famílies deixen de relacionar-se. Es retroben casualment i Margaret es fa tan amiga de 
+la senyora Wilcox que, quan ella mor, li deixa en testament la mansió campestre de Howards 
+End. Helen hi és indiferent, dedicada completament a ajudar un pobre escrivent amb dificultats 
+econòmiques. La família Wilcox reacciona molt malament davant del testament, però el vidu 
+Wilcox reprèn el contacte amb Margaret i s'hi casa.</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
