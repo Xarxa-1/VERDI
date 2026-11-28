@@ -3,35 +3,31 @@
   <channel id="tem1">
     <display-name lang="ca">TEM1</display-name>
   </channel>
-  <programme start="20261127202445 +0100" stop="20261127230013 +0100" channel="tem1">
-    <title lang="ca">El que el dia deu a la nit</title>
-    <desc lang="ca">EL QUE EL DIA DEU A LA NIT (Ce que le jour doit à la nuit)
-Direcció: Alexandre Arcady
-Guió: Alexandre Arcady, Daniel Saint-Hamont (Novel·la: Yasmina Khadra)
-Producció: Alexandre Films / BE-FILMS / uFilm
-País de producció: França
-Any de producció: 2012
-Idioma versió original: Francès
-Durada: 155 minuts
-Intèrprets: Nora Arnezeder, Fu'ad Aït Aattou, Anne Parillaud, Vincent Perez, Anne Consigny, Mohamed Fellag, Nicolas Giraud, Olivier Barthelemy, Matthias Van Khache, Pierre Abbou, Tayeb Belmihoub, Salim Kechiouche, Marine Vacth
-Música: Armand Amar
-Fotografía: Gilles Henry
-Younes té 9 anys quan el seu pare queda arriuïnat i el confia al seu oncle, un farmacèutic integrat a la comunitat occidental d'Oran. Ara, el seu nou nom és Jonas, i creix entre colons joves dels que es fa amic inseparable i amb els que descobreix l'alegria d'una existència privilegiada malgrat la Segona Guerra Mundial. La seva complicitat fraternal serà posada a prova per l'arribada de l'Emilie, una jove fascinant que esdevindrà objecte del desig de tots ells.</desc>
+  <programme start="20261128031530 +0100" stop="20261128060000 +0100" channel="tem1">
+    <title lang="ca">Un cop de sort</title>
+    <desc lang="ca">UN COP DE SORT (The big white)
+La pel·lícula explica les aventures i desventures de Paul Barnell, un home que té una agència de viatges a Alaska. La seva dona pateix una malaltia mental degenerativa i Paul decideix utilitzar un cadàver que ha aparegut en un abocador per intentar cobrar l'assegurança de vida del seu germà Raymond, de qui fa molts anys que no sap res, amb l'esperança que, amb els diners, puguin marxar a un lloc més càlid on la seva dona es trobi més bé.
+Idioma versió original: anglès
+Producció: Ascendant Pictures, 2005 (Estats Units)
+Direcció: Mark Mylod
+Durada: 100 minuts
+Guió: Collin Friesen
+Fotografia: James Glennon
+Música: Mark Mothersbaugh
+Intèrprets: Robin Williams, Holly Hunter, Giovanni Ribisi, Woody Harrelson, Tim Blake Nelson, Alison Lohman</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
-  <programme start="20261127230013 +0100" stop="20261128004854 +0100" channel="tem1">
-    <title lang="ca">13 minuts per matar Hitler</title>
-    <desc lang="ca">13 MINUTS PER MATAR HITLER 'Elser'
-Direcció: Oliver Hirschbiegel
-Guió: Léonie-Claire Breinersdorfer, Fred Breinersdorfer
-Producció: Lucky Bird Pictures, Delphi Medien, Philipp Filmproduction
-Any: 2015
-Durada: 110
-País: Alemanya
-Música: David Holmes
-Fotografia: Judith Kaufmann
-Intèrprets: Christian Friedel, Katharina Schüttler, Burghart Klaußner, Johann von Bülow, Felix Eitner, David Zimmerschied, Rüdiger Klink, Simon Licht, Cornelia Köndgen, Martin Maria Abram 
-Història de George Elser, el fuster de la Resistència que va intentar assassinar Hitler a Múnic el 8 de novembre del 1939. Per només 13 minuts de diferència, si el führer no hagués abandonat el podi abans del que estava previst, podria haver canviat la història.</desc>
+  <programme start="20261128060000 +0100" stop="20261128073602 +0100" channel="tem1">
+    <title lang="ca">Èxit a qualsevol preu</title>
+    <desc lang="ca">ÈXIT A QUALSEVOL PREU (Glengarry Glenn Ross) (+13)
+Producció: Rank Film i Zupnik Enterprises, 1992
+Direcció: James Foley / Durada: 99 minuts
+Guió: David Mamet, basat en la seva obra teatral
+Fotografia: Juan Ruíz Anchía (color)
+Música: James Newton Howard
+Intèrprets: Jack Lemmon, Al Pacino, Alec Baldwin, Ed Harris, Kevin Spacey, Alan Arkin
+Quatre agents immobiliaris han de competir per veure qui fa més vendes. Un executiu força agressiu els fa pressió amb l'alternativa de guanyar un Cadillac i deixar sense feina els que fracassin. Els quatre venedors són éssers desarrelats i castigats per la vida que desconeixen la solidaritat i prescindeixen de l'ètica.
+</desc>
     <category lang="ca">Pel·lícula</category>
   </programme>
 </tv>
